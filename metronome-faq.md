@@ -42,7 +42,7 @@ The owner's manual is available [here](https://www.metronome.io/pdf/owners_manua
 
 **How will Metronome be launched?**
 
-There will be two phases, both of which will rely on the ]descending price auction](http://www.sciencedirect.com/science/article/pii/S0899825608000869) ("DPA") pricing mechanism:
+There will be two phases, both of which will rely on the [descending price auction](http://www.sciencedirect.com/science/article/pii/S0899825608000869) ("DPA") pricing mechanism:
 
 *   **The initial supply auction**, serving as the official launch of Metronome, where 10,000,000 MTN tokens will be issued and made available
 *   **The daily supply auction**, where new tokens are added to the auction ad infinitum, at the rate that is the greater of (i) 2,880 MTN per day, or (ii) an annual rate equal to 2.0000% of the then-outstanding supply per year.
