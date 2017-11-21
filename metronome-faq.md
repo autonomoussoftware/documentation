@@ -53,13 +53,11 @@ There will be two phases, both of which will rely on the [descending price aucti
 **How will the Metronome token sale take place?**
 
 
-The initial supply auction serves as the official launch of Metronome. 8,000,000 MTN tokens (10M, less the 20% one-time author retention) will be made available to the public with a descending price auction. The price per MTN will begin at a maximum price. As time progresses and more MTN is sold, the auction price will decline until a minimum price is reached or the auction ends. Metronome employs DPAs to establish predictable and transparent pricing for the MTN that the contract issues.
-
+The initial supply auction serves as the official launch of Metronome. 8,000,000 MTN tokens (10 million, less the 20% one-time author retention) will be made available to the public with a descending price auction. The price per MTN will begin at a maximum price of 2 ETH per MTN, with a floor price of 0.0000033 ETH. As time progresses and MTN remains available, the auction price will decline linearly until the auction ends or all MTN are sold. Metronome employs DPAs to establish predictable and transparent pricing for the MTN being issued by the contract.
 
 **When will the Metronome initial supply auction start?**
 
-The initial supply auction is projected to start in early December 2017.
-
+The initial supply auction is projected to start in early December 2017. Once started, it will last up to 7 days or until all MTN in the initial supply are sold.
 
 **How do I participate in Metronome's initial auction?**
 
@@ -76,7 +74,7 @@ You should receive your MTN almost instantly following that; there is no need to
 
 **Is there a minimum or maximum number of MTN tokens I can buy during the initial auction?**
 
-No
+No, but each purchaser is limited to purchasing 1,000 ETH per transaction for Daily Supply Lots.
 
 
 **How does new Metronome enter the ecosystem?**
@@ -181,15 +179,16 @@ We believe the cryptocurrency's supply and issuance is predictable and constant.
 
 **Will there be a lock-up in tokens retained by Bloq?**
 
-Bloq and other Metronome authors will receive 2 million MTN of the initial 10 million MTN offering as a one-time author's retention. 100% of the ETH proceeds of the initial token sale and 100% of the future daily supply lot ETH proceeds go to MTN's Autonomous Proceeds Provider ("APP") contracts to provide additional liquidity and price support.
+Bloq and Metronome's authors will receive 20% of the initial MTN supply as a one-time author’s retention. 25% of this will be available upon the closing of the initial supply auction. The remaining 75% is released quarterly over 12 quarters.
 
-Bloq can buy and sell MTN at its discretion. Following the launch of the initial auction, the MTN ecosystem is entirely in the hands of the smart contracts and the community. By accepting the author's retention in MTN, Bloq has an incentive to remain active in the ecosystem's community.
+100% of ETH proceeds from the auction will remain in the Metronome ecosystem. Bloq can buy and sell its own MTN at its discretion.  Following the launch of the initial auction, the Metronome ecosystem is entirely in the hands of the smart contracts and the community.
+
+By accepting the author's retention in MTN, Bloq has an incentive to remain active with the ecosystem community.
 
 
 **Will Bloq govern MTN?**
 
 No. Metronome will be governed by its smart contracts and users. Bloq plans on remaining active within the community of users and developers by continuing to grow the ecosystem with MTN-enabled and compatible products. However, after its launch, Bloq will have no more control over MTN than any other member of the MTN community.
-
 
 
 
