@@ -57,7 +57,7 @@ The initial supply auction serves as the official launch of Metronome. 8,000,000
 
 **When will the Metronome initial supply auction start?**
 
-The initial supply auction is projected to start in early December 2017. Once started, it will last up to 7 days or until all MTN in the initial supply are sold.
+The initial supply auction is targeted to launch on February 5th, 2018. Once started, it will last up to 7 days or until all MTN in the initial supply are sold as described above.
 
 **How do I participate in Metronome's initial auction?**
 
@@ -101,8 +101,7 @@ The first DSL will take place the following midnight UTC after the close of the 
 
 **Who gets the proceeds of the MTN auctions?**
 
-100% of the ETH proceeds of the initial token sale and 100% of the future daily supply lot ETH proceeds go to MTN's Autonomous Proceeds Provider ("APP") contracts to provide long term liquidity and price support.
-
+100% of the proceeds of the initial token sale and 100% of the future daily supply lot proceeds go to MTN’s Autonomous Proceeds Provider (“APP”) contracts – the Proceeds and Autonomous Converter Contracts – to provide long term liquidity and price support. Metronome authors receive none of the proceeds from any auction.
 
 **What prevents a large hash-power miner (or pool of miners) from dominating purchases?**
 
