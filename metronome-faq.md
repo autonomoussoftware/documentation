@@ -59,6 +59,14 @@ The initial supply auction serves as the official launch of Metronome. 8,000,000
 
 The initial supply auction is targeted to launch on February 5th, 2018. Once started, it will last up to 7 days or until all MTN in the initial supply are sold as described above.
 
+**Is there a pre-sale?**
+
+No, the first time that anyone will be able to purchase Metronome will be during the initial supply auction.
+
+**Is there a whitelist for auction participation?**
+
+No, there is no whitelist.
+
 **How do I participate in Metronome's initial auction?**
 
 To participate in Metronome's initial supply auction (and, every day thereafter, the daily supply lot) you will need access to an ERC20-compatible Ethereum wallet where you hold the private keys and sufficient ETH to purchase MTN. **Do not use wallets provided by exchanges.** Be sure to use enough [gas](https://themerkle.com/why-does-the-ethereum-ecosystem-use-gas/) when sending your ETH. If you do not use enough gas, your transaction will be rejected and you will have to send your ETH again.
@@ -72,9 +80,13 @@ Once you have sufficient ETH in an ERC20-compatible Ethereum wallet, you may par
 You should receive your MTN almost instantly following that; there is no need to wait until the end of the auction for disbursement.
 
 
-**Is there a minimum or maximum number of MTN tokens I can buy during the initial auction?**
+**Is there a minimum or maximum number of MTN tokens I can buy during the Initial Supply Auction?**
 
-No, but each purchaser is limited to purchasing 1,000 ETH per transaction for Daily Supply Lots.
+There is no maximum or minimum amount (outside of ETH gas requirements for a successful transaction).
+
+**Is there a minimum or maximum number of MTN tokens I can buy during the Daily Supply Lots?**
+
+There is no minimum amount (outside of ETH gas requirements for a successful transaction). There is a maximum amount of 1,000 ETH per transaction.
 
 
 **How does new Metronome enter the ecosystem?**
@@ -188,9 +200,6 @@ By accepting the author's retention in MTN, Bloq has an incentive to remain acti
 **Will Bloq govern MTN?**
 
 No. Metronome will be governed by its smart contracts and users. Bloq plans on remaining active within the community of users and developers by continuing to grow the ecosystem with MTN-enabled and compatible products. However, after its launch, Bloq will have no more control over MTN than any other member of the MTN community.
-
-
-
 
 
 
