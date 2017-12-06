@@ -1,6 +1,7 @@
 # Metronome FAQ
 
 1. [About Metronome](#about-metronome)
+    1. [What is Metronome?](#what-is-metronome?)
 1. [Initial and Daily Supply Auctions](#initial-and-daily-supply-auctions)
 1. [How Metronome Works](#how-metronome-works)
 1. [Metronome and Bloq](#metronome-and-bloq)
