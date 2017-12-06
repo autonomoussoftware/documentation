@@ -1,5 +1,3 @@
-
-
 ## About Metronome
 
 **What is Metronome?**
@@ -10,9 +8,7 @@ Metronome ("Metronome" or "MTN") is the world's first cross-blockchain cryptocur
 *   **Reliability** - The system is architected for steady and predictable token supply with descending price auctions.
 *   **Portability** - With the ability to move between blockchains, the cryptocurrency is further protected from management issues and instability.
 
-<a>What can Metronome do that other cryptocurrencies cannot do?</a>
-
-
+**What can Metronome do that other cryptocurrencies cannot do?**
 
 We expect that MTN will act as a store of value that is decentralized across blockchains. Since MTN can be exported and imported across chains, it empowers users to move MTN for whatever reason they desire. Other cryptocurrencies cannot do this.
 
