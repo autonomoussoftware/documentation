@@ -1,6 +1,42 @@
+# Metronome FAQ
+
+1. [About Metronome](#about-metronome)
+    1. [What is Metronome?](#what-is-metronome)
+    1. [What can Metronome do that other cryptocurrencies cannot do?](#what-can-metronome-do-that-other-cryptocurrencies-cannot-do)
+    1. [What can Metronome be used for?](#what-can-metronome-be-used-for)
+    1. [Where can I read the full Metronome Owner's Manual?](#where-can-i-read-the-full-metronome-owners-manual)
+    1. [How will Metronome be launched?](#how-will-metronome-be-launched)
+    1. [Is there a whitelist for auction participation?](#is-there-a-whitelist-for-auction-participation)
+
+1. [Initial and Daily Supply Auctions](#initial-and-daily-supply-auctions)
+    1. [How will the Metronome token sale take place?](#how-will-the-metronome-token-sale-take-place)
+    1. [When will the Metronome initial supply auction start?](#when-will-the-metronome-initial-supply-auction-start)
+    1. [Is there a pre-sale?](#is-there-a-pre-sale)
+    1. [How do I participate in Metronome's initial auction?](#how-do-i-participate-in-metronomes-initial-auction)
+    1. [Contract Address TBD](#contract-address-tbd)
+    1. [Is there a minimum or maximum number of MTN tokens I can buy during the Initial Supply Auction?](#is-there-a-minimum-or-maximum-number-of-mtn-tokens-i-can-buy-during-the-initial-supply-auction)
+    1. [Is there a minimum or maximum number of MTN tokens I can buy during the Daily Supply Lots?](#is-there-a-minimum-or-maximum-number-of-mtn-tokens-i-can-buy-during-the-daily-supply-lots)
+    1. [ How does new Metronome enter the ecosystem?](#how-does-new-metronome-enter-the-ecosystem)
+    1. [How soon will the daily auctions begin once the initial supply auction finishes?](#how-soon-will-the-daily-auctions-begin-once-the-initial-supply-auction-finishes)
+    1. [Who gets the proceeds of the MTN auctions?](#who-gets-the-proceeds-of-the-mtn-auctions)
+    1. [What prevents a large hash-power miner (or pool of miners) from dominating purchases?](#what-prevents-a-large-hash-power-miner-or-pool-of-miners-from-dominating-purchases)
+
+1. [How Metronome Works](#how-metronome-works)
+    1. [ What components make up Metronome?](#what-components-make-up-metronome)
+    1. [What blockchains are MTN compatible with?](#what-blockchains-are-mtn-compatible-with)
+    1. [Has the smart contract that collects ETH been professionally audited for security issues](#has-the-smart-contract-that-collects-eth-been-professionally-audited-for-security-issues)
+    1. [What risks are involved with MTN?](#what-risks-are-involved-with-mtn)
+
+1. [Metronome and Bloq](#metronome-and-bloq)
+    1. [Who is Bloq?](#who-is-bloq)
+    1. [Why did Bloq create Metronome?](#why-did-bloq-create-metronome)
+    1. [Why is the token called "Metronome"?](#why-is-the-token-called-metronome)
+    1. [ Will there be a lock-up in tokens retained by Bloq?](#will-there-be-a-lock-up-in-tokens-retained-by-bloq)
+    1. [ Will Bloq govern MTN?](#will-bloq-govern-mtn)
+
 ## About Metronome
 
-**What is Metronome?**
+### What is Metronome?
 
 Metronome ("Metronome" or "MTN") is the world's first cross-blockchain cryptocurrency. It is designed to bring institutional-class endurance to the cryptocurrency category through:
 
@@ -8,7 +44,7 @@ Metronome ("Metronome" or "MTN") is the world's first cross-blockchain cryptocur
 *   **Reliability** - The system is architected for steady and predictable token supply with descending price auctions.
 *   **Portability** - With the ability to move between blockchains, the cryptocurrency is further protected from management issues and instability.
 
-**What can Metronome do that other cryptocurrencies cannot do?**
+### What can Metronome do that other cryptocurrencies cannot do?
 
 We expect that MTN will act as a store of value that is decentralized across blockchains. Since MTN can be exported and imported across chains, it empowers users to move MTN for whatever reason they desire. Other cryptocurrencies cannot do this.
 
@@ -17,7 +53,7 @@ Cross-chain export and import of MTN provides the ability to emigrate from one b
 MTN also allows for subscriptions, or recurring payments on the blockchain that are automatic. This is something cryptocurrencies have struggled with, until now—MTN users can schedule repeat payments easily.
 
 
-**What can Metronome be used for?**
+### What can Metronome be used for?
 
 While many different communities and institutions will discover their own use for Metronome, it was designed for any scenario where reliability is a first-order variable for selecting a cryptocurrency.
 
@@ -31,12 +67,12 @@ Some possible use cases include, but are not limited to:
 A unique Metronome payments feature is subscription. Users can set up recurring payments between themselves and other parties by authorizing that party to take a certain amount from a wallet on a weekly basis.
 
 
-**Where can I read the full Metronome Owner's Manual?**
+### Where can I read the full Metronome Owner's Manual?
 
 The owner's manual is available [here](https://www.metronome.io/pdf/owners_manual.pdf).
 
 
-**How will Metronome be launched?**
+### How will Metronome be launched?
 
 There will be two phases, both of which will rely on the [descending price auction](http://www.sciencedirect.com/science/article/pii/S0899825608000869) ("DPA") pricing mechanism:
 
@@ -46,24 +82,23 @@ There will be two phases, both of which will rely on the [descending price aucti
 
 ## Initial and Daily Supply Auctions
 
-**How will the Metronome token sale take place?**
-
+### How will the Metronome token sale take place?
 
 The initial supply auction serves as the official launch of Metronome. 8,000,000 MTN tokens (10 million, less the 20% one-time author retention) will be made available to the public with a descending price auction. The price per MTN will begin at a maximum price of 2 ETH per MTN, with a floor price of 0.0000033 ETH. As time progresses and MTN remains available, the auction price will decline linearly until the auction ends or all MTN are sold. Metronome employs DPAs to establish predictable and transparent pricing for the MTN being issued by the contract.
 
-**When will the Metronome initial supply auction start?**
+### When will the Metronome initial supply auction start?
 
 The initial supply auction is targeted to launch on February 5th, 2018. Once started, it will last up to 7 days or until all MTN in the initial supply are sold as described above.
 
-**Is there a pre-sale?**
+### Is there a pre-sale?
 
-No, the first time that anyone will be able to purchase Metronome will be during the initial supply auction.
+**No**, the first time that anyone will be able to purchase Metronome will be during the initial supply auction.
 
-**Is there a whitelist for auction participation?**
+### Is there a whitelist for auction participation?
 
-No, there is no whitelist.
+**No**, there is no whitelist.
 
-**How do I participate in Metronome's initial auction?**
+### How do I participate in Metronome's initial auction?
 
 To participate in Metronome's initial supply auction (and, every day thereafter, the daily supply lot) you will need access to an ERC20-compatible Ethereum wallet where you hold the private keys and sufficient ETH to purchase MTN. **Do not use wallets provided by exchanges.** Be sure to use enough [gas](https://themerkle.com/why-does-the-ethereum-ecosystem-use-gas/) when sending your ETH. If you do not use enough gas, your transaction will be rejected and you will have to send your ETH again.
 
@@ -71,21 +106,19 @@ Ethereum can be purchased from cryptocurrency exchanges. Again, make sure that o
 
 Once you have sufficient ETH in an ERC20-compatible Ethereum wallet, you may participate in the auction by sending the desired amount to:
 
-****contract address TBD****
+### Contract Address TBD
 
 You should receive your MTN almost instantly following that; there is no need to wait until the end of the auction for disbursement.
 
-
-**Is there a minimum or maximum number of MTN tokens I can buy during the Initial Supply Auction?**
+### Is there a minimum or maximum number of MTN tokens I can buy during the Initial Supply Auction?
 
 There is no maximum or minimum amount (outside of ETH gas requirements for a successful transaction).
 
-**Is there a minimum or maximum number of MTN tokens I can buy during the Daily Supply Lots?**
+### Is there a minimum or maximum number of MTN tokens I can buy during the Daily Supply Lots?
 
 There is no minimum amount (outside of ETH gas requirements for a successful transaction). There is a maximum amount of 1,000 ETH per transaction.
 
-
-**How does new Metronome enter the ecosystem?**
+### How does new Metronome enter the ecosystem?
 
 Following the initial auction, MTN is added to MTN’s daily supply lot (“DSL”) every 24 hours, at the rate that is the greater of (i) 2,880 MTN per day, or (ii) an annual rate equal to 2.0000% of the then-outstanding supply per year. Newly-minted MTN from the DSL enters the ecosystem via a DPA. All tokens in the DSL start at a maximum price set by the contract at the previous auction’s minimum price multiplied by two. Every 60 seconds, the price of remaining MTN is reduced to 99% of its previous price. After some time, we expect the price of remaining tokens will become low enough for the DSL to sell out.
 
@@ -102,25 +135,23 @@ We expect that the mintage rate for approximately the first 40 years will be 2,8
 | T + 70 Years | 94,382,561   | 2.000%  | 5,070   |
 
 
-**How soon will the daily auctions begin once the initial supply auction finishes?**
+### How soon will the daily auctions begin once the initial supply auction finishes?
 
 The first DSL will take place the following midnight UTC after the close of the initial auction.
 
-
-**Who gets the proceeds of the MTN auctions?**
+### Who gets the proceeds of the MTN auctions?
 
 100% of the proceeds of the initial token sale and 100% of the future daily supply lot proceeds go to MTN’s Autonomous Proceeds Provider (“APP”) contracts – the Proceeds and Autonomous Converter Contracts – to provide long term liquidity and price support. Metronome authors receive none of the proceeds from any auction.
 
-**What prevents a large hash-power miner (or pool of miners) from dominating purchases?**
+### What prevents a large hash-power miner (or pool of miners) from dominating purchases?
 
 Anyone can potentially soak up new supply, simply buying early and therefore paying more. That is how descending price auctions make the process predictable and the reason why we are using them.
 
 Miners can potentially front-run a non-miner transaction—but they must also (a) pay more, otherwise their actions have no impact on the auction, and (b) win a block, which is unlikely unless they are extremely large pools.
 
-
 ## How Metronome Works
 
-**What components make up Metronome?**
+### What components make up Metronome?
 
 Metronome is comprised of four fully-autonomous and cooperative smart contracts.
 
@@ -140,17 +171,16 @@ Metronome is comprised of four fully-autonomous and cooperative smart contracts.
             *   Allows MTN and ETH to be interchangeable
 
 
-**What blockchains are MTN compatible with?**
+### What blockchains are MTN compatible with?
 
 Metronome will be initially issued on Ethereum with Ethereum Classic, Rootstock, and Qtum support expected to follow. As the community continues developing MTN, it may be compatible with even more blockchains.
 
-
-**Has the smart contract that collects ETH been professionally audited for security issues?**
+### Has the smart contract that collects ETH been professionally audited for security issues?
 
 The smart contract has been audited by three independent consultants: Zeppelin Solutions, Martin Swende, and Gustav Simonsson.
 
 
-**What risks are involved with MTN?**
+### What risks are involved with MTN?
 
 Though the Metronome code has been thoroughly audited by multiple independent parties, there are always some potential risks, as with any cryptocurrency. These potential risks include, among other risks:
 
@@ -161,9 +191,9 @@ Though the Metronome code has been thoroughly audited by multiple independent pa
 
 ## Metronome and Bloq
 
-**Who is Bloq?**
+### Who is Bloq?
 
-Bloq was launched with a vision to help companies meet a very new challenge: integrating into a world of multiple blockchains, culminating in an "Internet of blockchains."
+[Bloq](http://bloq.com/) was launched with a vision to help companies meet a very new challenge: integrating into a world of multiple blockchains, culminating in an "Internet of blockchains."
 
 Led by a world-class team of blockchain developers, entrepreneurs, and investors, we have developed BloqEnterprise, an open source blockchain technology that helps businesses develop blockchain-enabled solutions to address some of the biggest issues businesses are facing today.
 
@@ -173,18 +203,15 @@ To bring the latter into operational focus, we started BloqLabs earlier this yea
 
 We anticipate that BloqLabs will produce a number of innovations to be presented under the "Built by Bloq" brand, one such innovations being Metronome, which aims to realize the promise (and unlock the potential) of a multi-blockchain world.
 
-
-**Why did Bloq create Metronome?**
+### Why did Bloq create Metronome?
 
 We looked at the current landscape of distributed blockchain-based financial products and saw a novel opportunity to launch a cryptocurrency with equal public access and the need for a cross-chain solution. Metronome is a truly self-governed cryptocurrency that we believe is reliable, equally accessible to the public, and immune to community or individual drama.
 
-
-**Why is the token called "Metronome"?**
+### Why is the token called "Metronome"?
 
 We believe the cryptocurrency's supply and issuance is predictable and constant. Our innovation needed a name that carried the same weight as its performance. The enduring beat of tokens being added to the ecosystem per day is unending and reliable, like a musical metronome that maintains a consistent cadence.
 
-
-**Will there be a lock-up in tokens retained by Bloq?**
+### Will there be a lock-up in tokens retained by Bloq?
 
 Bloq and Metronome's authors will receive 20% of the initial MTN supply as a one-time author’s retention. 25% of this will be available upon the closing of the initial supply auction. The remaining 75% is released quarterly over 12 quarters.
 
@@ -192,12 +219,6 @@ Bloq and Metronome's authors will receive 20% of the initial MTN supply as a one
 
 By accepting the author's retention in MTN, Bloq has an incentive to remain active with the ecosystem community.
 
-
-**Will Bloq govern MTN?**
+### Will Bloq govern MTN?
 
 No. Metronome will be governed by its smart contracts and users. Bloq plans on remaining active within the community of users and developers by continuing to grow the ecosystem with MTN-enabled and compatible products. However, after its launch, Bloq will have no more control over MTN than any other member of the MTN community.
-
-
-
-
-
