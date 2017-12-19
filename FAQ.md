@@ -38,10 +38,10 @@
 
 ### What is Metronome?
 
-Metronome ("Metronome" or "MTN") is the world's first cross-blockchain cryptocurrency. It is designed to bring institutional-class endurance to the cryptocurrency category through:
+Metronome (“Metronome” or “MTN”) is a new cryptocurrency designed to bring institutional-class endurance to the cryptocurrency category through:
 
-*   **Self-governance** - MTN is designed to function indefinitely and without management by a group or individual, even its authors.
-*   **Reliability** - The system is architected for steady and predictable token supply with descending price auctions.
+*   **Self-governance** - Metronome is designed to function indefinitely without management by a particular group or individual, even its authors.
+*   **Reliability** - The system is architected for steady and predictable token supply via descending price auctions.
 *   **Portability** - With the ability to move between blockchains, the cryptocurrency is further protected from management issues and instability.
 
 ### What can Metronome do that other cryptocurrencies cannot do?
