@@ -15,6 +15,7 @@
     1. [How do I participate in Metronome's initial auction?](#how-do-i-participate-in-metronomes-initial-auction)
     1. [Contract Address TBD](#contract-address-tbd)
     1. [Is there a minimum or maximum number of MTN tokens I can buy during the Initial Supply Auction?](#is-there-a-minimum-or-maximum-number-of-mtn-tokens-i-can-buy-during-the-initial-supply-auction)
+    1. [What if I try to buy MTN after the auctions have sold out?](#What-if-i-try-to-buy-mtn-after-the-auctions-have-sold-out)
     1. [Is there a minimum or maximum number of MTN tokens I can buy during the Daily Supply Lots?](#is-there-a-minimum-or-maximum-number-of-mtn-tokens-i-can-buy-during-the-daily-supply-lots)
     1. [ How does new Metronome enter the ecosystem?](#how-does-new-metronome-enter-the-ecosystem)
     1. [How soon will the daily auctions begin once the initial supply auction finishes?](#how-soon-will-the-daily-auctions-begin-once-the-initial-supply-auction-finishes)
@@ -113,6 +114,10 @@ You should receive your MTN almost instantly following that; there is no need to
 ### Is there a minimum or maximum number of MTN tokens I can buy during the Initial Supply Auction?
 
 There is no maximum or minimum amount (outside of ETH gas requirements for a successful transaction).
+
+### What if I try to buy MTN after the auctions have sold out?
+
+If a purchaser’s purchase exceeds supply of an auction, they receive a partial refund for the unspent difference.
 
 ### Is there a minimum or maximum number of MTN tokens I can buy during the Daily Supply Lots?
 
