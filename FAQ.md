@@ -23,7 +23,7 @@
     1. [What prevents a large hash-power miner (or pool of miners) from dominating purchases?](#what-prevents-a-large-hash-power-miner-or-pool-of-miners-from-dominating-purchases)
 
 1. [How Metronome Works](#how-metronome-works)
-    1. [ What components make up Metronome?](#what-components-make-up-metronome)
+    1. [ What components comprise Metronome?](#what-components-make-up-metronome)
     1. [What blockchains are MTN compatible with?](#what-blockchains-are-mtn-compatible-with)
     1. [Has the smart contract that collects ETH been professionally audited for security issues](#has-the-smart-contract-that-collects-eth-been-professionally-audited-for-security-issues)
     1. [What risks are involved with MTN?](#what-risks-are-involved-with-mtn)
@@ -47,9 +47,9 @@ Metronome (“Metronome” or “MTN”) is a new cryptocurrency designed to bri
 
 ### What can Metronome do that other cryptocurrencies cannot do?
 
-We expect that MTN will act as a store of value that is decentralized across blockchains. Since MTN can be exported and imported across chains, it empowers users to move MTN for whatever reason they desire. Other cryptocurrencies cannot do this.
+We expect that MTN will act as a store of value that is decentralized across blockchains. Since MTN will be capable of being exported and imported across chains, it will empower users to move MTN for whatever reason they desire. Other cryptocurrencies cannot do this.
 
-Cross-chain export and import of MTN provides the ability to emigrate from one blockchain to another in the event of a failure.
+Cross-chain export and import of MTN will provide the ability to migrate from one blockchain to another in the event of a failure.
 
 MTN also allows for subscriptions, or recurring payments on the blockchain that are automatic. This is something cryptocurrencies have struggled with, until now—MTN users can schedule repeat payments easily.
 
@@ -89,7 +89,7 @@ The initial supply auction serves as the official launch of Metronome. 8,000,000
 
 ### When will the Metronome initial supply auction start?
 
-The initial supply auction is targeted to launch on February 5th, 2018. Once started, it will last up to 7 days or until all MTN in the initial supply are sold as described above.
+The initial supply auction is targeted to launch in late February or early March, 2018. Once started, it will last up to 7 days or until all MTN in the initial supply are sold as described above.
 
 ### Is there a pre-sale?
 
@@ -156,24 +156,24 @@ Miners can potentially front-run a non-miner transaction—but they must also (a
 
 ## How Metronome Works
 
-### What components make up Metronome?
+### What components comprise Metronome?
 
 Metronome is comprised of four fully-autonomous and cooperative smart contracts.
 
 *   Metronome Ledger ERC20
     *   This is the token’s smart contract ledger and dictates how the token behaves
 *   Auctions Contract
-    *   This smart contract interacts with the ledger contract above and operates as a descending price auction
+    *   This smart contract interacts with the ledger contract above and operates the descending price auctions
     *   Sets the rules for the initial supply auction and the daily supply lot
     *   Sends ETH from the Auctions Contract to the Proceeds Contract
 *   Autonomous Proceeds Provider (two contracts)
-    *   Automatically provides liquidity between MTN and ETH
+    *   Automatically provides supply between MTN and ETH
     *   Comprised of two smart contracts
         *   Proceeds Contract
-            *   Supports liquidity by holding 100% of the DSL and transferring 0.25% of the total accumulated balance to Autonomous Converter Contract every day
+            *   Supports supply by holding 100% of the DSL and transferring 0.25% of the total accumulated balance to Autonomous Converter Contract every day
         *   Autonomous Converter Contract
-            *   Provides price support and liquidity
-            *   Allows MTN and ETH to be interchangeable
+            *   Allows users to sell their MTN for ETH or ETH for MTN
+            *   Price determined by contents of contract at time of sale
 
 
 ### What blockchains are MTN compatible with?
