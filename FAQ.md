@@ -53,6 +53,8 @@ Cross-chain export and import of MTN will provide the ability to migrate from on
 
 MTN also allows for subscriptions, or recurring payments on the blockchain that are automatic. This is something cryptocurrencies have struggled with, until now—MTN users can schedule repeat payments easily.
 
+Additionally, MTN uses the latest superset of ERC20, ERC827, for enhanced security and transfer. While ERC20 tokens can only transfer value, cryptocurrency using the ERC827 token standard (like Metronome) can transfer value and data in transactions. MTN will still use the familiar and pressure-tested ERC20, but extend its utility and security with ERC827.
+
 
 ### What can Metronome be used for?
 
@@ -113,7 +115,7 @@ You should receive your MTN almost instantly following that; there is no need to
 
 ### Is there a minimum or maximum number of MTN tokens I can buy during the Initial Supply Auction?
 
-There is no maximum or minimum amount (outside of ETH gas requirements for a successful transaction).
+There is no maximum or minimum purchase (outside of ETH gas requirements for a successful transaction).
 
 ### What if I try to buy MTN after the auctions have sold out?
 
@@ -121,7 +123,8 @@ If a purchaser’s purchase exceeds supply of an auction, they receive a partial
 
 ### Is there a minimum or maximum number of MTN tokens I can buy during the Daily Supply Lots?
 
-There is no minimum amount (outside of ETH gas requirements for a successful transaction). There is a maximum amount of 1,000 ETH per transaction.
+There is no maximum or minimum purchase (outside of ETH gas requirements for a successful transaction).
+
 
 ### How does new Metronome enter the ecosystem?
 
@@ -160,8 +163,9 @@ Miners can potentially front-run a non-miner transaction—but they must also (a
 
 Metronome is comprised of four fully-autonomous and cooperative smart contracts.
 
-*   Metronome Ledger ERC20
+*   Metronome Ledger ERC20 (with ERC827 superset)
     *   This is the token’s smart contract ledger and dictates how the token behaves
+    *   ERC827 super set is the latest standard with enhanced decentralized transfer and security
 *   Auctions Contract
     *   This smart contract interacts with the ledger contract above and operates the descending price auctions
     *   Sets the rules for the initial supply auction and the daily supply lot
