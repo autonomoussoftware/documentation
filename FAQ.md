@@ -28,12 +28,11 @@
     1. [Has the smart contract that collects ETH been professionally audited for security issues](#has-the-smart-contract-that-collects-eth-been-professionally-audited-for-security-issues)
     1. [What risks are involved with MTN?](#what-risks-are-involved-with-mtn)
 
-1. [Metronome and Bloq](#metronome-and-bloq)
-    1. [Who is Bloq?](#who-is-bloq)
-    1. [Why did Bloq create Metronome?](#why-did-bloq-create-metronome)
+1. [Metronome and Its Authors](#metronome-and-its-authors)
+    1. [Why did Metronome Authors create Metronome?](#why-did-metronome-authors-create-metronome)
     1. [Why is the token called "Metronome"?](#why-is-the-token-called-metronome)
     1. [ Will there be a lock-up in tokens retained by Bloq?](#will-there-be-a-lock-up-in-tokens-retained-by-bloq)
-    1. [ Will Bloq govern MTN?](#will-bloq-govern-mtn)
+    1. [ Will Metronome authors govern MTN?](#will-metronome-authors-govern-mtn)
 
 ## About Metronome
 
@@ -198,36 +197,24 @@ Though the Metronome code has been thoroughly audited by multiple independent pa
 *   Contract attacks: Two categories of contract attacks are: (1) technical, which exploit some attribute of the contract's bytecode-defined EVM behavior and (2) economic, where attacks induce unintended behavior from the contract functioning as designed.
 
 
-## Metronome and Bloq
+## Metronome and its Authors
 
-### Who is Bloq?
+### Why did Metronome Authors create Metronome?
 
-[Bloq](http://bloq.com/) was launched with a vision to help companies meet a very new challenge: integrating into a world of multiple blockchains, culminating in an "Internet of blockchains."
+We looked at the current landscape of distributed blockchain-based financial products and saw a novel opportunity to launch a cryptocurrency with equal public access and the need for a cross-chain solution. Metronome is a self-governed cryptocurrency that we believe is reliable, equally accessible to the public, and immune to community discord or individual drama.
 
-Led by a world-class team of blockchain developers, entrepreneurs, and investors, we have developed BloqEnterprise, an open source blockchain technology that helps businesses develop blockchain-enabled solutions to address some of the biggest issues businesses are facing today.
+### Why is the token called “Metronome”?
 
-Since Bloq's inception, we've also advised on some of the the biggest projects in this space, while sponsoring open-source developers whose passions, interests, and skills aligned with ours.
+We believe the cryptocurrency is stable, predictable, and constant. Our innovation needed a name that carried the same weight as its performance. The enduring beat of tokens being added to the ecosystem per day is unending and reliable, like a musical metronome keeping time.
 
-To bring the latter into operational focus, we started BloqLabs earlier this year to help accelerate our efforts in this area. This has been an essential part of our strategy to expand the surface area between blockchains and boardrooms, open-source and office suites.
+### Will there be a lock-up in tokens retained by Metronome Authors?
 
-We anticipate that BloqLabs will produce a number of innovations to be presented under the "Built by Bloq" brand, one such innovations being Metronome, which aims to realize the promise (and unlock the potential) of a multi-blockchain world.
+Metronome’s authors will receive 20% of the initial MTN supply as a one-time author’s retention. 25% of this will be available upon the closing of the initial supply auction. The remaining 75% is released quarterly over 12 quarters.
 
-### Why did Bloq create Metronome?
+100% of ETH proceeds from the auction will remain in the Metronome ecosystem. Metronome authors can buy and sell their own MTN at their discretion.  Following the launch of the initial auction, the Metronome ecosystem is entirely in the hands of the smart contracts and the community.
 
-We looked at the current landscape of distributed blockchain-based financial products and saw a novel opportunity to launch a cryptocurrency with equal public access and the need for a cross-chain solution. Metronome is a truly self-governed cryptocurrency that we believe is reliable, equally accessible to the public, and immune to community or individual drama.
+By accepting the author’s retention in MTN, Metronome authors have an incentive to remain active with the ecosystem community.
 
-### Why is the token called "Metronome"?
+### Will Metronome authors govern MTN?
 
-We believe the cryptocurrency's supply and issuance is predictable and constant. Our innovation needed a name that carried the same weight as its performance. The enduring beat of tokens being added to the ecosystem per day is unending and reliable, like a musical metronome that maintains a consistent cadence.
-
-### Will there be a lock-up in tokens retained by Bloq?
-
-Bloq and Metronome's authors will receive 20% of the initial MTN supply as a one-time author’s retention. 25% of this will be available upon the closing of the initial supply auction. The remaining 75% is released quarterly over 12 quarters.
-
-100% of ETH proceeds from the auction will remain in the Metronome ecosystem. Bloq can buy and sell its own MTN at its discretion.  Following the launch of the initial auction, the Metronome ecosystem is entirely in the hands of the smart contracts and the community.
-
-By accepting the author's retention in MTN, Bloq has an incentive to remain active with the ecosystem community.
-
-### Will Bloq govern MTN?
-
-No. Metronome will be governed by its smart contracts and users. Bloq plans on remaining active within the community of users and developers by continuing to grow the ecosystem with MTN-enabled and compatible products. However, after its launch, Bloq will have no more control over MTN than any other member of the MTN community.
+No. Metronome will be governed by its smart contracts and users. Metronome authors plan on remaining active within the community of users and developers by continuing to grow the ecosystem with MTN-enabled and compatible products. However, after its launch, authors will have no more control over MTN than any other member of the MTN community.
