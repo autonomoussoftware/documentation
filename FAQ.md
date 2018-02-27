@@ -90,7 +90,7 @@ The initial supply auction serves as the official launch of Metronome. 8,000,000
 
 ### When will the Metronome initial supply auction start?
 
-The initial supply auction is targeted to launch in late February or early March, 2018. Once started, it will last up to 7 days or until all MTN in the initial supply are sold as described above.
+The Initial Supply Auction is targeted to launch in March, 2018. Once started, it will last up to 7 days or until all MTN in the initial supply are sold as described above.
 
 ### Is there a pre-sale?
 
