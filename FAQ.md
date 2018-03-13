@@ -76,25 +76,25 @@ The owner's manual is available [here](https://www.metronome.io/pdf/owners_manua
 
 ### How will Metronome be launched?
 
-There will be two phases, both of which will rely on the [descending price auction](http://www.sciencedirect.com/science/article/pii/S0899825608000869) ("DPA") pricing mechanism:
+There will be two phases, both of which will rely on the descending price auction ("DPA”) pricing mechanism:
 
-*   **The initial supply auction**, serving as the official launch of Metronome, where 10,000,000 MTN tokens will be issued and made available
-*   **The daily supply auction**, where new tokens are added to the auction ad infinitum, at the rate that is the greater of (i) 2,880 MTN per day, or (ii) an annual rate equal to 2.0000% of the then-outstanding supply per year.
+*   **The Initial Supply Auction**, serving as the official launch of Metronome, where 10,000,000 MTN tokens will be issued and made available
+*   **The Daily Supply Auction**, The Daily Supply Auction, where new tokens are added to the auction ad infinitum, at the rate that is the greater of (i) 2,880 MTN per day, or (ii) an annual rate equal to 2.0000% of the then-outstanding supply per year.
 
 
 ## Initial and Daily Supply Auctions
 
 ### How will the Metronome token sale take place?
 
-The initial supply auction serves as the official launch of Metronome. 8,000,000 MTN tokens (10 million, less the 20% one-time author retention) will be made available to the public with a descending price auction. The price per MTN will begin at a maximum price of 2 ETH per MTN, with a floor price of 0.0000033 ETH. As time progresses and MTN remains available, the auction price will decline linearly until the auction ends or all MTN are sold. Metronome employs DPAs to establish predictable and transparent pricing for the MTN being issued by the contract.
+The Initial Supply Auction serves as the official launch of Metronome. 8,000,000 MTN tokens (10 million, less the 20% one-time author retention) will be made available to the public with a descending price auction. The price per MTN will begin at a maximum price of 2 ETH per MTN and floor price of 0.0000033 ETH. As time progresses and MTN remains available, the auction price will decline linearly until the auction ends or all MTN are sold. Metronome employs DPAs to establish predictable and transparent pricing for the MTN being issued by the contract.
 
 ### When will the Metronome initial supply auction start?
 
-The Initial Supply Auction is targeted to launch in March, 2018. Once started, it will last up to 7 days or until all MTN in the initial supply are sold as described above.
+The Initial Supply Auction is targeted to launch in March, 2018. Once started, it will last up to 7 days or until all MTN in the initial supply are sold as described above. The team will announce 10 days prior to the confirmed date to allow everyone to make arrangements for participation.
 
 ### Is there a pre-sale?
 
-**No**, the first time that anyone will be able to purchase Metronome will be during the initial supply auction.
+**No**, the first time that anyone will be able to purchase Metronome will be during the Initial Supply Auction.
 
 ### Is there a whitelist for auction participation?
 
@@ -102,15 +102,16 @@ The Initial Supply Auction is targeted to launch in March, 2018. Once started, i
 
 ### How do I participate in Metronome's initial auction?
 
-To participate in Metronome's initial supply auction (and, every day thereafter, the daily supply lot) you will need access to an ERC20-compatible Ethereum wallet where you hold the private keys and sufficient ETH to purchase MTN. **Do not use wallets provided by exchanges.** Be sure to use enough [gas](https://themerkle.com/why-does-the-ethereum-ecosystem-use-gas/) when sending your ETH. If you do not use enough gas, your transaction will be rejected and you will have to send your ETH again.
+To participate in Metronome’s Initial Supply Auction (and, every day thereafter, the Daily Supply Lots) you will need access to an ERC20-compatible Ethereum wallet where you hold the private keys and sufficient ETH to purchase MTN. Do not use wallets provided by exchanges. Be sure to use enough gas when sending your ETH. If you do not use enough gas, your transaction will be rejected and you will have to send your ETH again.
 
 Ethereum can be purchased from cryptocurrency exchanges. Again, make sure that once you purchase your ETH, you transfer it into an ERC20-compatible Ethereum wallet where you hold the private keys.
 
 Once you have sufficient ETH in an ERC20-compatible Ethereum wallet, you may participate in the auction by sending the desired amount to:
 
-### Contract Address TBD
+[Contract Address TBD]
 
 You should receive your MTN almost instantly following that; there is no need to wait until the end of the auction for disbursement.
+
 
 ### Is there a minimum or maximum number of MTN tokens I can buy during the Initial Supply Auction?
 
@@ -118,7 +119,7 @@ There is no maximum or minimum purchase (outside of ETH gas requirements for a s
 
 ### What if I try to buy MTN after the auctions have sold out?
 
-If a purchaser’s purchase exceeds supply of an auction, they receive a partial refund for the unspent difference.
+Should a purchase exceed supply, the purchaser automatically receives a refund of the unspent difference, minus gas.
 
 ### Is there a minimum or maximum number of MTN tokens I can buy during the Daily Supply Lots?
 
@@ -127,7 +128,7 @@ There is no maximum or minimum purchase (outside of ETH gas requirements for a s
 
 ### How does new Metronome enter the ecosystem?
 
-Following the initial auction, MTN is added to MTN’s daily supply lot (“DSL”) every 24 hours, at the rate that is the greater of (i) 2,880 MTN per day, or (ii) an annual rate equal to 2.0000% of the then-outstanding supply per year. Newly-minted MTN from the DSL enters the ecosystem via a DPA. All tokens in the DSL start at a maximum price set by the contract at the previous auction’s minimum price multiplied by two. Every 60 seconds, the price of remaining MTN is reduced to 99% of its previous price. After some time, we expect the price of remaining tokens will become low enough for the DSL to sell out.
+Following the initial auction, MTN is added to MTN’s Daily Supply Lots (“DSL”) every 24 hours, at the rate that is the greater of (i) 2,880 MTN per day, or (ii) an annual rate equal to 2.0000% of the then-outstanding supply per year. Newly-minted MTN from the DSL enters the ecosystem via a DPA. All tokens in the DSL start at a maximum price set by the contract at the previous auction’s minimum price multiplied by two. Every 60 seconds, the price of remaining MTN is reduced to 99% of its previous price. After some time, we expect the price of remaining tokens will become low enough for the DSL to sell out.
 
 In the event that there are unsold MTN at the end of the daily auction, those tokens will be held over and added to the next DSL. For example, if 1,000 MTN went unsold, the next DSL would introduce the scheduled 2,880 MTN along with the remaining 1,000 MTN from the previous day.
 
@@ -144,11 +145,11 @@ We expect that the mintage rate for approximately the first 40 years will be 2,8
 
 ### How soon will the daily auctions begin once the initial supply auction finishes?
 
-The first DSL will take place the following midnight UTC after the close of the initial auction.
+The first DSL will take place the following midnight UTC after the close of the Initial Supply Auction.
 
-### Who gets the proceeds of the MTN auctions?
+### What happens to the proceeds from Metronome Auctions?
 
-100% of the proceeds of the initial token sale and 100% of the future daily supply lot proceeds go to MTN’s Autonomous Proceeds Provider (“APP”) contracts – the Proceeds and Autonomous Converter Contracts – to provide long term liquidity and price support. Metronome authors receive none of the proceeds from any auction.
+100% of the proceeds of the Initial Supply  Auction and 100% of the future Daily Supply Lots’ proceeds go to Metronome’s Autonomous Proceeds Provider (“APP”) contracts – the Proceeds and Autonomous Converter Contracts – to provide long term support for the community and help incubate Metronome in its first years. Metronome authors receive none of the proceeds from any auction.
 
 ### What prevents a large hash-power miner (or pool of miners) from dominating purchases?
 
