@@ -90,7 +90,7 @@ The Initial Supply Auction serves as the official launch of Metronome. 8,000,000
 
 ### When will the Metronome initial supply auction start?
 
-The Initial Supply Auction is targeted to launch in March, 2018. Once started, it will last up to 7 days or until all MTN in the initial supply are sold as described above. The team will announce 10 days prior to the confirmed date to allow everyone to make arrangements for participation.
+The Initial Supply Auction is targeted to launch in May, 2018. Once started, it will last up to 7 days or until all MTN in the initial supply are sold as described above. The team will announce 10 days prior to the confirmed date to allow everyone to make arrangements for participation.
 
 ### Is there a pre-sale?
 
@@ -108,31 +108,20 @@ Ethereum can be purchased from cryptocurrency exchanges. Again, make sure that o
 
 Once you have sufficient ETH in an ERC20-compatible Ethereum wallet, you may participate in the auction by sending the desired amount to:
 
+
 [Contract Address TBD]
 
-You should receive your MTN almost instantly following that; there is no need to wait until the end of the auction for disbursement.
 
-
-### Is there a minimum or maximum number of MTN tokens I can buy during the Initial Supply Auction?
-
-There is no maximum or minimum purchase (outside of ETH gas requirements for a successful transaction).
-
-### What if I try to buy MTN after the auctions have sold out?
-
-Should a purchase exceed supply, the purchaser automatically receives a refund of the unspent difference, minus gas.
-
-### Is there a minimum or maximum number of MTN tokens I can buy during the Daily Supply Lots?
-
-There is no maximum or minimum purchase (outside of ETH gas requirements for a successful transaction).
+You should receive your MTN almost immediately following receipt of your ETH by the Metronome smart contracts. Metronome purchased during the Initial Supply Auction will become transferrable following the close of the Initial Supply Auction. Metronome purchased during the Daily Supply Lots will be transferable immediately following receipt.
 
 
 ### How does new Metronome enter the ecosystem?
 
-Following the initial auction, MTN is added to MTN’s Daily Supply Lots (“DSL”) every 24 hours, at the rate that is the greater of (i) 2,880 MTN per day, or (ii) an annual rate equal to 2.0000% of the then-outstanding supply per year. Newly-minted MTN from the DSL enters the ecosystem via a DPA. All tokens in the DSL start at a maximum price set by the contract at the previous auction’s minimum price multiplied by two. Every 60 seconds, the price of remaining MTN is reduced to 99% of its previous price. After some time, we expect the price of remaining tokens will become low enough for the DSL to sell out.
+Following the initial auction, MTN is added to MTN’s Daily Supply Lots (“DSL”) every 24 hours, at the rate that is the greater of (i) 2,880 MTN per day, or (ii) an annual rate equal to 2.0000% of the then-outstanding supply per year. Newly-minted MTN from the DSL enters the ecosystem via a DPA. All tokens in the DSL start at a maximum price set by the contract at the previous auction’s last price (the price of the last Metronome sold if the auction sells out, or the final price in a given auction should an auction lot still have supply) multiplied by two. In the event a DSL does not sell a single Metronome, the starting price of the following auction will be 1/100th of the last price a Metronome was purchased at a DSL auction. Every 60 seconds, the price of MTN remaining in the DSL is reduced to 99% of its previous price. After some time, we expect the price of remaining tokens will become low enough for the DSL to sell out. The absolute floor price on any Daily Supply Lots auction is 1 Wei, to prevent the price from hitting zero-- which would make setting the following auction’s initial price impossible.
 
-In the event that there are unsold MTN at the end of the daily auction, those tokens will be held over and added to the next DSL. For example, if 1,000 MTN went unsold, the next DSL would introduce the scheduled 2,880 MTN along with the remaining 1,000 MTN from the previous day.
+In the event that there are unsold MTN at the end of the daily auction, those tokens will be held over and added to the next DSL. For example, if 1,000 MTN went unsold, the next DSL would introduce the scheduled 2,880 MTN plus the remaining 1,000 MTN from the previous day.
 
-We expect that the mintage rate for approximately the first 40 years will be 2,880 MTN per day. After approximately 40 years, the mintage rate will be higher as shown below.
+We expect that the mintage rate for approximately the first 40 years will be 2,880 MTN per day. After approximately 40 years, the mintage rate will increase as shown below.
 
 | Time | Circulating MTN (End of Year) | Mintage rate (End of Year) | Daily supply lot |
 | ------------ | -----------: | ------: | ------: |
@@ -186,7 +175,7 @@ Metronome will be initially issued on Ethereum with Ethereum Classic, Rootstock,
 
 ### Has the smart contract that collects ETH been professionally audited for security issues?
 
-The smart contract has been audited by three independent consultants: Zeppelin Solutions, Martin Swende, and Gustav Simonsson.
+The smart contract has been audited by three independent consultants: Zeppelin Solutions, Coinspect, and Gustav Simonsson.
 
 
 ### What risks are involved with MTN?
