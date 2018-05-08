@@ -52,8 +52,7 @@ Cross-chain export and import of MTN will provide the ability to migrate from on
 
 MTN also allows for subscriptions, or recurring payments on the blockchain that are automatic. This is something cryptocurrencies have struggled with, until now—MTN users can schedule repeat payments easily.
 
-Additionally, MTN uses the latest superset of ERC20, ERC827, for enhanced security and transfer. While ERC20 tokens can only transfer value, cryptocurrency using the ERC827 token standard (like Metronome) can transfer value and data in transactions. MTN will still use the familiar and pressure-tested ERC20, but extend its utility and security with ERC827.
-
+Additionally, MTN uses custom funcationality for enhanced security and transfer. 
 
 ### What can Metronome be used for?
 
@@ -152,9 +151,9 @@ Miners can potentially front-run a non-miner transaction—but they must also (a
 
 Metronome is comprised of four fully-autonomous and cooperative smart contracts.
 
-*   Metronome Ledger ERC20 (with ERC827 superset)
+*   Metronome Ledger ERC20
     *   This is the token’s smart contract ledger and dictates how the token behaves
-    *   ERC827 super set is the latest standard with enhanced decentralized transfer and security
+    *   Custom functionality for enhanced decentralized transfer and security
 *   Auctions Contract
     *   This smart contract interacts with the ledger contract above and operates the descending price auctions
     *   Sets the rules for the initial supply auction and the daily supply lot
