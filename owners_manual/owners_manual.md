@@ -1,8 +1,6 @@
-
-
 ![Metronome](img/logo.png)
 
-Version 0.967 (Last Updated 04.17.2018)
+Version 0.98 (Last Updated 05.08.2018)
 
 **Notes:**
 
@@ -132,18 +130,18 @@ Figure 2: The flow of and interaction between Metronome contracts 12
 
 Figure 3: Demonstration of cross-blockchain portability 15
 
-Figure 4: Popular cryptocurrency mintage 17
+Figure 4: Popular cryptocurrency mintage 18
 
-Figure 5: Comparison of Bitcoin and Metronome mintage and supply 18
+Figure 5: Comparison of Bitcoin and Metronome mintage and supply 19
 
-Figure 6: Comparison between ZEC and MTN author's retention 19
+Figure 6: Comparison between ZEC and MET author's retention 20
 
 Table 1: Comparison of important attributes between today's
-cryptocurrencies 20
+cryptocurrencies 21
 
-Figure 7: How the Autonomous Converter Contract works 23
+Figure 7: How the Autonomous Converter Contract works 22
 
-Table 2: Supply Schedule 26
+Table 2: Supply Schedule 27
 
 
 
@@ -165,12 +163,12 @@ In the development of Metronome, the Metronome authors aspire to take the lesson
 **Economically engineering something to last **
 
 Some cryptocurrencies\' mintage is either static or goes to zero over time -- like Bitcoin[^1]^,^[^2] and Litecoin[^3] -- raising questions with economists about their long term viability.[^4]^,^[^5]^,^ Other cryptocurrencies' token supply is hand-stitched together in pre-ICO deals that award certain parties a vast amount of supply, resulting in those parties controlling the majority of tokens. Some cryptocurrencies sell out to certain parties in a pre-sale or private sale, leaving very little to the general public. Metronome attempts to fix those problems
-with daily auctions that provide an on-going token supply mintage, ad infinitum. An on-going token supply mintage is theorized to provide sustainability versus other cryptocurrencies whose mintage either is or goes to zero.[^6]^,^[^7] The Metronome team expects that this will also encourage MTN holders to use the many payment features of Metronome. Utilizing those use cases, actually using it as a currency, may help
+with daily auctions that provide an on-going token supply mintage, ad infinitum. An on-going token supply mintage is theorized to provide sustainability versus other cryptocurrencies whose mintage either is or goes to zero.[^6]^,^[^7] The Metronome team expects that this will also encourage MET holders to use the many payment features of Metronome. Utilizing those use cases, actually using it as a currency, may help
 solidify its endurance. The Metronome team also believes that an ongoing mintage also dilutes any potential disproportionate amounts purchased at a given time. Through Metronome, the team believes it is engineering something that is built-to-last. Longevity is Metronome's main goal.
 
 **Bootstrapping decentralized financial products**
 
-Bootstrapping decentralized systems into self-sustainability is a new thing, more art than science. Metronome is attempting to break new ground here. All proceeds from Metronome's auctions are sent to two separate smart contracts,[^8] which are designed --among other things--to provide liquidity to MTN owners that may want to sell.[^9]
+Bootstrapping decentralized systems into self-sustainability is a new thing, more art than science. Metronome is attempting to break new ground here. All proceeds from Metronome's auctions are sent to two separate smart contracts,[^8] which are designed --among other things--to provide liquidity to MET owners that may want to sell.[^9]
 
 By having all auction proceeds stay within the Metronome ecosystem, the Metronome team anticipates that it will thrive. Further, the team expects that others will study Metronome's model for their projects and products.
 
@@ -182,8 +180,8 @@ The descending price auction aims to distribute the token at a price purchasers 
 
 Metronome employs a descending price auction for both its Initial Supply Auction and Daily Supply Lots, with public access to all auction opportunities.[^12] There is no presale, whitelist, or any bonus. Everyone participating in any Metronome auction will need to operate within the same rules as everyone else: purchase at a given price or wait for the price to descend. No one is excluded from or privileged in these public auctions.[^13]
 
-The Metronome team believes conducting the Initial Supply Auction this way may discourage whales and other large players within the space from dominating the supply of MTN --as access to disproportionate amounts of MTN would potentially require purchasing above discovered market price--, and the team believes it will encourage a fairer distribution among the community of purchasers. Metronome is not looking for a quick pop for short term speculators, rather, every aspect of the initial supply auction attempts to provide fairer access to and fairer
-distribution of MTN.
+The Metronome team believes conducting the Initial Supply Auction this way may discourage whales and other large players within the space from dominating the supply of MET --as access to disproportionate amounts of MET would potentially require purchasing above discovered market price--, and the team believes it will encourage a fairer distribution among the community of purchasers. Metronome is not looking for a quick pop for short term speculators, rather, every aspect of the initial supply auction attempts to provide fairer access to and fairer
+distribution of MET.
 
 **Autonomous, self-governing contracts**
 
@@ -203,13 +201,13 @@ Metronome is the first cryptocurrency that is not tied to one blockchain forever
 Executive Summary
 =================
 
-Metronome ("Metronome" or "MTN") is a new cryptocurrency, engineered for institutional-level endurance. Metronome incorporates lessons learned from other cryptocurrencies like Bitcoin and Ethereum and is designed to be used for the next 100 years and beyond.
+Metronome ("Metronome" or "MET") is a new cryptocurrency, engineered for institutional-level endurance. Metronome incorporates lessons learned from other cryptocurrencies like Bitcoin and Ethereum and is designed to be used for the next 100 years and beyond.
 
 Metronome will be launched to the public with equal opportunity for access. Metronome will have zero founder privileges after launch and features a highly-predictable and reliable token supply.
 
 The Metronome token supply:
 
--   10,000,000 initial MTN supply
+-   10,000,000 initial MET supply
 
     -   8,000,000 distributed via public descending price auction, as  described in more detail below
 
@@ -223,11 +221,11 @@ The Metronome token supply:
 
             -   Only Metronome Authors can withdraw from their TokenLocker contract, and only at the specific times above
 
--   New MTN minted daily
+-   New MET minted daily
 
-    -   Daily minted MTN distributed via public descending price auction
+    -   Daily minted MET distributed via public descending price auction
 
-    -   Daily minted volume at (i) 2,880 MTN per day, or (ii) an annual rate equal to 2.0000% of the then-outstanding MTN supply per year
+    -   Daily minted volume at (i) 2,880 MET per day, or (ii) an annual rate equal to 2.0000% of the then-outstanding MET supply per year
 
 The three core design principles of Metronome are self-governance, reliability, and portability. They make Metronome unique and enduring.
 
@@ -247,7 +245,7 @@ The three core design principles of Metronome are self-governance, reliability, 
 
     -   Predictable token supply
 
-    -   New MTN minted daily ad infinitum, at the greater of (i) 2,880 MTN per day, or (ii) an annual rate equal to 2.0000% of the then-outstanding MTN supply per year
+    -   New MET minted daily ad infinitum, at the greater of (i) 2,880 MET per day, or (ii) an annual rate equal to 2.0000% of the then-outstanding MET supply per year
 
     -   Stable, predictable minting of new token supply ad infinitum
 
@@ -265,15 +263,13 @@ The three core design principles of Metronome are self-governance, reliability, 
 
 -   **Additional features**
 
-    -   Initial payments expected to be settled in 15 to 30 seconds --  Settlement times are based on underlying blockchain
+    -   Initial payments expected to be settled in 15 to 30 seconds – Settlement times are based on underlying blockchain
 
     -   Mass pay -- allowing multiple payments to be sent in one batch
 
     -   Subscriptions -- allowing for recurring payments between users
 
-    -   ERC20- and ERC827-compliant[^15]
-
-        -   The ERC827 extension is the latest standard with enhanced decentralization transfer and security features
+    -   ERC20 compliant with additional custom functionalities
 
 In this document, we propose Metronome as a new cryptocurrency that uniquely satisfies the above criteria as the world's first self-governing, cross-blockchain cryptocurrency. We anticipate that the cryptocurrency and other token communities will devise their own uses for it.
 
@@ -303,7 +299,7 @@ Where the fiat currency issuance and supply can be managed extensively by their 
 ![Figure 1: Comparison between USD monetary base and Bitcoin's token base](img/figure-1.jpg)
 
 *Figure 1: Comparison between USD monetary base and the popular
-cryptocurrency's, (bitcoin's) token base*[^16]
+cryptocurrency's, (bitcoin's) token base*[^15]
 
 Since Bitcoin, other cryptocurrencies---both similar and dissimilar---have been created. These cryptocurrencies collectively make up an active and dynamic market.
 
@@ -312,9 +308,9 @@ Descending price auctions
 
 Currently, most new cryptocurrencies offer their initial disbursements with traditional sales. These sales may includ  bonuses, early purchaser pricing, and other incentives to encourage purchasers to buy all of their supply. While these incentives can help, they do not guarantee a sell-out and can tend toward asymmetrical public access. This model does not work for a cryptocurrency with longevity as its main goal. The Metronome team chose to use a different method, aiming to avoid this pattern.
 
-The Metronome team decided to employ a descending price auction as its model for its Initial Supply Auction and Daily Supply Lots, which may provide interesting opportunities and a fairer distribution of MTN. With a descending price auction, the price begins at a high initial price. As the auction proceeds, the price is reduced until all units are sold, or a pre-set price floor is reached, or the auction time limit is reached and the auction ends. We believe market price discovery is rapid and fair, as each purchaser pays what it thinks is fair at the time of purchase.[^17] Should a purchaser deem a given price too high or unfair, they can wait for the price to descend to a level they agree with and purchase then -- provided there is supply left.
+The Metronome team decided to employ a descending price auction as its model for its Initial Supply Auction and Daily Supply Lots, which may provide interesting opportunities and a fairer distribution of MET. With a descending price auction, the price begins at a high initial price. As the auction proceeds, the price is reduced until all units are sold, or a pre-set price floor is reached, or the auction time limit is reached and the auction ends. We believe market price discovery is rapid and fair, as each purchaser pays what it thinks is fair at the time of purchase.[^16] Should a purchaser deem a given price too high or unfair, they can wait for the price to descend to a level they agree with and purchase then -- provided there is supply left.
 
-The Metronome team chose this mechanism in an effort to mitigate against whales from controlling a disproportionate amount of the MTN supply, grant equal access to auction opportunities, and approach a fairer distribution of MTN.
+The Metronome team chose this mechanism in an effort to mitigate against whales from controlling a disproportionate amount of the MET supply, grant equal access to auction opportunities, and approach a fairer distribution of MET.
 
 
 
@@ -332,16 +328,16 @@ How Metronome Works
 
 **Launch**
 
-As part of the Metronome team's goal of providing fairer, more equal access to auction opportunities and MTN supply, Metronome's Initial Supply Auction and Daily Supply Lot will utilize a descending price auction (DPA). This model is different than traditional auctions, and deserves some explanation. In a descending price auction, the price per token starts at a maximum price. The price slowly decreases until all offered supply is purchased or until the auction time limit is reached and the auction ends. Metronome employs DPAs in an effort to establish
-transparent and predictable pricing.[^18]
+As part of the Metronome team's goal of providing fairer, more equal access to auction opportunities and MET supply, Metronome's Initial Supply Auction and Daily Supply Lot will utilize a descending price auction (DPA). This model is different than traditional auctions, and deserves some explanation. In a descending price auction, the price per token starts at a maximum price. The price slowly decreases until all offered supply is purchased or until the auction time limit is reached and the auction ends. Metronome employs DPAs in an effort to establish
+transparent and predictable pricing.[^17]
 
-The starting price in the Initial Supply Auction will be 2 ETH per MTN. As long as the auction is open and there are still MTN available for purchase, the price descends by 0.0001984320568 ETH every 60 seconds, toward its floor price of 0.0000033 ETH.
+The starting price in the Initial Supply Auction will be 2 ETH per MET. As long as the auction is open and there are still MET available for purchase, the price descends by 0.0001984320568 ETH every 60 seconds, toward its floor price of 0.0000033 ETH.
 
 Purchasers purchase Metronome cryptocurrency in real time and will receive their Metronome almost immediately after purchase. Metronome purchased during the Initial Supply Auction will not be transferable until the close of the Initial Supply Auction, while Metronome purchased during the Daily Supply Lots will be transferable immediately upon receipt.
 
-The Metronome team believes conducting the auction this way provides purchasers with the opportunity to purchase MTN at the price they see as fair, provided there are MTN available for purchase at that price. The Metronome team believes that a descending price auction will also provide more accurate market price discovery than a pure dutch "everyone gets final price" auction, simply because if purchasers are willing to pay above that price, then the final price is inherently undervalued.
+The Metronome team believes conducting the auction this way provides purchasers with the opportunity to purchase MET at the price they see as fair, provided there are MET available for purchase at that price. The Metronome team believes that a descending price auction will also provide more accurate market price discovery than a pure dutch "everyone gets final price" auction, simply because if purchasers are willing to pay above that price, then the final price is inherently undervalued.
 
-This method also may reduce the chance of whales and other large players in the auction from soaking up massive amounts of MTN, since purchasing a disproportionately large amount of MTN would potentially be more expensive than the emergent market price. A pure dutch auction would still disproportionately distribute MTN to early purchasers.
+This method also may reduce the chance of whales and other large players in the auction from soaking up massive amounts of MET, since purchasing a disproportionately large amount of MET would potentially be more expensive than the emergent market price. A pure dutch auction would still disproportionately distribute MET to early purchasers.
 
 Although many supply purchase scenarios are possible, one is worth highlighting: a slow trickle followed by a sudden waterfall. In this scenario, purchasers purchase a small quantity of supply at higher prices. Once the pricing falls below some threshold, the remaining supply might be consumed rapidly.
 
@@ -359,13 +355,13 @@ Although many supply purchase scenarios are possible, one is worth highlighting:
 
         -   Only Metronome Authors can withdraw from their TokenLocker  contract, and only at the specific times above
 
--   Descending price auction of 8,000,000 tokens (representing the total initial token supply of 10 million MTN, less the 20% token supply retained by the founders).
+-   Descending price auction of 8,000,000 tokens (representing the total initial token supply of 10 million MET, less the 20% token supply retained by the founders).
 
 -   Initial supply auction will last up to 7 days.
 
--   Initial supply auction price is set at 2 ETH per MTN, with a floor  price set at 0.0000033 ETH.
+-   Initial supply auction price is set at 2 ETH per MET, with a floor  price set at 0.0000033 ETH.
 
--   In the initial supply auction, every 60 seconds, MTN auction price decreases by 0.0001984320568 ETH, linearly.
+-   In the initial supply auction, every 60 seconds, MET auction price decreases by 0.0001984320568 ETH, linearly.
 
 -   The auction continues until the entire 8,000,000 token inventory is sold or until the auction ends after 7 full days (10,080 minutes).
 
@@ -373,7 +369,7 @@ Although many supply purchase scenarios are possible, one is worth highlighting:
 
 **Phase 2: Operational currency**
 
--   Every 24 hours, new tokens are added to the Daily Supply Lot following the previous auction's close ad infinitum, at the rate that is the greater of (i) 2,880 MTN per day, or (ii) an annual rate equal to 2.0000% of the then-outstanding supply per year.
+-   Every 24 hours, new tokens are added to the Daily Supply Lot following the previous auction's close ad infinitum, at the rate that is the greater of (i) 2,880 MET per day, or (ii) an annual rate equal to 2.0000% of the then-outstanding supply per year.
 
 -   Every 24 hours, an auction is initiated, lasting no more than 24 hours ( to avoid auction overlap).
 
@@ -385,13 +381,13 @@ Although many supply purchase scenarios are possible, one is worth highlighting:
 
 -   Auction continues until (i) the entire Daily Supply Lot inventory is sold, or (ii) the end of the twenty-four hour period of the auction, whichever is earlier.
 
-    -   If the Daily Supply Lot inventory does not sell out entirely, any remaining MTN will be added to the next day's Daily Supply Lot
+    -   If the Daily Supply Lot inventory does not sell out entirely, any remaining MET will be added to the next day's Daily Supply Lot
 
 -   The absolute floor price in any Daily Supply Lot auction is 1 Wei
 
 -   100% of Daily Supply Lot proceeds goes to the Proceeds Contract.
 
--   Every 24 hours, 0.25% of the total accumulated balance of the Proceeds Contract is sent to the Autonomous Converter Contract  (described below), providing additional options for MTN owners to sell their MTN, if they so desire.
+-   Every 24 hours, 0.25% of the total accumulated balance of the Proceeds Contract is sent to the Autonomous Converter Contract  (described below), providing additional options for MET owners to sell their MET, if they so desire.
 
 Cross-Blockchain Portability
 ----------------------------
@@ -401,20 +397,74 @@ Cross-Blockchain Portability
 
 *Figure 3: Demonstration of cross-blockchain portability*
 
-One of Metronome's unique features is its cross-chain portability, which will allow users to move their MTN from one blockchain to another blockchain for any reason. If a user decides to move their MTN, the user must commit to a target blockchain, the destination that will receive the MTN. The user removes their MTN from the token supply on source blockchain A, receiving a "proof of exit" merkle[^19] receipt. Then user then provides this receipt to the Metronome contracts on target blockchain B.
+One of Metronome's unique features is its cross-chain portability, which will allow users to move their MET from one blockchain to another blockchain for any reason. If a user decides to move their MET, the user must commit to a target blockchain, the destination that will receive the MET. The user removes their MET from the token supply on source blockchain A, receiving a "proof of exit" merkle[^18] receipt. Then user then provides this receipt to the Metronome contracts on target blockchain B.
 
-In this scenario, the token supply of MTN on blockchain A is reduced, and the token supply on blockchain B is increased through this export/import process. The autonomous Daily Supply Lot is adjusted on a pro-rata basis on both blockchain A and blockchain B, to reflect the new distribution of MTN across blockchains A and B. For example, if 50% of all MTN exist on the blockchain A and 50% of all MTN exist on blockchain B, then the daily auctions on chain A shall mint 1,440 tokens/day, and the daily auctions on chain B shall mint 1,440 tokens/day.
+In this scenario, the token supply of MET on blockchain A is reduced, and the token supply on blockchain B is increased through this export/import process. The autonomous Daily Supply Lot is adjusted on a pro-rata basis on both blockchain A and blockchain B, to reflect the new distribution of MET across blockchains A and B. For example, if 50% of all MET exist on the blockchain A and 50% of all MET exist on blockchain B, then the daily auctions on chain A shall mint 1,440 tokens/day, and the daily auctions on chain B shall mint 1,440 tokens/day.
+
+Export / Import System 
+----------------------------
+
+
+Metronome rides on top of other blockchains to help solidify its self-governing nature and better allow it to endure. A lack of chain permanence makes maintaining constants like global supply trickier than it might be with single-blockchain cryptocurrencies. Because of this, Metronome’s import and export functions will initially be rolled out in three phases. As blockchain technology continues to advance, it is possible that additional phases can even further decentralize and bolster the Metronome ecosystem. 
+
+At a high level the components of Metronome’s portability are:
+
+**Exporting** Owners can move MET from one chain to another by calling the export function. This function takes the user’s MET, burns it on the local chain and gives the user an ExportReceipt, in the form of a Merkle receipt. The owner will pay a small fee in MET, to be claimed by the validator. This receipt can be used to claim MET on the destination chain–effectively moving the owner’s MET from the starting chain to the destination chain.
+
+**Importing** Any user can offer an ExportReceipt to the intended destination Metronome contracts. They call importMET and offer the ExportReceipt. When processed, the destination chain delivers MET to the original recipient. The user who completed the Metronome import will receive the above-mentioned fee in MET for their attestation.
+
+However, since Metronome will be multi-chain, there will be a distributed source of truth across these chains. This is where validation plays a role in import and export.
+
+**Validation** Behind the scenes of import and export, Validators are required to:
+
+Attest which chains are valid in case of a hard fork
+
+Provide additional information (such as event proofs) for validation of particular imports.
+
+Metonome’s import/export infrastructure will be rolled out in three phases. Metronome will launch with v1, and future upgrades will plug into the existing Metronome contracts.
+
+Validators conceptually play a role within the Metronome ecosystem that is similar to ‘miners’ in other cryptocurrencies. They verify and authenticate Metronome’s distributed source of truth. Exporters will pay an optional fee in MET to the validators for their effort.
+
+The system design for validation phases (described below) aims to guarantee that:
+
+Metronome’s global supply never goes over 10,000,000 + 2880 daily (or 2% of the then-outstanding supply annually, whichever is greater).
+
+Validators cannot censor individual transactions.
+
+Validators are discouraged from disagreeing with each-other (see below).
+
+Metronome contracts on other chains can detect disagreement and ‘flag’ unsafe blockchains, ultimately quarantining them until they remediate the identified issue.
+
+Validation Phases
+----------------------------
+
+Phase 1 Validators check and validate each ExportReceipt via the hash of the ExportReceipt. When a sufficient number of validators have agreed a given hash is valid, anyone can complete importing Metronome with via a validated receipt.
+
+Phase 2 Validators keep a historical list of all ExportReceipts, create a merkle tree of the hashes of the receipts, and validate the merkle root of those trees. Importers then provide a proof of import to validators and users. Proof of import consists of the merkle receipt and the pairwise hashes attesting the root of the events.
+
+Phase 3 Validators validate blockchain hashes of every chain where Metronome resides. Importers provide the following proofs:
+
+-   Proof that the export event is in a certain block-header on the export chain, through a merkle path.
+
+-   Proof that the block event corresponds to validated chain hashes.
+
+Guarantees and Safety Measures With Bad Actors
+----------------------------
+
+As the Phase 1 validation model with trusted actors proves itself, the community and the team will continue to iterate on the validation mechanism to be more decentralized. Currently, the most desirable levels of decentralization will likely be after Phase 3. Greater decentralization in  validation models adds safety in many ways, but there is still the potential that  actors may act badly for ‘non rational’ reasons. To combat this, the system architecture must be resilient to griefing, chain-to-chain attacks, bugs in other sets of Metronome and a variety of other fraud-type or error-type problems. 
+This system is still being specified, but broadly speaking we will use the core concepts from the better Proof of Stake systems combined with some Proof of Work concepts. Metronome plans to have both soft and hard consequences for bad actors. Metronome’s fundamental rule is and will always be that the supply is fixed, that users will know what parts of the Metronome universe are safe, and be able to export their MET to those safe places.
+
 
 Distributed, voluntary consensus governance
 -------------------------------------------
 
-The ability to export Metronome from the initial 'genesis' chain launched by its authors, and import to follow-on upgrades released -- by its authors or other parties -- based on the voluntary consensus of the MTN holder community provides an opportunity for both immutable contracts, and a fair distributed mechanism to upgrade those contracts as the market matures.
+The ability to export Metronome from the initial 'genesis' chain launched by its authors, and import to follow-on upgrades released -- by its authors or other parties -- based on the voluntary consensus of the MET holder community provides an opportunity for both immutable contracts, and a fair distributed mechanism to upgrade those contracts as the market matures.
 
-If, for example, the market demand greatly exceeds supply, and the real-world price of the original MTN rises beyond what is practical for merchants, some could agree to fork the MTN supply with a new MTN contract on the same or different chains, by exporting funds they control to the new fork. These dynamics have the potential to remove risk from a- priori design of the token supply curves, as new immutable MTN contracts can have upgraded token supply curves for greater commercial use.
+If, for example, the market demand greatly exceeds supply, and the real-world price of the original MET rises beyond what is practical for merchants, some could agree to fork the MET supply with a new MET contract on the same or different chains, by exporting funds they control to the new fork. These dynamics have the potential to remove risk from a- priori design of the token supply curves, as new immutable MET contracts can have upgraded token supply curves for greater commercial use.
 
-Similarly, if market supply starts to exceed demand for a sustained period of time and the price is falling, holders on different MTN forks may agree to "merge" from multiple export sources to a single import destination. By reducing the total economically active supply of MTN through this voluntary consensus mechanism, the token supply is reduced in the event of reduced demand, maintaining stable prices.
+Similarly, if market supply starts to exceed demand for a sustained period of time and the price is falling, holders on different MET forks may agree to "merge" from multiple export sources to a single import destination. By reducing the total economically active supply of MET through this voluntary consensus mechanism, the token supply is reduced in the event of reduced demand, maintaining stable prices.
 
-How forks and movement to new chains impact the MTN token supply curve and issuance is an open question to the Metronome community. We invite you to participate in defining, implementing, forking, and merging new MTN target contracts of your own, import MTN to new contracts, and see what happens.
+How forks and movement to new chains impact the MET token supply curve and issuance is an open question to the Metronome community. We invite you to participate in defining, implementing, forking, and merging new MET target contracts of your own, import MET to new contracts, and see what happens.
 
 
 Cryptocurrency market context to date
@@ -429,41 +479,41 @@ Let's examine several well-known cryptocurrencies, the token supply allocation, 
 
 ![Figure 4](img/figure-4.jpg)
 
-*Figure 4: Mintage of popular cryptocurrencies today, note: ETH is a prediction*[^20]
+*Figure 4: Mintage of popular cryptocurrencies today, note: ETH is a prediction*[^19]
 
-Bitcoin ("Bitcoin" or "BTC") began on Jan 5, 2009, with public equal access to mining and  participation in the ecosystem.[^21] New currency supply is added with every block. Block period is targeted at 10 minutes/block every 2,016 blocks. Supply minted is 50 BTC per block, reduced by one-half every four years.
+Bitcoin ("Bitcoin" or "BTC") began on Jan 5, 2009, with public equal access to mining and  participation in the ecosystem.[^20] New currency supply is added with every block. Block period is targeted at 10 minutes/block every 2,016 blocks. Supply minted is 50 BTC per block, reduced by one-half every four years.
 
-The Bitcoin community ethos places high value on the immutability of Bitcoin's 21 million currency supply limit, and the immutability of the issuance schedule. Once that limit is reached, mining for new BTC stops and transaction fees will, hopefully, provide incentive for miners. It is widely debated within the Bitcoin community whether transaction fees will suffice to keep Bitcoin funded and secure, when supply issuance declines to these negligible levels.[^22] [^23] If Bitcoin were restarted from-scratch today, would its current, absolute deflationary nature be replaced by an enduring mild inflation feature to incent miners to secure the network indefinitely into the future? Perhaps. Low levels of inflation are desirable since it discourages hoarding of resources, *encouraging* investment and -- in cryptocurrencies -- continuing to secure the blockchain through mining.[^24]
+The Bitcoin community ethos places high value on the immutability of Bitcoin's 21 million currency supply limit, and the immutability of the issuance schedule. Once that limit is reached, mining for new BTC stops and transaction fees will, hopefully, provide incentive for miners. It is widely debated within the Bitcoin community whether transaction fees will suffice to keep Bitcoin funded and secure, when supply issuance declines to these negligible levels.[^21] [^22] If Bitcoin were restarted from-scratch today, would its current, absolute deflationary nature be replaced by an enduring mild inflation feature to incent miners to secure the network indefinitely into the future? Perhaps. Low levels of inflation are desirable since it discourages hoarding of resources, *encouraging* investment and -- in cryptocurrencies -- continuing to secure the blockchain through mining.[^23]
 
 ![Figure 5](img/figure-5.jpg)
 
-*Figure 5: Comparison of Bitcoin and Metronome mintage and circulating supply*[^25]
+*Figure 5: Comparison of Bitcoin and Metronome mintage and circulating supply*[^24]
 
 The predictability and immutability of the issuance schedule is what users rely on today. Predictability gives market users the ability to plan years, possibly decades into the future. Immutability ensures that the currency supply will not be subject to the whims and frailties of humans. However, Bitcoin has various groups interested in influencing network governance, embroiling the community in contentious forks, uncertainty, and spectacle.
 
-Litecoin ("Litecoin" or "LTC") is patterned after Bitcoin.[^26] Blocks are targeted at 2.5 minutes/block. Supply minted is 50 LTC per block, reduced by one-half every four years. Litecoin is largely a photocopy of Bitcoin, from a currency issuances perspective: The issuance schedule is presumed immutable by most of the community. The new supply issuance declines over time, similar to Bitcoin. Litecoin's governance is similar to Bitcoin, but has some customary deference to the icons in its ecosystem.
+Litecoin ("Litecoin" or "LTC") is patterned after Bitcoin.[^25] Blocks are targeted at 2.5 minutes/block. Supply minted is 50 LTC per block, reduced by one-half every four years. Litecoin is largely a photocopy of Bitcoin, from a currency issuances perspective: The issuance schedule is presumed immutable by most of the community. The new supply issuance declines over time, similar to Bitcoin. Litecoin's governance is similar to Bitcoin, but has some customary deference to the icons in its ecosystem.
 
-Zcash ("Zcash" or "ZEC") behaves similarly. Proof-of-work mining is open to all. Block period is targeted at 2.5 minutes per block. Supply minted is 12.5 ZEC per block, reduced by one-half every four years. As a special case, the first 20,000 blocks have slow-start ramp-up to full 12.5 ZEC emission rate. Instead of a one-time compensation, the development team and support protocol development receive a 10% Founders' Reward of token supply is applied for all blocks up until the first halving, four years from its launch. After that point, 100% of the minted token supply goes to miners.[^27] The Zcash Foundation is intended to be the natural locus of voluntary governance of the ecosystem.[^28]
+Zcash ("Zcash" or "ZEC") behaves similarly. Proof-of-work mining is open to all. Block period is targeted at 2.5 minutes per block. Supply minted is 12.5 ZEC per block, reduced by one-half every four years. As a special case, the first 20,000 blocks have slow-start ramp-up to full 12.5 ZEC emission rate. Instead of a one-time compensation, the development team and support protocol development receive a 10% Founders' Reward of token supply is applied for all blocks up until the first halving, four years from its launch. After that point, 100% of the minted token supply goes to miners.[^26] The Zcash Foundation is intended to be the natural locus of voluntary governance of the ecosystem.[^27]
 
 ![Figure 6](img/figure-6.jpg)
 
-*Figure 6: Comparison between ZEC and MTN author's retention vs
-circulating supply*[^29]
+*Figure 6: Comparison between ZEC and MET author's retention vs
+circulating supply*[^28]
 
-The Ethereum ("Ethereum" or "ETH") pre-sale raised over 60,000,000 ETH, which were pre-mined into the genesis block.[^30] [^31] New currency supply -- 5 ETH -- is added with every block. The new currency supply T+1Y increased 19.8%. T+2Y, 21.2%. T+3Y, 17.4%. Supply increase declines from there. The Ethereum currency issuance schedule is widely communicated to be in flux, and may change as the system evolves.[^32] Ethereum is slated to change to proof of stake, which will change its issuance.[^33] The issuance is therefore mutable, with the goal of resilience and sustainability. While any changes must be  supported by the community and miners, there is still a lot of customary deference to and reliance upon a small founding team.
+The Ethereum ("Ethereum" or "ETH") pre-sale raised over 60,000,000 ETH, which were pre-mined into the genesis block.[^29] [^30] New currency supply -- 5 ETH -- is added with every block. The new currency supply T+1Y increased 19.8%. T+2Y, 21.2%. T+3Y, 17.4%. Supply increase declines from there. The Ethereum currency issuance schedule is widely communicated to be in flux, and may change as the system evolves.[^31] Ethereum is slated to change to proof of stake, which will change its issuance.[^32] The issuance is therefore mutable, with the goal of resilience and sustainability. While any changes must be  supported by the community and miners, there is still a lot of customary deference to and reliance upon a small founding team.
 
-Ripple ("Ripple" or "XRP") has an available supply of 38 billion XRP.[^34] The managing company, Ripple, Inc., has a further 61 billion XRP, of which Ripple Inc has placed 55 billion XRP in escrow.[^35] This is centrally managed, with Ripple, Inc. controlling a large portion of the cryptocurrency's ecosystem. Ripple Inc. directly manages the issuance of supply into the market, and XRP is therefore highly mutable. Ripple Inc retains disproportionate governing power.
+Ripple ("Ripple" or "XRP") has an available supply of 38 billion XRP.[^33] The managing company, Ripple, Inc., has a further 61 billion XRP, of which Ripple Inc has placed 55 billion XRP in escrow.[^34] This is centrally managed, with Ripple, Inc. controlling a large portion of the cryptocurrency's ecosystem. Ripple Inc. directly manages the issuance of supply into the market, and XRP is therefore highly mutable. Ripple Inc retains disproportionate governing power.
 
-Metronome takes the lessons learned from these digital currencies and the result is a cryptocurrency designed for institutional-level endurance with issuance, governance, and reliability as the leading principles in its architecture. It is 100% autonomous with no undue influence from authors to further the design goal of self-governance. Metronome is predictable and mints new MTN at a predictable rate, which makes it stable. It is also able to be imported and exported between blockchains for whatever reason the user sees fit, making it portable.
+Metronome takes the lessons learned from these digital currencies and the result is a cryptocurrency designed for institutional-level endurance with issuance, governance, and reliability as the leading principles in its architecture. It is 100% autonomous with no undue influence from authors to further the design goal of self-governance. Metronome is predictable and mints new MET at a predictable rate, which makes it stable. It is also able to be imported and exported between blockchains for whatever reason the user sees fit, making it portable.
 
 
-|  | BTC36 | LTC37 | ETH38 | XRP39 | ZEC40 | MTN |
+|  | BTC[^35] | LTC[^36] | ETH[^37] | XRP[^38] | ZEC[^39] | MET |
 |--|--|--|--|--|--|--|--|
-| **Reliability** | BTC is famous for its contentious forks and deflationary nature. Token supply and issuance is stable, but finite. | Like BTC, LTC’s issuance and token supply is subject to a hard cap, which may threaten chain stability | ETH’s issuance and token supply model is in flux. It has forked in the past. | XRP has a stable supply. It is fully governed by Ripple Inc. | Similar to BTC, ZEC is subject to a hard cap which may call into question the security of the chain in the future. | **MTN issuance and supply will remain predictable ad infinitum as defined by its contracts. There is no uncertainty about supply or issuance.** |
-| **Self- Governance** | BTC is self governed, but has many groups looking to exert undue influence. | LTC is self governed, but customary deference to its icons. | Changes to ETH need community support, but much reliance upon a small team. | XRP is not self governing. Ripple Inc retains sole power of governance over XRP. | The Zcash Foundation is natural locus of voluntary governance. | **MTN is entirely self governed through autonomous contracts.** |
+| **Reliability** | BTC is famous for its contentious forks and deflationary nature. Token supply and issuance is stable, but finite. | Like BTC, LTC’s issuance and token supply is subject to a hard cap, which may threaten chain stability | ETH’s issuance and token supply model is in flux. It has forked in the past. | XRP has a stable supply. It is fully governed by Ripple Inc. | Similar to BTC, ZEC is subject to a hard cap which may call into question the security of the chain in the future. | **MET issuance and supply will remain predictable ad infinitum as defined by its contracts. There is no uncertainty about supply or issuance.** |
+| **Self- Governance** | BTC is self governed, but has many groups looking to exert undue influence. | LTC is self governed, but customary deference to its icons. | Changes to ETH need community support, but much reliance upon a small team. | XRP is not self governing. Ripple Inc retains sole power of governance over XRP. | The Zcash Foundation is natural locus of voluntary governance. | **MET is entirely self governed through autonomous contracts.** |
 | **Portability** | no | no | no | no | no | **yes** |
 | **Immutability** | strong | strong | Mutable; Will change with PoS | weak | strong | **strong** |
-| **Issuance Model** | 50 BTC per 10 minutes. Decreases by 1⁄2 every 4 years. | 50 LTC per 2.5 minutes. Decreases by 1⁄2 every 4 years. | 5 ETH per 15 seconds. | Issued once, by Ripple Inc | 12.5 per 2.5 minutes. Decreases by 1⁄2 every 4 years. | **Daily MTN auction sales at greater of (i) 2,880 MTN per day, or (ii) an annual rate equal to 2.0000% of the then-outstanding supply per year** |
+| **Issuance Model** | 50 BTC per 10 minutes. Decreases by 1/2 every 4 years. | 50 LTC per 2.5 minutes. Decreases by 1/2 every 4 years. | 5 ETH per 15 seconds. | Issued once, by Ripple Inc | 12.5 per 2.5 minutes. Decreases by 1/2 every 4 years. | **Daily MET auction sales at greater of (i) 2,880 MET per day, or (ii) an annual rate equal to 2.0000% of the then-outstanding supply per year** |
 | **Supply limit** | 21 million | 84 million | unknown | 100 billion | 21 million | **See Issuance Model above** |
 | **Settlement time** | 10 minutes | 2.5 minutes | 15 seconds | 5 seconds | 2.5 minutes | 15 seconds |
 | **Mass Pay feature** | yes | yes | no | no | yes | **yes** |
@@ -471,37 +521,31 @@ Metronome takes the lessons learned from these digital currencies and the result
 *Table 1: Comparison of important attributes between today's
 cryptocurrencies*
 
-36 ​https://bitcoin.org/bitcoin.pdf  
-37 ​https://bitcointalk.org/index.php?topic=47417.0
-38 ​https://github.com/ethereum/wiki/wiki/White-Paper39
-https://ripple.com/insights/ripple-to-place-55-billion-xrp-in-escrow-to-ensure-certainty-into-total-xrp-supply/40
-​http://zerocash-project.org/media/pdf/zerocash-extended-20140518.pdf
-
 Metronome contracts and technical aspects
 =========================================
 
 Four autonomous smart contracts comprise Metronome. The general flow is:
 
-1.  The first contract is the MTN token and ledger, interacting directly with the blockchain. This is how users settle peer-to- peer transactions, and it can be used as a distributed store of wealth. This is the familiar ERC20 token standard with ERC827 functionality for improved security and transfer.
+1.  The first contract is the MET token and ledger, interacting directly with the blockchain. This is how users settle peer-to- peer transactions, and it can be used as a distributed store of wealth. This is the familiar ERC20 token standard with custom functionality for improved security and transfer.
 
-2.  The token contract is followed by the Auctions contract. A user purchases MTN through the Auctions contract. When a user makes a purchase from the Auctions contract, the contract mints the MTN for the user.
+2.  The token contract is followed by the Auctions contract. A user purchases MET through the Auctions contract. When a user makes a purchase from the Auctions contract, the contract mints the MET for the user.
 
 3.  The Auctions contract then sends the proceeds to the third contract, the Proceeds Contract. 100% of the proceeds from the Initial Supply Auction and each Daily Supply Lot are sent from the Auctions contract to the Proceeds contract.
 
-4.  Every 24 hours, the Proceeds Contract sends 0.25% of its contents to the fourth contract -- the Autonomous Converter Contract -- providing it with available ETH. When a user sends ETH or MTN to the Autonomous Converter Contract, the contract returns MTN or ETH, respectively at the rate determined by the contract. Since the ratio of tokens in the Autonomous Converter Contract determines their relative value, we expect arbitrage to keep pricing approximately accurate. If the contract has too few MTN  (or ETH), that makes it expensive compared to its corresponding pair. A user who believes his or her MTN (or ETH) are not worth that much will tender his or her tokens in exchange for the other token. This can balance the contract's contents, correcting the relative price imbalance.
+4.  Every 24 hours, the Proceeds Contract sends 0.25% of its contents to the fourth contract -- the Autonomous Converter Contract -- providing it with available ETH. When a user sends ETH or MET to the Autonomous Converter Contract, the contract returns MET or ETH, respectively at the rate determined by the contract. Since the ratio of tokens in the Autonomous Converter Contract determines their relative value, we expect arbitrage to keep pricing approximately accurate. If the contract has too few MET  (or ETH), that makes it expensive compared to its corresponding pair. A user who believes his or her MET (or ETH) are not worth that much will tender his or her tokens in exchange for the other token. This can balance the contract's contents, correcting the relative price imbalance.
 
 Metronome Proceeds and Autonomous Converter Contracts
 =====================================================
 
-All proceeds from all auctions stay in the Metronome ecosystem, with the intent to build an enduring ecosystem for Metronome and its users. By ensuring all proceeds from the auctions stay on-chain in contracts --- and outside of the control of any group --- we believe Metronome may enjoy greater and more autonomous longevity.
+All proceeds from all auctions stay in the Metronome ecosystem, with the intent to build an enduring ecosystem for Metronome and its users. By ensuring all proceeds from the auctions stay on-chain in contracts?---?and outside of the control of any group?---?we believe Metronome may enjoy greater and more autonomous longevity.
 
-This flow starts with the Auctions contract, which is the contract purchasers interact with when purchasing MTN from an auction. Then, the Proceeds Contract receives the proceeds from the Auctions contract and exports a portion to the Autonomous Converter Contract, providing the Autonomous Converter Contract with ETH supply for purchase and sale. One MTN will be in the Autonomous Converter Contract at the time it is initialized.
+This flow starts with the Auctions contract, which is the contract purchasers interact with when purchasing MET from an auction. Then, the Proceeds Contract receives the proceeds from the Auctions contract and exports a portion to the Autonomous Converter Contract, providing the Autonomous Converter Contract with ETH supply for purchase and sale. One MET will be in the Autonomous Converter Contract at the time it is initialized.
 
 In the Initial Supply Auction and every subsequent Daily Supply Lot, 100% of the proceeds will go to the Proceeds Contract. None of the proceeds are ever distributed to Metronome authors. Each day, the Proceeds Contract will forward 0.25% of its total accumulated proceeds to the Autonomous Converter Contract. It is our expectation that this may smooth out the variance in daily auction volume, compared to just placing receipts in the Autonomous Converter Contract directly.
 
-When selling ETH to the Autonomous Converter Contract, the amount of MTN obtainable for a particular amount of ETH in the contract rises. If someone sells MTN to buy ETH, they will get more ETH back, and if someone wants to use the Autonomous Converter Contract to buy MTN, they will have to pay more ETH for it.
+When selling ETH to the Autonomous Converter Contract, the amount of MET obtainable for a particular amount of ETH in the contract rises. If someone sells MET to buy ETH, they will get more ETH back, and if someone wants to use the Autonomous Converter Contract to buy MET, they will have to pay more ETH for it.
 
-To the extent that the daily ETH selling in the Autonomous Converter Contract raises MTN value above what the market can support, we believe that arbitrage will capture the excess ETH. However, given that the predictability of Metronome is measured in decades-long timescales, we also expect the market to predict and price in the flow of ETH availability into the Autonomous Converter Contract.
+To the extent that the daily ETH selling in the Autonomous Converter Contract raises MET value above what the market can support, we believe that arbitrage will capture the excess ETH. However, given that the predictability of Metronome is measured in decades-long timescales, we also expect the market to predict and price in the flow of ETH availability into the Autonomous Converter Contract.
 
 ![Figure 7](img/figure-7.jpg)
 
@@ -521,13 +565,13 @@ Once a Daily Supply Lotsells out, excess demand could be met by selling to the A
 
 **The math**
 
-When the user transacts with the Autonomous Converter Contract, there is always price slippage, since users are throwing off the ratio between token supplies. Formulas determine all the prices, such that whether the user makes lots of tiny purchases or one big purchase, everything comes out the same.[^41]
+When the user transacts with the Autonomous Converter Contract, there is always price slippage, since users are throwing off the ratio between token supplies. Formulas determine all the prices, such that whether the user makes lots of tiny purchases or one big purchase, everything comes out the same.[^40]
 
-There are two formulas: one calculates how many smart tokens a user gets for MTN or ETH, the other determines how much MTN or ETH a user gets for smart tokens. Smart tokens are never exposed to the user.
+There are two formulas: one calculates how many smart tokens a user gets for MET or ETH, the other determines how much MET or ETH a user gets for smart tokens. Smart tokens are never exposed to the user.
 
 Building accurate and efficient "elementary functions" is a serious engineering task. New implementations are necessary since Ethereum has only 256-bit integers.
 
-By restricting the Autonomous Converter Contract to two cryptocurrencies -- MTN and ETH -- at reserve ratio 0.5, the math is simplified and only a square root is needed, which is simple to implement and reasonably efficient to run.
+By restricting the Autonomous Converter Contract to two cryptocurrencies -- MET and ETH -- at reserve ratio 0.5, the math is simplified and only a square root is needed, which is simple to implement and reasonably efficient to run.
 
 The math is as follows:
 
@@ -541,7 +585,7 @@ The math is as follows:
 
 *E* = Reserve tokens received in exchange for smart tokens T
 
-The original formulas are:[^42]
+The original formulas are:[^41]
 
 *T* = *S*((1 + $\frac{E}{R}$)${{}^{}}^{F} - 1$)
 
@@ -555,15 +599,15 @@ In our case, because F is set to 0.5, the formula can make do with fixed-point m
 
 **A worked example**
 
-Let's say the Autonomous Converter Contract has 1000 ETH and 2000 MTN, and there are 10000 smart tokens. The Autonomous Converter Contract's price for MTN is 0.50 ETH. A user believes this is on the high side and wishes to trade 100 MTN for ETH. At the current nominal price this would return 50 ETH, but actually the user will get less due to price slippage.
+Let's say the Autonomous Converter Contract has 1000 ETH and 2000 MET, and there are 10000 smart tokens. The Autonomous Converter Contract's price for MET is 0.50 ETH. A user believes this is on the high side and wishes to trade 100 MET for ETH. At the current nominal price this would return 50 ETH, but actually the user will get less due to price slippage.
 
-**Step one**: Trade 100 MTN for smart tokens.
+**Step one**: Trade 100 MET for smart tokens.
 
-T​=​S​(√1+ E/R )-1)
+T?=?S?(v1+ E/R )-1)
 
-T​ = 10000( √1 + 100/2000 ) - 1) = 10000( √1.05 - 1) = 10000(1.0247 - 1) = 10000(0.0247) = 247
+T? = 10000( v1 + 100/2000 ) - 1) = 10000( v1.05 - 1) = 10000(1.0247 - 1) = 10000(0.0247) = 247
 
-The user receives 247 newly-minted smart tokens. The total supply of smart tokens is now 10247. The total supply of MTN held in the Autonomous Converter Contract is now 2100.
+The user receives 247 newly-minted smart tokens. The total supply of smart tokens is now 10247. The total supply of MET held in the Autonomous Converter Contract is now 2100.
 
 **Step two**: Convert 247 smart tokens for ETH, this is fulfilled automatically by the contract, the user is never exposed to the smart tokens.
 
@@ -573,9 +617,9 @@ Assume that 1000 ETH so is the reserve supply for the formula:
 
 *E* = 1000(1 - (1 - $\frac{247}{10247}$)${}^{2}$) = 1000(1 - (1 - 0.0241)${}^{2}$) = 1000(1 - .976${}^{2}$) = 1000(1 - 0.953) = 1000(0.047) = 47
 
-The user receives 47 ETH for their 100 MTN.
+The user receives 47 ETH for their 100 MET.
 
-The contract now contains 953 ETH and 2100 MTN, or 0.45 ETH per MTN. By selling some MTN, the user has lowered the price of MTN in the Autonomous Converter Contract compared to ETH. He or she receives ETH approximately midway between the initial price and final price.
+The contract now contains 953 ETH and 2100 MET, or 0.45 ETH per MET. By selling some MET, the user has lowered the price of MET in the Autonomous Converter Contract compared to ETH. He or she receives ETH approximately midway between the initial price and final price.
 
 The 247 smart tokens are destroyed when they are traded in, lowering the smart token supply back to 10000.
 
@@ -600,15 +644,15 @@ Theory
 
 -   Initial supply: 10,000,000 tokens, via descending price auction
 
--   Supply after initial supply: an annual supply that is the greater of (i) 2,880 MTN per day, or (ii) 2.0000% of the then-outstanding supply per year
+-   Supply after initial supply: an annual supply that is the greater of (i) 2,880 MET per day, or (ii) 2.0000% of the then-outstanding supply per year
 
 -   Auction settles in near-real-time
 
-    -   Some economists suggest this discovers the best price for the auction, since everyone pays their price limit[^43]
+    -   Some economists suggest this discovers the best price for the auction, since everyone pays their price limit[^42]
 
 ### Supply schedule
 
-| Time | Circulating MTN | Mintage Rate | Daily Mintage |
+| Time | Circulating MET | Mintage Rate | Daily Mintage |
 |--|--|--|--|
 | T + 1 year | 11,051,200 | 10.512% | 2,880 |
 | T + 2 years | 12,102,400 | 9.512% | 2,880 |
@@ -628,13 +672,13 @@ Metronome Core
 
 ### Token API
 
-The token API used to query and transfer MTN tokens is the familiar ERC20 token standard.[^44] Metronome also aligns itself with the current best practice of using ERC827.[^45] ERC827 is the newer *superset* of ERC20, and is the latest standard with enhanced decentralized transfer and security. The improvement also makes it easy for the transfer to call any function on the receiving contract. ERC827 allows for data to be transferred as well as value, something that the ERC20 token standard cannot do alone. Metronome is proud to use the most cutting-edge technology available.
+The token API used to query and transfer MET tokens is the familiar ERC20 token standard.[^43] Metronome also utilizes custom functionalities to align itself with the latest standards in enhanced decentralized transfer and security. These improvements also makes it easy for the transfer to call any function on the receiving contract., allowing for data to be transferred as well as value, something that the ERC20 token standard cannot do alone. Metronome is proud to use the most cutting-edge technology available.
 
 **Standard ERC20**
 
 | const name |  Metronome |
 |--|--|
-| const symbol | MTN  |
+| const symbol | MET  |
 | const decimals         |  18  |
 | function totalSupply   |  ERC20-compliant; refer to ERC20 standard.  |
 | function balanceOf     |  ERC20-compliant; refer to ERC20 standard.  |
@@ -644,42 +688,6 @@ The token API used to query and transfer MTN tokens is the familiar ERC20 token 
 | function allowance     |  ERC20-compliant; refer to ERC20 standard.  |
 | event Transfer         |  ERC20-compliant; refer to ERC20 standard.  |
 | event Approval         |  ERC20-compliant; refer to ERC20 standard.  |
-
-
-
-**Custom ERC827-related functions**
-
-<table>
-<thead>
-<tr class="header">
-<th><p>function approveMore(address _spender, uint256 _value) public returns (bool)</p>
-<p>function approveLess(address _spender, uint256 _value) public returns (bool)</p></th>
-<th>These are safer versions of approve. They are not standard, but can be used by users who want to avoid the chance of a well-known race attack against the standard version when updating values.</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>function transfer(address _to, uint256 _value, bytes _data) public returns (bool);</td>
-<td>Extension of ERC20, which accepts extra data for function call.</td>
-</tr>
-<tr class="even">
-<td>function transferFrom(address _from, address _to, uint256 _value, bytes _data) public returns (bool);</td>
-<td>Extension of ERC20, which accepts extra data for function call.</td>
-</tr>
-<tr class="odd">
-<td>function approve(address _spender, uint256 _value, bytes _data) public returns (bool);</td>
-<td>Extension of ERC20, which accepts extra data for function call.</td>
-</tr>
-<tr class="even">
-<td>event Transfer(address indexed _from, address indexed _to, uint256 _value, bytes _data);</td>
-<td>Extension of ERC20, which accepts extra data for event call.</td>
-</tr>
-<tr class="odd">
-<td>event Approval(address indexed _owner, address indexed _spender, uint256 _value, bytes _data);</td>
-<td>Extension of ERC20, which accepts extra data for event call.</td>
-</tr>
-</tbody>
-</table>
 
 
 **Custom Token Function**
@@ -706,12 +714,12 @@ leftmost 160 bits are the address, and 96 bits to the right are the amount.</th>
 <td>Destroy will only be allowed by minter and tokenporter</td>
 </tr>
 <tr class="even">
-<td>function enableMTNTransfers() public returns (bool)</td>
-<td>This function will enable MTN transfer and it can be called successfully only after initial auction end.</td>
+<td>function enableMETTransfers() public returns (bool)</td>
+<td>This function will enable MET transfer and it can be called successfully only after initial auction end.</td>
 </tr>
 <tr class="odd">
 <td>function export(bytes8 _destChain, address _destMetronomeAddr, address _destRecipAddr, uint _amount, bytes _extraData) public returns (bool)</td>
-<td>Export MTN to another metronome supported chain.</td>
+<td>Export MET to another metronome supported chain.</td>
 </tr>
 </tbody>
 </table>
@@ -779,7 +787,7 @@ _owner is your subscriber</td>
 <thead>
 <tr class="header">
 <th>Function () payable</th>
-<th>Standard fallback function; send ETH, receive MTN tokens immediately</th>
+<th>Standard fallback function; send ETH, receive MET tokens immediately</th>
 </tr>
 </thead>
 <tbody>
@@ -808,7 +816,7 @@ _owner is your subscriber</td>
 <td>Returns the auction instance for given auction tick, t</td>
 </tr>
 <tr class="odd">
-<td>function heartbeat() public view returns (bytes8 chain,address auctionAddr,address convertAddr,address tokenAddr,uint minting,uint totalMTN,uint proceedsBal,uint currTick, uint currAuction,uint nextAuctionGMT,uint genesisGMT,uint currentAuctionPrice,uint dailyMintable,uint _lastPurchasePrice)</td>
+<td>function heartbeat() public view returns (bytes8 chain,address auctionAddr,address convertAddr,address tokenAddr,uint minting,uint totalMET,uint proceedsBal,uint currTick, uint currAuction,uint nextAuctionGMT,uint genesisGMT,uint currentAuctionPrice,uint dailyMintable,uint _lastPurchasePrice)</td>
 <td>Returns statistics on the current auction</td>
 </tr>
 <tr class="even">
@@ -833,7 +841,7 @@ _owner is your subscriber</td>
 </tr>
 <tr class="odd">
 <td>function globalDailySupply() public view returns (uint)</td>
-<td>Total available MTN Token for current daily auction</td>
+<td>Total available MET Token for current daily auction</td>
 </tr>
 <tr class="even">
 <td>function currentPrice() public constant returns (uint weiPerToken)</td>
@@ -877,7 +885,7 @@ Metronome Autonomous Converter Contract
 </tr>
 <tr class="even">
 <td>function getMtnBalance() public view returns (uint)</td>
-<td>Shows MTN balance in contract</td>
+<td>Shows MET balance in contract</td>
 </tr>
 <tr class="odd">
 <td>function getEthBalance() public view returns (uint)</td>
@@ -885,25 +893,25 @@ Metronome Autonomous Converter Contract
 </tr>
 <tr class="even">
 <td>function convertEthToMtn(uint _mintReturn) public payable returns (uint returnedMtn)</td>
-<td>Change ETH to MTN. Throw if the returned MTN
+<td>Change ETH to MET. Throw if the returned MET
 would be less than minReturn. Return the amount of
-MTN.</td>
+MET.</td>
 </tr>
 <tr class="odd">
 <td>function convertMtnToEth(uint _amount, uint _mintReturn) public returns (uint returnedEth)</td>
-<td>Change MTN to ETH. Throw if the returned ETH
+<td>Change MET to ETH. Throw if the returned ETH
 would be less than minReturn. Return the amount of ETH. Caller will first need to Approve AC to make a
 transfer.</td>
 </tr>
 <tr class="even">
 <td>function getMtnForEthResult(uint _depositAmount) public view returns (uint256)</td>
-<td>Return how much MTN the user would get for the
+<td>Return how much MET the user would get for the
 given _depositAmount which is in ETH.</td>
 </tr>
 <tr class="odd">
 <td>function getEthForMtnResult(uint _depositAmount) public view returns (uint256)</td>
 <td>Return how much ETH the user would get for the
-given _depositAmount which is in MTN</td>
+given _depositAmount which is in MET</td>
 </tr>
 <tr class="even">
 <td>event LogFundsIn(address indexed from, uint value)</td>
@@ -911,11 +919,11 @@ given _depositAmount which is in MTN</td>
 </tr>
 <tr class="odd">
 <td>event ConvertEthToMtn(address indexed from, uint eth, uint met)</td>
-<td>Emitted when conversion from ETH to MTN happens.</td>
+<td>Emitted when conversion from ETH to MET happens.</td>
 </tr>
 <tr class="even">
 <td>event ConvertMtnToEth(address indexed from, uint eth, uint met)</td>
-<td>Emitted when conversion from MTN to ETH happens.</td>
+<td>Emitted when conversion from MET to ETH happens.</td>
 </tr>
 </tbody>
 </table>
@@ -949,15 +957,15 @@ TokenPorter
 Glossary of Contract Terms
 ==========================
 
--   **Autonomous Converter Contract** The smart contract, allowing people to trade MTN with ETH or ETH to MTN.
+-   **Autonomous Converter Contract** The smart contract, allowing people to trade MET with ETH or ETH to MET.
 
 -   **Autonomous Proceeds Provider** The Metronome Proceeds Contract and  Autonomous Converter Contract.
 
 -   **Constants** Holds a few common constants like DECIMALS.
 
--   **Daily Supply Lot** The descending price auction that adds newly  minted MTN into the ecosystem daily.
+-   **Daily Supply Lot** The descending price auction that adds newly  minted MET into the ecosystem daily.
 
--   **EVM** Stands for Ethereum Virtual Machine.[^46]
+-   **EVM** Stands for Ethereum Virtual Machine.[^44]
 
 -   **Fixed\_Math** Implements fixed-point arithmetic, including add,  subtract, multiply, divide, square, square root. Will include  overflow protections. For binary functions it assumes that both inputs have the same number of decimal places.
 
@@ -967,13 +975,13 @@ Glossary of Contract Terms
 
 -   **Migrations** Part of Truffle's migrations capability.
 
--   **ReserveToken** Implements MTN. Gives the Autonomous Converter  Contract the right to move tokens around (in response to trading events).
+-   **ReserveToken** Implements MET. Gives the Autonomous Converter  Contract the right to move tokens around (in response to trading events).
 
 -   **Proceeds Contract** Accepts ETH from Metronome, forwards 0.25% of its balance to the Autonomous Converter Contract every 24 hours.
 
--   **Smart Token** The token issued by Autonomous Converter Contract  that acts as an intermediary when changing between MTN and ETH (and vice versa) via the Autonomous Converter Contract. This process is automated and is not exposed to the user.
+-   **Smart Token** The token issued by Autonomous Converter Contract  that acts as an intermediary when changing between MET and ETH (and vice versa) via the Autonomous Converter Contract. This process is automated and is not exposed to the user.
 
--   **Token** The MTN token purchased by purchasers.
+-   **Token** The MET token purchased by purchasers.
 
 APPENDIX A
 ==========
@@ -982,10 +990,10 @@ ACKNOWLEDGMENTS AND DISCLAIMERS
 
 BY PURCHASING, OWNING, AND/OR USING METRONOME TOKENS YOU EXPRESSLY ACKNOWLEDGE AND ASSUME THE FOLLOWING RISKS.
 
-1.  **[Purchaser Acknowledgments]**. As a purchaser  ("Purchaser" or "you") of Metronome tokens ("MTN"), you acknowledge as follows:
+1.  **[Purchaser Acknowledgments]**. As a purchaser  ("Purchaser" or "you") of Metronome tokens ("MET"), you acknowledge as follows:
 
-    a.  MTN are [not] structured or sold as securities or
-        any other form of investment product. MTN have not been
+    a.  MET are [not] structured or sold as securities or
+        any other form of investment product. MET have not been
         registered with the United States Securities and Exchange
         Commission under the Securities Act of 1933, as amended, or
         under any State securities act, or under any similar laws in any
@@ -994,11 +1002,11 @@ BY PURCHASING, OWNING, AND/OR USING METRONOME TOKENS YOU EXPRESSLY ACKNOWLEDGE A
         information presented in the Owner's Manual is intended to form
         the basis for any investment decision, and no specific
         recommendations are intended. The use, sale, or other
-        disposition of MTN is restricted as stated in the Owner's
-        Manual. By acquiring MTN, Purchaser represents that it will
+        disposition of MET is restricted as stated in the Owner's
+        Manual. By acquiring MET, Purchaser represents that it will
         comply with all requirements of the Owner's Manual and any laws
         promulgated by any jurisdiction including U.S. federal, state,
-        or local laws. The creators of MTN expressly disclaim any and
+        or local laws. The creators of MET expressly disclaim any and
         all responsibility for any direct or consequential loss or
         damage of any kind whatsoever arising directly or indirectly
         from: (i) reliance on any information contained in the Owner's
@@ -1013,56 +1021,56 @@ BY PURCHASING, OWNING, AND/OR USING METRONOME TOKENS YOU EXPRESSLY ACKNOWLEDGE A
         liability under the SFA in relation to the content of
         prospectuses would not apply;
 
-    c.  You will not use MTN or Metronome to create a product regulated
+    c.  You will not use MET or Metronome to create a product regulated
         by the U.S. Commodity Futures Trading Commission, including
         creating futures contracts, swaps, or retail commodity
-        transactions. You also acknowledge that the purchase of MTN is
+        transactions. You also acknowledge that the purchase of MET is
         not intended to be, and is not marketed as, any form of option
         or swap transaction;
 
     d.  You understand the technical and business matters relating to
         cryptographic tokens, token storage mechanisms (such as token
-        wallets), and blockchain technology to understand MTN and to
+        wallets), and blockchain technology to understand MET and to
         appreciate the risks and implications of using, purchasing
-        and/or disposing of MTN;
+        and/or disposing of MET;
 
-    e.  You have obtained sufficient information about MTN to make an
-        informed decision to purchase MTN and are not relying on any
+    e.  You have obtained sufficient information about MET to make an
+        informed decision to purchase MET and are not relying on any
         information other than that provided in the Owner's Manual in
-        making the decision to purchase MTN;
+        making the decision to purchase MET;
 
-    f.  You understand that MTN confers only the right to use MTN as
-        contemplated in the Owner's Manual. MTN confers no other rights
+    f.  You understand that MET confers only the right to use MET as
+        contemplated in the Owner's Manual. MET confers no other rights
         of any form, including, but not limited to, any entity
         ownership, distribution, redemption, liquidation, proprietary
         (including any form of intellectual property), or financial or
         legal rights;
 
-    g.  You are purchasing MTN solely for the purpose of using MTN as
+    g.  You are purchasing MET solely for the purpose of using MET as
         contemplated in the Owner's Manual, being aware of the
-        commercial risks associated with MTN. You are not purchasing MTN
+        commercial risks associated with MET. You are not purchasing MET
         for any other purposes, including, but not limited to, any
         investment, speculative, or financial purpose;
 
-    h.  Your purchase of MTN complies with applicable laws and
+    h.  Your purchase of MET complies with applicable laws and
         regulations in your jurisdiction, including, but not limited
         to, (i) legal capacity and any requirement or restriction on the
-        purchase of MTN, (ii) any foreign exchange or regulatory
+        purchase of MET, (ii) any foreign exchange or regulatory
         restrictions applicable to such purchase, and (iii) any
         governmental or other consents that may need to be obtained;
 
     i.  You are solely responsible for any applicable tax obligations
-        arising from your purchase or use of MTN;
+        arising from your purchase or use of MET;
 
-    j.  If you are purchasing MTN on behalf of an entity, you are
+    j.  If you are purchasing MET on behalf of an entity, you are
         authorized to agree to these Acknowledgments and Disclaimers on
         such entity's behalf;
 
     k.  You are not (i) a citizen or resident of a geographic area in
-        which the acceptance of delivery of MTN is prohibited by
+        which the acceptance of delivery of MET is prohibited by
         applicable law, decree, regulation, treaty, or administrative
         act, (ii) a citizen or resident of, or located in, a geographic
-        area that is subject to United Nations, European Union, U.S. or other sovereign country
+        area that is subject to U.S. or other sovereign country
         sanctions or embargoes, or (iii) an individual, or an individual
         employed by or associated with an entity, identified on the U.S.
         Department of Commerce's Denied Persons or Entity List, the U.S.
@@ -1073,157 +1081,155 @@ BY PURCHASING, OWNING, AND/OR USING METRONOME TOKENS YOU EXPRESSLY ACKNOWLEDGE A
         regulations or restrictions to any of the foregoing. You agree
         that if your country of residence or other circumstances change
         such that the above acknowledgments are no longer accurate, you
-        will immediately cease using MTN;
+        will immediately cease using MET;
 
-    l.  The value of MTN will depend on whether it is accepted as a
+    l.  The value of MET will depend on whether it is accepted as a
         cryptocurrency and the extent it is utilized for the payment of
         goods and services. Inadequate demand may make it difficult to
-        utilize MTN for the payment of goods and services, which would
-        tend to diminish the value of MTN. Likewise, if MTN is not
+        utilize MET for the payment of goods and services, which would
+        tend to diminish the value of MET. Likewise, if MET is not
         adopted generally the value could also diminish. Moreover, in
         the near term there remains a substantial regulatory risk
         related to oversight of cryptocurrencies and token sales that
-        could significantly reduce the value of MTN;
+        could significantly reduce the value of MET;
 
-    m.  The value of MTN should depend primarily on the prevailing value
-        of using MTN as a cryptocurrency for the payment of goods and
+    m.  The value of MET should depend primarily on the prevailing value
+        of using MET as a cryptocurrency for the payment of goods and
         services;
 
-    n.  The price of MTN should fluctuate in response to competitive and
+    n.  The price of MET should fluctuate in response to competitive and
         market conditions affecting the general supply of and demand for
-        MTN as a cryptocurrency. These conditions are beyond the control
-        of any particular party or of MTN holders. The value of MTN when
+        MET as a cryptocurrency. These conditions are beyond the control
+        of any particular party or of MET holders. The value of MET when
         it is used or exchanged may be lower than the price at which it
         was purchased;
 
-    o.  The release of new MTN on a regular automated and independent
-        basis is intended to help stabilize the price of MTN around its
+    o.  The release of new MET on a regular automated and independent
+        basis is intended to help stabilize the price of MET around its
         intrinsic value for services in the Metronome ecosystem, but
-        there can be no assurance that such release of MTN will succeed
-        in doing so. The Metronome authors do not intend to take any
-        actions to support or limit the price of MTN, and may purchase
-        and sell MTN for their own account at any price;
+        there can be no assurance that such release of MET, and may purchase
+        and sell MET for their own account at any price;
 
-    p.  The sale of MTN does not limit in any respect the power of any
+    p.  The sale of MET does not limit in any respect the power of any
         Metronome author to participate in other projects, operate other
-        networks or issue other tokens that may compete with MTN;
+        networks or issue other tokens that may compete with MET;
 
     q.  No promises of future performance or value are or will be made
-        with respect to MTN, including no promise of inherent value, no
-        promise of continuing payments, and no guarantee that MTN will
+        with respect to MET, including no promise of inherent value, no
+        promise of continuing payments, and no guarantee that MET will
         hold any particular value; and
 
     r.  There are no conditions as to how the Metronome authors may use
-        proceeds from the sale of their own MTN.
+        proceeds from the sale of their own MET.
 
 2.  **[Acknowledgment of Certain Risks]**. You acknowledge
-    that the following risks exist with respect to MTN and agree that
+    that the following risks exist with respect to MET and agree that
     you are expressly assuming these risks:
 
-    s.  ***Autonomous Nature of MTN***. MTN operates autonomously,
+    s.  ***Autonomous Nature of MET***. MET operates autonomously,
         without any ability of any party to influence or control the
-        operation of MTN. The autonomous nature of MTN may create risks
+        operation of MET. The autonomous nature of MET may create risks
         in the future, including risks that were not foreseeable at the
-        time of launch of MTN or your purchase.
+        time of launch of MET or your purchase.
 
-    t.  ***Risk of Losing Access to MTN Due to Loss of Private Key(s),
+    t.  ***Risk of Losing Access to MET Due to Loss of Private Key(s),
         Custodial Error or Purchaser Error.*** A private key, or a
         combination of private keys, is necessary to control and dispose
-        of MTN stored in your digital wallet or vault. Accordingly, loss
+        of MET stored in your digital wallet or vault. Accordingly, loss
         of requisite private key(s) associated with the digital wallet
-        or vault storing MTN will result in loss of such MTN. Moreover,
+        or vault storing MET will result in loss of such MET. Moreover,
         any third party that gains access to such private key(s),
         including by gaining access to login credentials of a hosted
-        wallet service you use, may be able to misappropriate MTN. Any
+        wallet service you use, may be able to misappropriate MET. Any
         errors or malfunctions caused by or otherwise related to the
-        digital wallet or vault you choose to receive and store MTN,
+        digital wallet or vault you choose to receive and store MET,
         including your own failure to properly maintain or use such
-        digital wallet or vault, may also result in the loss of MTN.
+        digital wallet or vault, may also result in the loss of MET.
         Additionally, your failure to follow precisely the procedures
-        set forth for buying and receiving MTN, including, for instance,
-        if you provide the wrong address, may result in the loss of MTN.
+        set forth for buying and receiving MET, including, for instance,
+        if you provide the wrong address, may result in the loss of MET.
 
     u.  ***Risks Associated with the Blockchain Protocols.*** Any
         malfunction, breakdown or abandonment of the blockchain
-        protocols on which MTN operates may have a material adverse
-        effect on MTN. Moreover, advances in cryptography, or technical
-        advances, could present risks to MTN, by rendering ineffective
+        protocols on which MET operates may have a material adverse
+        effect on MET. Moreover, advances in cryptography, or technical
+        advances, could present risks to MET, by rendering ineffective
         the cryptographic consensus mechanism that underpins the
         blockchain protocols.
 
-    v.  ***Risk of Mining Attacks.*** MTN is susceptible to attacks by
-        miners in the course of validating MTN transactions on the
+    v.  ***Risk of Mining Attacks.*** MET is susceptible to attacks by
+        miners in the course of validating MET transactions on the
         blockchain, including, but not limited, to double-spend attacks,
         majority mining power attacks, selective delay or censorship of
         transactions, and selfish-mining attacks. Any successful attacks
-        present a risk to MTN, including, but not limited to, accurate
-        execution and recording of transactions involving MTN.
+        present a risk to MET, including, but not limited to, accurate
+        execution and recording of transactions involving MET.
 
     w.  ***Risk of Hacking and Security Weaknesses.*** Hackers or other
         malicious groups or organizations may attempt to interfere with
-        MTN in a variety of ways, including, but not limited to, malware
+        MET in a variety of ways, including, but not limited to, malware
         attacks, denial of service attacks, consensus-based attacks,
-        Sybil attacks, smurfing and spoofing. Furthermore, because MTN
+        Sybil attacks, smurfing and spoofing. Furthermore, because MET
         is based on open-source software, there is a risk that a third
         party may intentionally or unintentionally introduce weaknesses
-        into the core infrastructure of a new MTN implementation, which
-        could negatively affect MTN. Hackers or other malicious groups
+        into the core infrastructure of a new MET implementation, which
+        could negatively affect MET. Hackers or other malicious groups
         or organizations may also attempt to get access to private keys
         or other access credentials in a wallet, vault, or other storage
-        mechanism used to receive and hold MTN.
+        mechanism used to receive and hold MET.
 
-    x.  ***Risks Associated with Markets for MTN.*** If secondary
-        trading of MTN is facilitated by third party exchanges, such
+    x.  ***Risks Associated with Markets for MET.*** If secondary
+        trading of MET is facilitated by third party exchanges, such
         exchanges may be relatively new and subject to little or no
         regulatory oversight, making them more susceptible to fraud or
         manipulation. Furthermore, to the extent that third-parties do
-        ascribe an external exchange value to MTN (e.g., as denominated
+        ascribe an external exchange value to MET (e.g., as denominated
         in a digital or fiat currency), such value may be extremely
         volatile and diminish to zero.
 
     y.  ***Risk of Uninsured Losses.*** Unlike certain bank accounts or
-        accounts at some other financial institutions, MTN is uninsured.
+        accounts at some other financial institutions, MET is uninsured.
         Thus, in the event of loss or loss of utility value, there is no
         public insurer or private insurance to offer you recourse.
 
     z.  ***Risks Associated with Uncertain Regulations and Enforcement
-        Actions.*** The regulatory status of MTN and distributed ledger
+        Actions.*** The regulatory status of MET and distributed ledger
         technology is unclear or unsettled in many jurisdictions. It is
         difficult to predict how or whether regulatory agencies may
         apply existing regulation with respect to such technology and
-        its applications, including MTN. It is likewise difficult to
+        its applications, including MET. It is likewise difficult to
         predict how or whether legislatures or regulatory agencies may
         implement changes to law and regulation affecting distributed
-        ledger technology and its applications, including MTN.
-        Regulatory actions could negatively impact MTN in various ways,
+        ledger technology and its applications, including MET.
+        Regulatory actions could negatively impact MET in various ways,
         including, for purposes of illustration only, through a
-        determination that the purchase, sale and delivery of MTN
-        constitutes unlawful activity or that MTN is a regulated
+        determination that the purchase, sale and delivery of MET
+        constitutes unlawful activity or that MET is a regulated
         instrument that requires registration or licensing of those
         instruments or some or all of the parties involved in the
         purchase, sale and delivery thereof.
 
     a.  ***Risks Arising from Taxation.*** The tax characterization of
-        MTN is uncertain and may result in adverse tax consequences,
+        MET is uncertain and may result in adverse tax consequences,
         including withholding taxes, income taxes and tax reporting
         requirements. You must seek your own tax advice in connection
-        with MTN.
+        with MET.
 
-    b.  ***Technology Risks.*** MTN represents a new capability on
+    b.  ***Technology Risks.*** MET represents a new capability on
         emerging technology that is not fully proven in use. As the
         technology matures, new capabilities may dramatically alter the
-        usefulness of MTN or the ability to use or sell them.
+        usefulness of MET or the ability to use or sell them.
 
     c.  ***Unanticipated Risks.*** In addition to the risks included in
         this Appendix, there are other risks associated with the
-        purchase, possession, and use of MTN, including unanticipated
+        purchase, possession, and use of MET, including unanticipated
         risks. Such risks may further materialize as unanticipated
         variations or combinations of the risks discussed in this
         Appendix.
 
 <!-- -->
 
-1.  **[DISCLAIMER]**. EACH MTN IS SOLD ON AN "AS IS" AND "AS AVAILABLE" BASIS WITHOUT WARRANTIES OF ANY KIND FROM ANY PARTY,    INCLUDING, WITHOUT LIMITATION, IMPLIED WARRANTIES OF    MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE OR    NON-INFRINGEMENT.
+1.  **[DISCLAIMER]**. EACH MET IS SOLD ON AN "AS IS" AND "AS AVAILABLE" BASIS WITHOUT WARRANTIES OF ANY KIND FROM ANY PARTY,    INCLUDING, WITHOUT LIMITATION, IMPLIED WARRANTIES OF    MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE OR    NON-INFRINGEMENT.
 
 [^1]: https://medium.com/\@jgarzik/bitcoin-is-being-hot-wired-for-settlement-a5beb1df223a
 
@@ -1254,71 +1260,67 @@ BY PURCHASING, OWNING, AND/OR USING METRONOME TOKENS YOU EXPRESSLY ACKNOWLEDGE A
 
 [^14]: [[https://medium.com/\@MetronomeToken/self-governance-as-a-design-goal-fc06afd61dd5]](https://medium.com/@MetronomeToken/self-governance-as-a-design-goal-fc06afd61dd5)
 
-[^15]: [[https://github.com/ethereum/EIPs/issues/827]](https://github.com/ethereum/EIPs/issues/827)
-
-[^16]: Sources: coinmarketcap, coinbase, blockchain.info, Federal
+[^15]: Sources: coinmarketcap, coinbase, blockchain.info, Federal
     Reserve Bank of St Louis
 
-[^17]: [[http://onlinelibrary.wiley.com/doi/10.3982/TE502/pdf]](http://onlinelibrary.wiley.com/doi/10.3982/TE502/pdf)
+[^16]: [[http://onlinelibrary.wiley.com/doi/10.3982/TE502/pdf]](http://onlinelibrary.wiley.com/doi/10.3982/TE502/pdf)
 
-[^18]: Mishra, Debasis, and David C. Parkes. "Multi-Item Vickrey-Dutch
+[^17]: Mishra, Debasis, and David C. Parkes. "Multi-Item Vickrey-Dutch
     Auctions." Games and Economic Behavior, vol. 66, no. 1, 2009, pp.
     326--347., doi:10.1016/j.geb.2008.04.007.
 
-[^19]: [[https://en.bitcoin.it/wiki/Protocol\_documentation\#Merkle\_Trees]](https://en.bitcoin.it/wiki/Protocol_documentation#Merkle_Trees)
+[^18]: [[https://en.bitcoin.it/wiki/Protocol\_documentation\#Merkle\_Trees]](https://en.bitcoin.it/wiki/Protocol_documentation#Merkle_Trees)
 
-[^20]: Sources: coinmarketcap.com, coinbase, blockchain.info
+[^19]: Sources: coinmarketcap.com, coinbase, blockchain.info
 
-[^21]: [[https://bitcoin.org/bitcoin.pdf]](https://bitcoin.org/bitcoin.pdf)
+[^20]: [[https://bitcoin.org/bitcoin.pdf]](https://bitcoin.org/bitcoin.pdf)
 
-[^22]: [[https://bitcointalk.org/index.php?topic=108964.0]](https://bitcointalk.org/index.php?topic=108964.0)
+[^21]: [[https://bitcointalk.org/index.php?topic=108964.0]](https://bitcointalk.org/index.php?topic=108964.0)
 
-[^23]: Kroll, Joshua A, et al. "The Economics of Bitcoin Mining or,
+[^22]: Kroll, Joshua A, et al. "The Economics of Bitcoin Mining or,
     Bitcoin in the Presence of Adversaries."
     [[http://www.thebitcoin.fr/wp-content/uploads/2014/01/The-Economics-of-Bitcoin-Mining-or-Bitcoin-in-the-Presence-of-Adversaries.pdf]](http://www.thebitcoin.fr/wp-content/uploads/2014/01/The-Economics-of-Bitcoin-Mining-or-Bitcoin-in-the-Presence-of-Adversaries.pdf)
 
-[^24]: [[https://www.brightscope.com/financial-planning/advice/article/8491/Asked-Answered-Zero-Inflation/]](https://www.brightscope.com/financial-planning/advice/article/8491/Asked-Answered-Zero-Inflation/)
+[^23]: [[https://www.brightscope.com/financial-planning/advice/article/8491/Asked-Answered-Zero-Inflation/]](https://www.brightscope.com/financial-planning/advice/article/8491/Asked-Answered-Zero-Inflation/)
 
-[^25]: Sources: coinmarketcap.com, coinbase, blockchain.info
+[^24]: Sources: coinmarketcap.com, coinbase, blockchain.info
 
-[^26]: [[https://bitcointalk.org/index.php?topic=47417.0]](https://bitcointalk.org/index.php?topic=47417.0)
+[^25]: [[https://bitcointalk.org/index.php?topic=47417.0]](https://bitcointalk.org/index.php?topic=47417.0)
 
-[^27]: [[https://z.cash/blog/founders-reward-transfers.html]](https://z.cash/blog/founders-reward-transfers.html)
+[^26]: [[https://z.cash/blog/founders-reward-transfers.html]](https://z.cash/blog/founders-reward-transfers.html)
 
-[^28]: [[https://z.cash/blog/funding.html]](https://z.cash/blog/funding.html)
+[^27]: [[https://z.cash/blog/funding.html]](https://z.cash/blog/funding.html)
 
-[^29]: [[https://z.cash/blog/founders-reward-transfers.html]](https://z.cash/blog/founders-reward-transfers.html)
+[^28]: [[https://z.cash/blog/founders-reward-transfers.html]](https://z.cash/blog/founders-reward-transfers.html)
 
-[^30]: [[https://github.com/ethereum/wiki/wiki/White-Paper]](https://github.com/ethereum/wiki/wiki/White-Paper)
+[^29]: [[https://github.com/ethereum/wiki/wiki/White-Paper]](https://github.com/ethereum/wiki/wiki/White-Paper)
 
-[^31]: [[https://blog.ethereum.org/2014/08/08/ether-sale-a-statistical-overview/]](https://blog.ethereum.org/2014/08/08/ether-sale-a-statistical-overview/)
+[^30]: [[https://blog.ethereum.org/2014/08/08/ether-sale-a-statistical-overview/]](https://blog.ethereum.org/2014/08/08/ether-sale-a-statistical-overview/)
 
-[^32]: [[https://twitter.com/VitalikButerin/status/879675471532654595]](https://twitter.com/VitalikButerin/status/879675471532654595)
+[^31]: [[https://twitter.com/VitalikButerin/status/879675471532654595]](https://twitter.com/VitalikButerin/status/879675471532654595)
 
-[^33]: [[https://github.com/ethereum/wiki/wiki/Proof-of-Stake-FAQ]](https://github.com/ethereum/wiki/wiki/Proof-of-Stake-FAQ)
+[^32]: [[https://github.com/ethereum/wiki/wiki/Proof-of-Stake-FAQ]](https://github.com/ethereum/wiki/wiki/Proof-of-Stake-FAQ)
 
-[^34]: [[https://coinmarketcap.com/currencies/ripple/]](https://coinmarketcap.com/currencies/ripple/)
+[^33]: [[https://coinmarketcap.com/currencies/ripple/]](https://coinmarketcap.com/currencies/ripple/)
 
-[^35]: [[https://ripple.com/insights/ripple-to-place-55-billion-xrp-in-escrow-to-ensure-certainty-into-total-xrp-supply/]](https://ripple.com/insights/ripple-to-place-55-billion-xrp-in-escrow-to-ensure-certainty-into-total-xrp-supply/)
+[^34]: [[https://ripple.com/insights/ripple-to-place-55-billion-xrp-in-escrow-to-ensure-certainty-into-total-xrp-supply/]](https://ripple.com/insights/ripple-to-place-55-billion-xrp-in-escrow-to-ensure-certainty-into-total-xrp-supply/)
 
-[^36]: [[https://bitcoin.org/bitcoin.pdf]](https://bitcoin.org/bitcoin.pdf)
+[^35]: [[https://bitcoin.org/bitcoin.pdf]](https://bitcoin.org/bitcoin.pdf)
 
-[^37]: [[https://bitcointalk.org/index.php?topic=47417.0]](https://bitcointalk.org/index.php?topic=47417.0)
+[^36]: [[https://bitcointalk.org/index.php?topic=47417.0]](https://bitcointalk.org/index.php?topic=47417.0)
 
-[^38]: [[https://github.com/ethereum/wiki/wiki/White-Paper]](https://github.com/ethereum/wiki/wiki/White-Paper)
+[^37]: [[https://github.com/ethereum/wiki/wiki/White-Paper]](https://github.com/ethereum/wiki/wiki/White-Paper)
 
-[^39]: [[https://ripple.com/insights/ripple-to-place-55-billion-xrp-in-escrow-to-ensure-certainty-into-total-xrp-supply/]](https://ripple.com/insights/ripple-to-place-55-billion-xrp-in-escrow-to-ensure-certainty-into-total-xrp-supply/)
+[^38]: [[https://ripple.com/insights/ripple-to-place-55-billion-xrp-in-escrow-to-ensure-certainty-into-total-xrp-supply/]](https://ripple.com/insights/ripple-to-place-55-billion-xrp-in-escrow-to-ensure-certainty-into-total-xrp-supply/)
 
-[^40]: [[http://zerocash-project.org/media/pdf/zerocash-extended-20140518.pdf]](http://zerocash-project.org/media/pdf/zerocash-extended-20140518.pdf)
+[^39]: [[http://zerocash-project.org/media/pdf/zerocash-extended-20140518.pdf]](http://zerocash-project.org/media/pdf/zerocash-extended-20140518.pdf)
 
-[^41]: [[https://drive.google.com/file/d/0B3HPNP-GDn7aRkVaV3dkVl9NS2M/view]](https://drive.google.com/file/d/0B3HPNP-GDn7aRkVaV3dkVl9NS2M/view)
+[^40]: [[https://drive.google.com/file/d/0B3HPNP-GDn7aRkVaV3dkVl9NS2M/view]](https://drive.google.com/file/d/0B3HPNP-GDn7aRkVaV3dkVl9NS2M/view)
 
-[^42]: [[https://www.bancor.network/static/bancor\_protocol\_whitepaper\_en.pdf]](https://www.bancor.network/static/bancor_protocol_whitepaper_en.pdf)
+[^41]: [[https://www.bancor.network/static/bancor\_protocol\_whitepaper\_en.pdf]](https://www.bancor.network/static/bancor_protocol_whitepaper_en.pdf)
 
-[^43]: [[http://onlinelibrary.wiley.com/doi/10.3982/TE502/pdf]](http://onlinelibrary.wiley.com/doi/10.3982/TE502/pdf)
+[^42]: [[http://onlinelibrary.wiley.com/doi/10.3982/TE502/pdf]](http://onlinelibrary.wiley.com/doi/10.3982/TE502/pdf)
 
-[^44]: [[https://theethereum.wiki/w/index.php/ERC20\_Token\_Standard]](https://github.com/ethereumEIPs/blob/master/EIPS/eip-20-token-standard.md)
+[^43]: [[https://theethereum.wiki/w/index.php/ERC20\_Token\_Standard]](https://github.com/ethereumEIPs/blob/master/EIPS/eip-20-token-standard.md)
 
-[^45]: [[https://github.com/ethereum/EIPs/issues/827]](https://github.com/ethereum/EIPs/issues/827)
-
-[^46]: [[http://ethdocs.org/en/latest/introduction/what-is-ethereum.html]](http://ethdocs.org/en/latest/introduction/what-is-ethereum.html)
+[^44]: [[http://ethdocs.org/en/latest/introduction/what-is-ethereum.html]](http://ethdocs.org/en/latest/introduction/what-is-ethereum.html)
