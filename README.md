@@ -1,7 +1,7 @@
-# Documentation
-> Metronome Token Documentation
+# Metronome Cryptocurrency Documentation
 
 ## Index
 
-1. [FAQ](https://github.com/MetronomeToken/documentation/blob/master/FAQ.md)
-1. [Be Good](https://github.com/MetronomeToken/documentation/blob/master/BeGood.md)
+1. [FAQ](FAQ.md)
+1. [Be Good](BeGood.md)
+1. [Owner's Manual](owners_manual/owners_manual.md)

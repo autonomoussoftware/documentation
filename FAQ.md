@@ -14,31 +14,31 @@
     1. [Is there a pre-sale?](#is-there-a-pre-sale)
     1. [How do I participate in Metronome's initial auction?](#how-do-i-participate-in-metronomes-initial-auction)
     1. [Contract Address TBD](#contract-address-tbd)
-    1. [Is there a minimum or maximum number of MTN tokens I can buy during the Initial Supply Auction?](#is-there-a-minimum-or-maximum-number-of-mtn-tokens-i-can-buy-during-the-initial-supply-auction)
-    1. [What if I try to buy MTN after the auctions have sold out?](#What-if-i-try-to-buy-mtn-after-the-auctions-have-sold-out)
-    1. [Is there a minimum or maximum number of MTN tokens I can buy during the Daily Supply Lots?](#is-there-a-minimum-or-maximum-number-of-mtn-tokens-i-can-buy-during-the-daily-supply-lots)
+    1. [Is there a minimum or maximum number of MET tokens I can buy during the Initial Supply Auction?](#is-there-a-minimum-or-maximum-number-of-mtn-tokens-i-can-buy-during-the-initial-supply-auction)
+    1. [What if I try to buy MET after the auctions have sold out?](#What-if-i-try-to-buy-mtn-after-the-auctions-have-sold-out)
+    1. [Is there a minimum or maximum number of MET tokens I can buy during the Daily Supply Lots?](#is-there-a-minimum-or-maximum-number-of-mtn-tokens-i-can-buy-during-the-daily-supply-lots)
     1. [ How does new Metronome enter the ecosystem?](#how-does-new-metronome-enter-the-ecosystem)
     1. [How soon will the daily auctions begin once the initial supply auction finishes?](#how-soon-will-the-daily-auctions-begin-once-the-initial-supply-auction-finishes)
-    1. [Who gets the proceeds of the MTN auctions?](#who-gets-the-proceeds-of-the-mtn-auctions)
+    1. [Who gets the proceeds of the MET auctions?](#who-gets-the-proceeds-of-the-mtn-auctions)
     1. [What prevents a large hash-power miner (or pool of miners) from dominating purchases?](#what-prevents-a-large-hash-power-miner-or-pool-of-miners-from-dominating-purchases)
 
 1. [How Metronome Works](#how-metronome-works)
     1. [ What components comprise Metronome?](#what-components-make-up-metronome)
-    1. [What blockchains are MTN compatible with?](#what-blockchains-are-mtn-compatible-with)
+    1. [What blockchains are MET compatible with?](#what-blockchains-are-mtn-compatible-with)
     1. [Has the smart contract that collects ETH been professionally audited for security issues](#has-the-smart-contract-that-collects-eth-been-professionally-audited-for-security-issues)
-    1. [What risks are involved with MTN?](#what-risks-are-involved-with-mtn)
+    1. [What risks are involved with MET?](#what-risks-are-involved-with-mtn)
 
 1. [Metronome and Its Authors](#metronome-and-its-authors)
     1. [Why did Metronome Authors create Metronome?](#why-did-metronome-authors-create-metronome)
     1. [Why is the token called "Metronome"?](#why-is-the-token-called-metronome)
     1. [ Will there be a lock-up in tokens retained by Bloq?](#will-there-be-a-lock-up-in-tokens-retained-by-bloq)
-    1. [ Will Metronome authors govern MTN?](#will-metronome-authors-govern-mtn)
+    1. [ Will Metronome authors govern MET?](#will-metronome-authors-govern-mtn)
 
 ## About Metronome
 
 ### What is Metronome?
 
-Metronome (“Metronome” or “MTN”) is a new cryptocurrency designed to bring institutional-class endurance to the cryptocurrency category through:
+Metronome (“Metronome” or “MET”) is a new cryptocurrency designed to bring institutional-class endurance to the cryptocurrency category through:
 
 *   **Self-governance** - Metronome is designed to function indefinitely without management by a particular group or individual, even its authors.
 *   **Reliability** - The system is architected for steady and predictable token supply via descending price auctions.
@@ -46,14 +46,13 @@ Metronome (“Metronome” or “MTN”) is a new cryptocurrency designed to bri
 
 ### What can Metronome do that other cryptocurrencies cannot do?
 
-We expect that MTN will act as a store of value that is decentralized across blockchains. Since MTN will be capable of being exported and imported across chains, it will empower users to move MTN for whatever reason they desire. Other cryptocurrencies cannot do this.
+We expect that MET will act as a store of value that is decentralized across blockchains. Since MET will be capable of being exported and imported across chains, it will empower users to move MET for whatever reason they desire. Other cryptocurrencies cannot do this.
 
-Cross-chain export and import of MTN will provide the ability to migrate from one blockchain to another in the event of a failure.
+Cross-chain export and import of MET will provide the ability to migrate from one blockchain to another in the event of a failure.
 
-MTN also allows for subscriptions, or recurring payments on the blockchain that are automatic. This is something cryptocurrencies have struggled with, until now—MTN users can schedule repeat payments easily.
+MET also allows for subscriptions, or recurring payments on the blockchain that are automatic. This is something cryptocurrencies have struggled with, until now—MET users can schedule repeat payments easily.
 
-Additionally, MTN uses the latest superset of ERC20, ERC827, for enhanced security and transfer. While ERC20 tokens can only transfer value, cryptocurrency using the ERC827 token standard (like Metronome) can transfer value and data in transactions. MTN will still use the familiar and pressure-tested ERC20, but extend its utility and security with ERC827.
-
+Additionally, MET uses custom funcationality for enhanced security and transfer. 
 
 ### What can Metronome be used for?
 
@@ -64,33 +63,33 @@ Some possible use cases include, but are not limited to:
 *   Decentralized store of value across blockchains
 *   Advanced payment settlement:
     *   Mass Pay — allowing users to send tokens to multiple addresses with one action. While mass pay is a well-known and used feature on the Bitcoin network, it is lacking on the Ethereum network.
-    *   Subscriptions — allowing users to set up recurring payments between themselves and other parties. Subscription is a payment feature unique to Metronome. Users can set up recurring payments between themselves and other parties by authorizing that party to take a certain amount of MTN from a wallet on a recurring, periodic basis.
+    *   Subscriptions — allowing users to set up recurring payments between themselves and other parties. Subscription is a payment feature unique to Metronome. Users can set up recurring payments between themselves and other parties by authorizing that party to take a certain amount of MET from a wallet on a recurring, periodic basis.
 
 A unique Metronome payments feature is subscription. Users can set up recurring payments between themselves and other parties by authorizing that party to take a certain amount from a wallet on a weekly basis.
 
 
 ### Where can I read the full Metronome Owner's Manual?
 
-The owner's manual is available [here](https://www.metronome.io/pdf/owners_manual.pdf).
+The owner's manual is available [here](https://github.com/autonomoussoftware/documentation/blob/master/owners_manual/owners_manual.md).
 
 
 ### How will Metronome be launched?
 
 There will be two phases, both of which will rely on the descending price auction ("DPA”) pricing mechanism:
 
-*   **The Initial Supply Auction**, serving as the official launch of Metronome, where 10,000,000 MTN tokens will be issued and made available
-*   **The Daily Supply Auction**, The Daily Supply Auction, where new tokens are added to the auction ad infinitum, at the rate that is the greater of (i) 2,880 MTN per day, or (ii) an annual rate equal to 2.0000% of the then-outstanding supply per year.
+*   **The Initial Supply Auction**, serving as the official launch of Metronome, where 10,000,000 MET tokens will be issued and made available
+*   **The Daily Supply Auction**, The Daily Supply Auction, where new tokens are added to the auction ad infinitum, at the rate that is the greater of (i) 2,880 MET per day, or (ii) an annual rate equal to 2.0000% of the then-outstanding supply per year.
 
 
 ## Initial and Daily Supply Auctions
 
 ### How will the Metronome token sale take place?
 
-The Initial Supply Auction serves as the official launch of Metronome. 8,000,000 MTN tokens (10 million, less the 20% one-time author retention) will be made available to the public with a descending price auction. The price per MTN will begin at a maximum price of 2 ETH per MTN and floor price of 0.0000033 ETH. As time progresses and MTN remains available, the auction price will decline linearly until the auction ends or all MTN are sold. Metronome employs DPAs to establish predictable and transparent pricing for the MTN being issued by the contract.
+The Initial Supply Auction serves as the official launch of Metronome. 8,000,000 MET tokens (10 million, less the 20% one-time author retention) will be made available to the public with a descending price auction. The price per MET will begin at a maximum price of 2 ETH per MET and floor price of 0.0000033 ETH. As time progresses and MET remains available, the auction price will decline linearly until the auction ends or all MET are sold. Metronome employs DPAs to establish predictable and transparent pricing for the MET being issued by the contract.
 
 ### When will the Metronome initial supply auction start?
 
-The Initial Supply Auction is targeted to launch in May, 2018. Once started, it will last up to 7 days or until all MTN in the initial supply are sold as described above. The team will announce 10 days prior to the confirmed date to allow everyone to make arrangements for participation.
+June 18, 2018, at Midnight UTC. 
 
 ### Is there a pre-sale?
 
@@ -102,7 +101,7 @@ The Initial Supply Auction is targeted to launch in May, 2018. Once started, it 
 
 ### How do I participate in Metronome's initial auction?
 
-To participate in Metronome’s Initial Supply Auction (and, every day thereafter, the Daily Supply Lots) you will need access to an ERC20-compatible Ethereum wallet where you hold the private keys and sufficient ETH to purchase MTN. Do not use wallets provided by exchanges. Be sure to use enough gas when sending your ETH. If you do not use enough gas, your transaction will be rejected and you will have to send your ETH again.
+To participate in Metronome’s Initial Supply Auction (and, every day thereafter, the Daily Supply Lots) you will need access to an ERC20-compatible Ethereum wallet where you hold the private keys and sufficient ETH to purchase MET. Do not use wallets provided by exchanges. Be sure to use enough gas when sending your ETH. If you do not use enough gas, your transaction will be rejected and you will have to send your ETH again.
 
 Ethereum can be purchased from cryptocurrency exchanges. Again, make sure that once you purchase your ETH, you transfer it into an ERC20-compatible Ethereum wallet where you hold the private keys.
 
@@ -112,18 +111,18 @@ Once you have sufficient ETH in an ERC20-compatible Ethereum wallet, you may par
 [Contract Address TBD]
 
 
-You should receive your MTN almost immediately following receipt of your ETH by the Metronome smart contracts. Metronome purchased during the Initial Supply Auction will become transferrable following the close of the Initial Supply Auction. Metronome purchased during the Daily Supply Lots will be transferable immediately following receipt.
+You should receive your MET almost immediately following receipt of your ETH by the Metronome smart contracts. Metronome purchased during the Initial Supply Auction will become transferrable following the close of the Initial Supply Auction. Metronome purchased during the Daily Supply Lots will be transferable immediately following receipt.
 
 
 ### How does new Metronome enter the ecosystem?
 
-Following the initial auction, MTN is added to MTN’s Daily Supply Lots (“DSL”) every 24 hours, at the rate that is the greater of (i) 2,880 MTN per day, or (ii) an annual rate equal to 2.0000% of the then-outstanding supply per year. Newly-minted MTN from the DSL enters the ecosystem via a DPA. All tokens in the DSL start at a maximum price set by the contract at the previous auction’s last price (the price of the last Metronome sold if the auction sells out, or the final price in a given auction should an auction lot still have supply) multiplied by two. In the event a DSL does not sell a single Metronome, the starting price of the following auction will be 1/100th of the last price a Metronome was purchased at a DSL auction. Every 60 seconds, the price of MTN remaining in the DSL is reduced to 99% of its previous price. After some time, we expect the price of remaining tokens will become low enough for the DSL to sell out. The absolute floor price on any Daily Supply Lots auction is 1 Wei, to prevent the price from hitting zero-- which would make setting the following auction’s initial price impossible.
+Following the initial auction, MET is added to MET’s Daily Supply Lots (“DSL”) every 24 hours, at the rate that is the greater of (i) 2,880 MET per day, or (ii) an annual rate equal to 2.0000% of the then-outstanding supply per year. Newly-minted MET from the DSL enters the ecosystem via a DPA. All tokens in the DSL start at a maximum price set by the contract at the previous auction’s last price (the price of the last Metronome sold if the auction sells out, or the final price in a given auction should an auction lot still have supply) multiplied by two. In the event a DSL does not sell a single Metronome, the starting price of the following auction will be 1/100th of the last price a Metronome was purchased at a DSL auction. Every 60 seconds, the price of MET remaining in the DSL is reduced to 99% of its previous price. After some time, we expect the price of remaining tokens will become low enough for the DSL to sell out. The absolute floor price on any Daily Supply Lots auction is 1 Wei, to prevent the price from hitting zero-- which would make setting the following auction’s initial price impossible.
 
-In the event that there are unsold MTN at the end of the daily auction, those tokens will be held over and added to the next DSL. For example, if 1,000 MTN went unsold, the next DSL would introduce the scheduled 2,880 MTN plus the remaining 1,000 MTN from the previous day.
+In the event that there are unsold MET at the end of the daily auction, those tokens will be held over and added to the next DSL. For example, if 1,000 MET went unsold, the next DSL would introduce the scheduled 2,880 MET plus the remaining 1,000 MET from the previous day.
 
-We expect that the mintage rate for approximately the first 40 years will be 2,880 MTN per day. After approximately 40 years, the mintage rate will increase as shown below.
+We expect that the mintage rate for approximately the first 40 years will be 2,880 MET per day. After approximately 40 years, the mintage rate will increase as shown below.
 
-| Time | Circulating MTN (End of Year) | Mintage rate (End of Year) | Daily supply lot |
+| Time | Circulating MET (End of Year) | Mintage rate (End of Year) | Daily supply lot |
 | ------------ | -----------: | ------: | ------: |
 | T + 1 Year   | 11,051,200   | 10.512% | 2,880   |
 | T + 5 Years  | 15,258,880   | 7.399%  | 2,880   |
@@ -152,33 +151,33 @@ Miners can potentially front-run a non-miner transaction—but they must also (a
 
 Metronome is comprised of four fully-autonomous and cooperative smart contracts.
 
-*   Metronome Ledger ERC20 (with ERC827 superset)
+*   Metronome Ledger ERC20
     *   This is the token’s smart contract ledger and dictates how the token behaves
-    *   ERC827 super set is the latest standard with enhanced decentralized transfer and security
+    *   Custom functionality for enhanced decentralized transfer and security
 *   Auctions Contract
     *   This smart contract interacts with the ledger contract above and operates the descending price auctions
     *   Sets the rules for the initial supply auction and the daily supply lot
     *   Sends ETH from the Auctions Contract to the Proceeds Contract
 *   Autonomous Proceeds Provider (two contracts)
-    *   Automatically provides supply between MTN and ETH
+    *   Automatically provides supply between MET and ETH
     *   Comprised of two smart contracts
         *   Proceeds Contract
             *   Supports supply by holding 100% of the DSL and transferring 0.25% of the total accumulated balance to Autonomous Converter Contract every day
         *   Autonomous Converter Contract
-            *   Allows users to sell their MTN for ETH or ETH for MTN
+            *   Allows users to sell their MET for ETH or ETH for MET
             *   Price determined by contents of contract at time of sale
 
 
-### What blockchains are MTN compatible with?
+### What blockchains are MET compatible with?
 
-Metronome will be initially issued on Ethereum with Ethereum Classic, Rootstock, and Qtum support expected to follow. As the community continues developing MTN, it may be compatible with even more blockchains.
+Metronome will be initially issued on Ethereum with Ethereum Classic, Rootstock, and Qtum support expected to follow. As the community continues developing MET, it may be compatible with even more blockchains.
 
 ### Has the smart contract that collects ETH been professionally audited for security issues?
 
 The smart contract has been audited by three independent consultants: Zeppelin Solutions, Coinspect, and Gustav Simonsson.
 
 
-### What risks are involved with MTN?
+### What risks are involved with MET?
 
 Though the Metronome code has been thoroughly audited by multiple independent parties, there are always some potential risks, as with any cryptocurrency. These potential risks include, among other risks:
 
@@ -199,12 +198,12 @@ We believe the cryptocurrency is stable, predictable, and constant. Our innovati
 
 ### Will there be a lock-up in tokens retained by Metronome Authors?
 
-Metronome’s authors will receive 20% of the initial MTN supply as a one-time author’s retention. 25% of this will be available upon the closing of the initial supply auction. The remaining 75% is released quarterly over 12 quarters.
+Metronome’s authors will receive 20% of the initial MET supply as a one-time author’s retention. 25% of this will be available upon the closing of the initial supply auction. The remaining 75% is released quarterly over 12 quarters.
 
-100% of ETH proceeds from the auction will remain in the Metronome ecosystem. Metronome authors can buy and sell their own MTN at their discretion.  Following the launch of the initial auction, the Metronome ecosystem is entirely in the hands of the smart contracts and the community.
+100% of ETH proceeds from the auction will remain in the Metronome ecosystem. Metronome authors can buy and sell their own MET at their discretion.  Following the launch of the initial auction, the Metronome ecosystem is entirely in the hands of the smart contracts and the community.
 
-By accepting the author’s retention in MTN, Metronome authors have an incentive to remain active with the ecosystem community.
+By accepting the author’s retention in MET, Metronome authors have an incentive to remain active with the ecosystem community.
 
-### Will Metronome authors govern MTN?
+### Will Metronome authors govern MET?
 
-No. Metronome will be governed by its smart contracts and users. Metronome authors plan on remaining active within the community of users and developers by continuing to grow the ecosystem with MTN-enabled and compatible products. However, after its launch, authors will have no more control over MTN than any other member of the MTN community.
+No. Metronome will be governed by its smart contracts and users. Metronome authors plan on remaining active within the community of users and developers by continuing to grow the ecosystem with MET-enabled and compatible products. However, after its launch, authors will have no more control over MET than any other member of the MET community.
