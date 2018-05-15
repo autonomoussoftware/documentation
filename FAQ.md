@@ -89,7 +89,7 @@ The Initial Supply Auction serves as the official launch of Metronome. 8,000,000
 
 ### When will the Metronome initial supply auction start?
 
-The Initial Supply Auction is targeted to launch in May, 2018. Once started, it will last up to 7 days or until all MET in the initial supply are sold as described above. The team will announce 10 days prior to the confirmed date to allow everyone to make arrangements for participation.
+June 18, 2018, at Midnight UTC. 
 
 ### Is there a pre-sale?
 
