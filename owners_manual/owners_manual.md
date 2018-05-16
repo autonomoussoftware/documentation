@@ -1,6 +1,6 @@
 ![Metronome](img/logo.png)
 
-Version 0.98 (Last Updated 05.08.2018)
+Version 0.985 (Last Updated 05.15.2018)
 
 **Notes:**
 
