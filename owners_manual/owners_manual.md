@@ -1,6 +1,6 @@
 ![Metronome](img/logo.png)
 
-Version 0.9855 (Last Updated 05.21.2018)
+Version 0.9855 (Last Updated 05.22.2018)
 
 **Notes:**
 
@@ -518,6 +518,7 @@ Metronome takes the lessons learned from these digital currencies and the result
 | **Settlement time** | 10 minutes | 2.5 minutes | 15 seconds | 5 seconds | 2.5 minutes | 15 seconds |
 | **Mass Pay feature** | yes | yes | no | no | yes | **yes** |
 | **Subscription feature** | no | no | no | no | no | **yes** |
+
 *Table 1: Comparison of important attributes between today's
 cryptocurrencies*
 
