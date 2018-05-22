@@ -1,6 +1,6 @@
 ![Metronome](img/logo.png)
 
-Version 0.985 (Last Updated 05.15.2018)
+Version 0.9855 (Last Updated 05.21.2018)
 
 **Notes:**
 
@@ -306,7 +306,7 @@ Since Bitcoin, other cryptocurrencies---both similar and dissimilar---have been 
 Descending price auctions
 -------------------------
 
-Currently, most new cryptocurrencies offer their initial disbursements with traditional sales. These sales may includ  bonuses, early purchaser pricing, and other incentives to encourage purchasers to buy all of their supply. While these incentives can help, they do not guarantee a sell-out and can tend toward asymmetrical public access. This model does not work for a cryptocurrency with longevity as its main goal. The Metronome team chose to use a different method, aiming to avoid this pattern.
+Currently, most new cryptocurrencies offer their initial disbursements with traditional sales. These sales may include  bonuses, early purchaser pricing, and other incentives to encourage purchasers to buy all of their supply. While these incentives can help, they do not guarantee a sell-out and can tend toward asymmetrical public access. This model does not work for a cryptocurrency with longevity as its main goal. The Metronome team chose to use a different method, aiming to avoid this pattern.
 
 The Metronome team decided to employ a descending price auction as its model for its Initial Supply Auction and Daily Supply Lots, which may provide interesting opportunities and a fairer distribution of MET. With a descending price auction, the price begins at a high initial price. As the auction proceeds, the price is reduced until all units are sold, or a pre-set price floor is reached, or the auction time limit is reached and the auction ends. We believe market price discovery is rapid and fair, as each purchaser pays what it thinks is fair at the time of purchase.[^16] Should a purchaser deem a given price too high or unfair, they can wait for the price to descend to a level they agree with and purchase then -- provided there is supply left.
 
@@ -1231,96 +1231,93 @@ BY PURCHASING, OWNING, AND/OR USING METRONOME TOKENS YOU EXPRESSLY ACKNOWLEDGE A
 
 1.  **[DISCLAIMER]**. EACH MET IS SOLD ON AN "AS IS" AND "AS AVAILABLE" BASIS WITHOUT WARRANTIES OF ANY KIND FROM ANY PARTY,    INCLUDING, WITHOUT LIMITATION, IMPLIED WARRANTIES OF    MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE OR    NON-INFRINGEMENT.
 
-[^1]: https://medium.com/\@jgarzik/bitcoin-is-being-hot-wired-for-settlement-a5beb1df223a
+[^1]: <https://medium.com/\@jgarzik/bitcoin-is-being-hot-wired-for-settlement-a5beb1df223a>
 
-[^2]: [[https://bitcoin.org/bitcoin.pdf]](https://bitcoin.org/bitcoin.pdf)
+[^2]: <https://bitcoin.org/bitcoin.pdf>
 
-[^3]: https://bitcointalk.org/index.php?topic=47417.0
+[^3]: <https://bitcointalk.org/index.php?topic=47417.0>
 
-[^4]: https://www.economist.com/blogs/freeexchange/2014/04/money
+[^4]: <https://www.economist.com/blogs/freeexchange/2014/04/money>
 
-[^5]: https://econjwatch.org/file\_download/139/2007-01-hummel-com.pdf?mimetype=pdf
+[^5]: <https://econjwatch.org/file\_download/139/2007-01-hummel-com.pdf?mimetype=pdf>
 
-[^6]: https://econjwatch.org/file\_download/139/2007-01-hummel-com.pdf?mimetype=pdf
+[^6]: <https://econjwatch.org/file\_download/139/2007-01-hummel-com.pdf?mimetype=pdf>
 
 [^7]: Tsiang, S.C., Journal of Money, Credit and Banking, I(1969), pp.
     266--80 \"A Critical Note on the Optimum Supply of Money\"
 
-[^8]: [[https://medium.com/\@MetronomeToken/on-metronome-author-retention-and-contract-behavior-73dad8f16494]](https://medium.com/@MetronomeToken/on-metronome-author-retention-and-contract-behavior-73dad8f16494)
+[^8]: <https://medium.com/\@MetronomeToken/on-metronome-author-retention-and-contract-behavior-73dad8f16494>
 
-[^9]: [[https://medium.com/\@MetronomeToken/proceeds-for-the-community-not-the-authors-d41874d4d41f]](https://medium.com/@MetronomeToken/proceeds-for-the-community-not-the-authors-d41874d4d41f)
+[^9]: <https://medium.com/\@MetronomeToken/proceeds-for-the-community-not-the-authors-d41874d4d41f>
 
-[^10]: [[http://onlinelibrary.wiley.com/doi/10.3982/TE502/pdf]](http://onlinelibrary.wiley.com/doi/10.3982/TE502/pdf)
+[^10]: <http://onlinelibrary.wiley.com/doi/10.3982/TE502/pdf]](http://onlinelibrary.wiley.com/doi/10.3982/TE502/pdf>
 
-[^11]: [[http://markets.businessinsider.com/news/stocks/Etherparty-Pre-sale-Sells-Out-Receives-Over-25MPublic-ICO-sale-launches-Oct-1-1002374859]](http://markets.businessinsider.com/news/stocks/Etherparty-Pre-sale-Sells-Out-Receives-Over-25MPublic-ICO-sale-launches-Oct-1-1002374859)
+[^11]: <http://markets.businessinsider.com/news/stocks/Etherparty-Pre-sale-Sells-Out-Receives-Over-25MPublic-ICO-sale-launches-Oct-1-1002374859>
 
-[^12]: [[https://medium.com/\@MetronomeToken/what-is-a-descending-price-auction-8c0770bb6a71]](https://medium.com/@MetronomeToken/what-is-a-descending-price-auction-8c0770bb6a71)
+[^12]: <https://medium.com/\@MetronomeToken/what-is-a-descending-price-auction-8c0770bb6a71>
 
 [^13]: <https://medium.com/@MetronomeToken/fairness-as-a-first-order-variable-8012a5c22ed1>
 
-[^14]: [[https://medium.com/\@MetronomeToken/self-governance-as-a-design-goal-fc06afd61dd5]](https://medium.com/@MetronomeToken/self-governance-as-a-design-goal-fc06afd61dd5)
+[^14]: <https://medium.com/\@MetronomeToken/self-governance-as-a-design-goal-fc06afd61dd5>
 
-[^15]: Sources: coinmarketcap, coinbase, blockchain.info, Federal
-    Reserve Bank of St Louis
+[^15]: Sources: coinmarketcap, coinbase, blockchain.info, Federal Reserve Bank of St Louis
 
-[^16]: [[http://onlinelibrary.wiley.com/doi/10.3982/TE502/pdf]](http://onlinelibrary.wiley.com/doi/10.3982/TE502/pdf)
+[^16]: <http://onlinelibrary.wiley.com/doi/10.3982/TE502/pdf>
 
 [^17]: Mishra, Debasis, and David C. Parkes. "Multi-Item Vickrey-Dutch
     Auctions." Games and Economic Behavior, vol. 66, no. 1, 2009, pp.
     326--347., doi:10.1016/j.geb.2008.04.007.
 
-[^18]: [[https://en.bitcoin.it/wiki/Protocol\_documentation\#Merkle\_Trees]](https://en.bitcoin.it/wiki/Protocol_documentation#Merkle_Trees)
+[^18]: <https://en.bitcoin.it/wiki/Protocol\_documentation\#Merkle\_Trees>
 
 [^19]: Sources: coinmarketcap.com, coinbase, blockchain.info
 
-[^20]: [[https://bitcoin.org/bitcoin.pdf]](https://bitcoin.org/bitcoin.pdf)
+[^20]: <https://bitcoin.org/bitcoin.pdf]](https://bitcoin.org/bitcoin.pdf>
 
-[^21]: [[https://bitcointalk.org/index.php?topic=108964.0]](https://bitcointalk.org/index.php?topic=108964.0)
+[^21]: <https://bitcointalk.org/index.php?topic=108964.0>
 
-[^22]: Kroll, Joshua A, et al. "The Economics of Bitcoin Mining or,
-    Bitcoin in the Presence of Adversaries."
-    [[http://www.thebitcoin.fr/wp-content/uploads/2014/01/The-Economics-of-Bitcoin-Mining-or-Bitcoin-in-the-Presence-of-Adversaries.pdf]](http://www.thebitcoin.fr/wp-content/uploads/2014/01/The-Economics-of-Bitcoin-Mining-or-Bitcoin-in-the-Presence-of-Adversaries.pdf)
+[^22]: <http://www.thebitcoin.fr/wp-content/uploads/2014/01/The-Economics-of-Bitcoin-Mining-or-Bitcoin-in-the-Presence-of-Adversaries.pdf>
 
 [^23]: [[https://www.brightscope.com/financial-planning/advice/article/8491/Asked-Answered-Zero-Inflation/]](https://www.brightscope.com/financial-planning/advice/article/8491/Asked-Answered-Zero-Inflation/)
 
 [^24]: Sources: coinmarketcap.com, coinbase, blockchain.info
 
-[^25]: [[https://bitcointalk.org/index.php?topic=47417.0]](https://bitcointalk.org/index.php?topic=47417.0)
+[^25]: <https://bitcointalk.org/index.php?topic=47417.0>
 
-[^26]: [[https://z.cash/blog/founders-reward-transfers.html]](https://z.cash/blog/founders-reward-transfers.html)
+[^26]: <https://z.cash/blog/founders-reward-transfers.html>
 
-[^27]: [[https://z.cash/blog/funding.html]](https://z.cash/blog/funding.html)
+[^27]: <https://z.cash/blog/funding.html>
 
-[^28]: [[https://z.cash/blog/founders-reward-transfers.html]](https://z.cash/blog/founders-reward-transfers.html)
+[^28]: <https://z.cash/blog/founders-reward-transfers.html>
 
-[^29]: [[https://github.com/ethereum/wiki/wiki/White-Paper]](https://github.com/ethereum/wiki/wiki/White-Paper)
+[^29]: <https://github.com/ethereum/wiki/wiki/White-Paper>
 
-[^30]: [[https://blog.ethereum.org/2014/08/08/ether-sale-a-statistical-overview/]](https://blog.ethereum.org/2014/08/08/ether-sale-a-statistical-overview/)
+[^30]: <https://blog.ethereum.org/2014/08/08/ether-sale-a-statistical-overview>
 
-[^31]: [[https://twitter.com/VitalikButerin/status/879675471532654595]](https://twitter.com/VitalikButerin/status/879675471532654595)
+[^31]: <https://twitter.com/VitalikButerin/status/879675471532654595>
 
-[^32]: [[https://github.com/ethereum/wiki/wiki/Proof-of-Stake-FAQ]](https://github.com/ethereum/wiki/wiki/Proof-of-Stake-FAQ)
+[^32]: <https://github.com/ethereum/wiki/wiki/Proof-of-Stake-FAQ>
 
-[^33]: [[https://coinmarketcap.com/currencies/ripple/]](https://coinmarketcap.com/currencies/ripple/)
+[^33]: <https://coinmarketcap.com/currencies/ripple/>
 
-[^34]: [[https://ripple.com/insights/ripple-to-place-55-billion-xrp-in-escrow-to-ensure-certainty-into-total-xrp-supply/]](https://ripple.com/insights/ripple-to-place-55-billion-xrp-in-escrow-to-ensure-certainty-into-total-xrp-supply/)
+[^34]: <https://ripple.com/insights/ripple-to-place-55-billion-xrp-in-escrow-to-ensure-certainty-into-total-xrp-supply/>
 
-[^35]: [[https://bitcoin.org/bitcoin.pdf]](https://bitcoin.org/bitcoin.pdf)
+[^35]: <https://bitcoin.org/bitcoin.pdf>
 
-[^36]: [[https://bitcointalk.org/index.php?topic=47417.0]](https://bitcointalk.org/index.php?topic=47417.0)
+[^36]: <https://bitcointalk.org/index.php?topic=47417.0>
 
-[^37]: [[https://github.com/ethereum/wiki/wiki/White-Paper]](https://github.com/ethereum/wiki/wiki/White-Paper)
+[^37]: <https://github.com/ethereum/wiki/wiki/White-Paper>
 
-[^38]: [[https://ripple.com/insights/ripple-to-place-55-billion-xrp-in-escrow-to-ensure-certainty-into-total-xrp-supply/]](https://ripple.com/insights/ripple-to-place-55-billion-xrp-in-escrow-to-ensure-certainty-into-total-xrp-supply/)
+[^38]: <https://ripple.com/insights/ripple-to-place-55-billion-xrp-in-escrow-to-ensure-certainty-into-total-xrp-supply/>
 
-[^39]: [[http://zerocash-project.org/media/pdf/zerocash-extended-20140518.pdf]](http://zerocash-project.org/media/pdf/zerocash-extended-20140518.pdf)
+[^39]: <http://zerocash-project.org/media/pdf/zerocash-extended-20140518.pdf>
 
-[^40]: [[https://drive.google.com/file/d/0B3HPNP-GDn7aRkVaV3dkVl9NS2M/view]](https://drive.google.com/file/d/0B3HPNP-GDn7aRkVaV3dkVl9NS2M/view)
+[^40]: <https://drive.google.com/file/d/0B3HPNP-GDn7aRkVaV3dkVl9NS2M/view>
 
-[^41]: [[https://www.bancor.network/static/bancor\_protocol\_whitepaper\_en.pdf]](https://www.bancor.network/static/bancor_protocol_whitepaper_en.pdf)
+[^41]: <https://www.bancor.network/static/bancor\_protocol\_whitepaper\_en.pdf>
 
-[^42]: [[http://onlinelibrary.wiley.com/doi/10.3982/TE502/pdf]](http://onlinelibrary.wiley.com/doi/10.3982/TE502/pdf)
+[^42]: <http://onlinelibrary.wiley.com/doi/10.3982/TE502/pdf>
 
-[^43]: [[https://theethereum.wiki/w/index.php/ERC20\_Token\_Standard]](https://github.com/ethereumEIPs/blob/master/EIPS/eip-20-token-standard.md)
+[^43]: <https://theethereum.wiki/w/index.php/ERC20\_Token\_Standard>
 
-[^44]: [[http://ethdocs.org/en/latest/introduction/what-is-ethereum.html]](http://ethdocs.org/en/latest/introduction/what-is-ethereum.html)
+[^44]: <http://ethdocs.org/en/latest/introduction/what-is-ethereum.html>
