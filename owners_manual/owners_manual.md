@@ -508,7 +508,7 @@ Metronome takes the lessons learned from these digital currencies and the result
 
 
 |  | BTC[^35] | LTC[^36] | ETH[^37] | XRP[^38] | ZEC[^39] | MET |
-|--|--|--|--|--|--|--|--|
+|--|--|--|--|--|--|--|
 | **Reliability** | BTC is famous for its contentious forks and deflationary nature. Token supply and issuance is stable, but finite. | Like BTC, LTC’s issuance and token supply is subject to a hard cap, which may threaten chain stability | ETH’s issuance and token supply model is in flux. It has forked in the past. | XRP has a stable supply. It is fully governed by Ripple Inc. | Similar to BTC, ZEC is subject to a hard cap which may call into question the security of the chain in the future. | **MET issuance and supply will remain predictable ad infinitum as defined by its contracts. There is no uncertainty about supply or issuance.** |
 | **Self- Governance** | BTC is self governed, but has many groups looking to exert undue influence. | LTC is self governed, but customary deference to its icons. | Changes to ETH need community support, but much reliance upon a small team. | XRP is not self governing. Ripple Inc retains sole power of governance over XRP. | The Zcash Foundation is natural locus of voluntary governance. | **MET is entirely self governed through autonomous contracts.** |
 | **Portability** | no | no | no | no | no | **yes** |
