@@ -1,6 +1,6 @@
 ![Metronome](img/logo.png)
 
-Version 0.9855 (Last Updated 05.22.2018)
+Version 0.986 (Last Updated 05.23.2018)
 
 **Notes:**
 
@@ -1071,7 +1071,7 @@ BY PURCHASING, OWNING, AND/OR USING METRONOME TOKENS YOU EXPRESSLY ACKNOWLEDGE A
         which the acceptance of delivery of MET is prohibited by
         applicable law, decree, regulation, treaty, or administrative
         act, (ii) a citizen or resident of, or located in, a geographic
-        area that is subject to U.S. or other sovereign country
+        area that is subject to United Nations, European Union, U.S. or other sovereign country
         sanctions or embargoes, or (iii) an individual, or an individual
         employed by or associated with an entity, identified on the U.S.
         Department of Commerce's Denied Persons or Entity List, the U.S.
