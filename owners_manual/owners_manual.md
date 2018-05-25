@@ -1,6 +1,6 @@
 ![Metronome](img/logo.png)
 
-Version 0.9855 (Last Updated 05.22.2018)
+Version 0.9855 (Last Updated 05.23.2018)
 
 **Notes:**
 
@@ -160,10 +160,10 @@ In the development of Metronome, the Metronome authors aspire to take the lesson
 
 -   Taking cryptocurrency to the next level\... literally
 
-**Economically engineering something to last **
+**Economically engineering something to last**
 
-Some cryptocurrencies\' mintage is either static or goes to zero over time -- like Bitcoin[^1]^,^[^2] and Litecoin[^3] -- raising questions with economists about their long term viability.[^4]^,^[^5]^,^ Other cryptocurrencies' token supply is hand-stitched together in pre-ICO deals that award certain parties a vast amount of supply, resulting in those parties controlling the majority of tokens. Some cryptocurrencies sell out to certain parties in a pre-sale or private sale, leaving very little to the general public. Metronome attempts to fix those problems
-with daily auctions that provide an on-going token supply mintage, ad infinitum. An on-going token supply mintage is theorized to provide sustainability versus other cryptocurrencies whose mintage either is or goes to zero.[^6]^,^[^7] The Metronome team expects that this will also encourage MET holders to use the many payment features of Metronome. Utilizing those use cases, actually using it as a currency, may help
+Some cryptocurrencies\' mintage is either static or goes to zero over time -- like Bitcoin[^1],[^2] and Litecoin[^3] -- raising questions with economists about their long term viability.[^4],[^5], Other cryptocurrencies' token supply is hand-stitched together in pre-ICO deals that award certain parties a vast amount of supply, resulting in those parties controlling the majority of tokens. Some cryptocurrencies sell out to certain parties in a pre-sale or private sale, leaving very little to the general public. Metronome attempts to fix those problems
+with daily auctions that provide an on-going token supply mintage, ad infinitum. An on-going token supply mintage is theorized to provide sustainability versus other cryptocurrencies whose mintage either is or goes to zero.[^6],[^7] The Metronome team expects that this will also encourage MET holders to use the many payment features of Metronome. Utilizing those use cases, actually using it as a currency, may help
 solidify its endurance. The Metronome team also believes that an ongoing mintage also dilutes any potential disproportionate amounts purchased at a given time. Through Metronome, the team believes it is engineering something that is built-to-last. Longevity is Metronome's main goal.
 
 **Bootstrapping decentralized financial products**
@@ -837,7 +837,7 @@ _owner is your subscriber</td>
 <td>True, if 7 days have passed or all tokens have been sold in initial auction</td>
 </tr>
 <tr class="even">
-<td>function globalMtnSupply() public view returns (uint)</td>
+<td>function globalMetSupply() public view returns (uint)</td>
 <td>Total available supply as of the current auction</td>
 </tr>
 <tr class="odd">
@@ -885,7 +885,7 @@ Metronome Autonomous Converter Contract
 <td>Called during initial deployment. This is an owner-only function.</td>
 </tr>
 <tr class="even">
-<td>function getMtnBalance() public view returns (uint)</td>
+<td>function getMetBalance() public view returns (uint)</td>
 <td>Shows MET balance in contract</td>
 </tr>
 <tr class="odd">
@@ -893,24 +893,24 @@ Metronome Autonomous Converter Contract
 <td>Shows ETH balance in contract</td>
 </tr>
 <tr class="even">
-<td>function convertEthToMtn(uint _mintReturn) public payable returns (uint returnedMtn)</td>
+<td>function convertEthToMet(uint _mintReturn) public payable returns (uint returnedMet)</td>
 <td>Change ETH to MET. Throw if the returned MET
 would be less than minReturn. Return the amount of
 MET.</td>
 </tr>
 <tr class="odd">
-<td>function convertMtnToEth(uint _amount, uint _mintReturn) public returns (uint returnedEth)</td>
+<td>function convertMetToEth(uint _amount, uint _mintReturn) public returns (uint returnedEth)</td>
 <td>Change MET to ETH. Throw if the returned ETH
 would be less than minReturn. Return the amount of ETH. Caller will first need to Approve AC to make a
 transfer.</td>
 </tr>
 <tr class="even">
-<td>function getMtnForEthResult(uint _depositAmount) public view returns (uint256)</td>
+<td>function getMetForEthResult(uint _depositAmount) public view returns (uint256)</td>
 <td>Return how much MET the user would get for the
 given _depositAmount which is in ETH.</td>
 </tr>
 <tr class="odd">
-<td>function getEthForMtnResult(uint _depositAmount) public view returns (uint256)</td>
+<td>function getEthForMetResult(uint _depositAmount) public view returns (uint256)</td>
 <td>Return how much ETH the user would get for the
 given _depositAmount which is in MET</td>
 </tr>
@@ -919,11 +919,11 @@ given _depositAmount which is in MET</td>
 <td>Emitted when AutonomousConvert receives Funds</td>
 </tr>
 <tr class="odd">
-<td>event ConvertEthToMtn(address indexed from, uint eth, uint met)</td>
+<td>event ConvertEthToMet(address indexed from, uint eth, uint met)</td>
 <td>Emitted when conversion from ETH to MET happens.</td>
 </tr>
 <tr class="even">
-<td>event ConvertMtnToEth(address indexed from, uint eth, uint met)</td>
+<td>event ConvertMetToEth(address indexed from, uint eth, uint met)</td>
 <td>Emitted when conversion from MET to ETH happens.</td>
 </tr>
 </tbody>
@@ -1279,7 +1279,7 @@ BY PURCHASING, OWNING, AND/OR USING METRONOME TOKENS YOU EXPRESSLY ACKNOWLEDGE A
 
 [^22]: <http://www.thebitcoin.fr/wp-content/uploads/2014/01/The-Economics-of-Bitcoin-Mining-or-Bitcoin-in-the-Presence-of-Adversaries.pdf>
 
-[^23]: [[https://www.brightscope.com/financial-planning/advice/article/8491/Asked-Answered-Zero-Inflation/]](https://www.brightscope.com/financial-planning/advice/article/8491/Asked-Answered-Zero-Inflation/)
+[^23]: <https://www.brightscope.com/financial-planning/advice/article/8491/Asked-Answered-Zero-Inflation/>
 
 [^24]: Sources: coinmarketcap.com, coinbase, blockchain.info
 
