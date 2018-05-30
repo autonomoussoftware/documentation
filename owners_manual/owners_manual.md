@@ -1,6 +1,6 @@
 ![Metronome](img/logo.png)
 
-Version 0.9855 (Last Updated 05.23.2018)
+Version 0.986 (Last Updated 05.30.2018)
 
 **Notes:**
 
@@ -696,8 +696,8 @@ The token API used to query and transfer MET tokens is the familiar ERC20 token 
 <table>
 <thead>
 <tr class="header">
-<th>Function multiTransfer(uint[] bits) Allows multiple</th>
-<th>Transfers in a single transaction. Each uint in the bits array represents a transfer; the
+<th>Function multiTransfer(uint[] bits) </th>
+<th>Allows multiple transfers in a single transaction. Each uint in the bits array represents a transfer; the
 leftmost 160 bits are the address, and 96 bits to the right are the amount.</th>
 </tr>
 </thead>
@@ -715,7 +715,7 @@ leftmost 160 bits are the address, and 96 bits to the right are the amount.</th>
 <td>Destroy will only be allowed by minter and tokenporter</td>
 </tr>
 <tr class="even">
-<td>function enableMETTransfers() public returns (bool)</td>
+<td>function enableMetTransfers() public returns (bool)</td>
 <td>This function will enable MET transfer and it can be called successfully only after initial auction end.</td>
 </tr>
 <tr class="odd">
@@ -817,7 +817,7 @@ _owner is your subscriber</td>
 <td>Returns the auction instance for given auction tick, t</td>
 </tr>
 <tr class="odd">
-<td>function heartbeat() public view returns (bytes8 chain,address auctionAddr,address convertAddr,address tokenAddr,uint minting,uint totalMET,uint proceedsBal,uint currTick, uint currAuction,uint nextAuctionGMT,uint genesisGMT,uint currentAuctionPrice,uint dailyMintable,uint _lastPurchasePrice)</td>
+<td>function heartbeat() public view returns (bytes8 chain,address auctionAddr,address convertAddr,address tokenAddr,uint minting,uint totalMet,uint proceedsBal,uint currTick, uint currAuction,uint nextAuctionGMT,uint genesisGMT,uint currentAuctionPrice,uint dailyMintable,uint _lastPurchasePrice)</td>
 <td>Returns statistics on the current auction</td>
 </tr>
 <tr class="even">
