@@ -1,6 +1,6 @@
 ![Metronome](img/logo.png)
 
-Version 0.986 (Last Updated 05.30.2018)
+Version 0.987 (Last Updated 06.12.2018)
 
 **Notes:**
 
@@ -79,7 +79,6 @@ Table of contents
 
 > [Cross-Blockchain Portability](#cross-blockchain-portability)
 >
-> [Distributed, voluntary consensus > governance](#distributed-voluntary-consensus-governance)
 
 **[Cryptocurrency market context to date](#cryptocurrency-market-context-to-date) **
 
@@ -453,18 +452,6 @@ Guarantees and Safety Measures With Bad Actors
 
 As the Phase 1 validation model with trusted actors proves itself, the community and the team will continue to iterate on the validation mechanism to be more decentralized. Currently, the most desirable levels of decentralization will likely be after Phase 3. Greater decentralization in  validation models adds safety in many ways, but there is still the potential that  actors may act badly for ‘non rational’ reasons. To combat this, the system architecture must be resilient to griefing, chain-to-chain attacks, bugs in other sets of Metronome and a variety of other fraud-type or error-type problems. 
 This system is still being specified, but broadly speaking we will use the core concepts from the better Proof of Stake systems combined with some Proof of Work concepts. Metronome plans to have both soft and hard consequences for bad actors. Metronome’s fundamental rule is and will always be that the supply is fixed, that users will know what parts of the Metronome universe are safe, and be able to export their MET to those safe places.
-
-
-Distributed, voluntary consensus governance
--------------------------------------------
-
-The ability to export Metronome from the initial 'genesis' chain launched by its authors, and import to follow-on upgrades released -- by its authors or other parties -- based on the voluntary consensus of the MET holder community provides an opportunity for both immutable contracts, and a fair distributed mechanism to upgrade those contracts as the market matures.
-
-If, for example, the market demand greatly exceeds supply, and the real-world price of the original MET rises beyond what is practical for merchants, some could agree to fork the MET supply with a new MET contract on the same or different chains, by exporting funds they control to the new fork. These dynamics have the potential to remove risk from a- priori design of the token supply curves, as new immutable MET contracts can have upgraded token supply curves for greater commercial use.
-
-Similarly, if market supply starts to exceed demand for a sustained period of time and the price is falling, holders on different MET forks may agree to "merge" from multiple export sources to a single import destination. By reducing the total economically active supply of MET through this voluntary consensus mechanism, the token supply is reduced in the event of reduced demand, maintaining stable prices.
-
-How forks and movement to new chains impact the MET token supply curve and issuance is an open question to the Metronome community. We invite you to participate in defining, implementing, forking, and merging new MET target contracts of your own, import MET to new contracts, and see what happens.
 
 
 Cryptocurrency market context to date
