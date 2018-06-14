@@ -681,25 +681,23 @@ The token API used to query and transfer MET tokens is the familiar ERC20 token 
 **Custom Token Function**
 
 <table>
-<thead>
+<tbody>
+<tr class="even">
+<td>function approveMore(address _spender, uint256 _value) public returns (bool)</td>
+<td>Increase the approval for _spender by _value, ie _spender can spend more tokens on behalf of approver/caller.</td>
+</tr>
+<tr class="odd">
+<td>function approveLess(address _spender, uint256 _value) public returns (bool)</td>
+<td>Decrease the approval for _spender by _value, ie _spender can spend less tokens on behalf of approver/caller.</td>
+</tr>
 <tr class="even">
 <th>Function multiTransfer(uint[] bits) </th>
 <th>Allows multiple transfers in a single transaction. Each uint in the bits array represents a transfer; the
 leftmost 160 bits are the address, and 96 bits to the right are the amount.</th>
 </tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>function approveMore(address _spender, uint256 _value) public returns (bool)</td>
-<td>Increase the approval for _spender by _value, ie _spender can spend more tokens on behalf of approver/caller.</td>
-</tr>
-<tr class="even">
-<td>function approveLess(address _spender, uint256 _value) public returns (bool)</td>
-<td>Decrease the approval for _spender by _value, ie _spender can spend less tokens on behalf of approver/caller.</td>
-</tr>
 <tr class="odd">
 <td>function setTokenPorter(address _tokenPorter) public onlyOwner returns (bool)</td>
-<td>Sets contract for TokenPorter, responsible for export features, this can only be run by owner</td>
+<td>Sets address of TokenPorter contract, this can only be run by owner</td>
 </tr>
 <tr class="even">
 <td>function mint(address _to, uint _value) public returns (bool)</td>
@@ -714,13 +712,13 @@ leftmost 160 bits are the address, and 96 bits to the right are the amount.</th>
 <td>This function will enable MET transfer and it can be called successfully only after initial auction end.</td>
 </tr>
 <tr class="odd">
-<td>function export(bytes8 _destChain, address _destMetronomeAddr, address _destRecipAddr, uint _amount, uint _fee, bytes _extraData) public returns (bool)</td>
-<td>Export MET to another metronome supported chain.</td>
-</tr>
-<tr class="even">
 <td>function importMET(bytes8 _originChain, bytes8 _destinationChain, address[] _addresses, bytes _extraData, bytes32[] _burnHashes, uint[] _supplyOnAllChains, uint[] _importData, bytes _proof) public returns (bool)</td>
 <td>Import MET from any metronome supported chain.</td>
-</tr>    
+</tr> 
+<tr class="even">
+<td>function export(bytes8 _destChain, address _destMetronomeAddr, address _destRecipAddr, uint _amount, uint _fee, bytes _extraData) public returns (bool)</td>
+<td>Export MET to another metronome supported chain.</td>
+</tr>   
 </tbody>
 </table>
 
