@@ -664,7 +664,7 @@ The token API used to query and transfer MET tokens is the familiar ERC20 token 
 
 **Standard ERC20**
 
-| Token API |
+| Token | API |
 |--|--|
 | const name |  Metronome |
 | const symbol | MET  |
@@ -728,7 +728,7 @@ leftmost 160 bits are the address, and 96 bits to the right are the amount.</th>
 These functions are not intended for manual use, but there is some
 thought that they could be the foundation for interesting UI features.
 
-|Merkle API|
+| Merkle | API |
 |-------------------------------------------------------------------|--------------------------------------------------------|
 | Function setRoot(bytes32 root)                                    | Sets the merkle root associated with msg.sender        |
 | Function rootsMatch(address a, address b) constant returns (bool) | Returns true if the two addresses have matching roots. |
@@ -879,7 +879,7 @@ _owner is your subscriber</td>
 
 ### Proceeds API
 
-| Proceeds API |
+| Proceeds | API |
 |------------------------------------------------------------------------------------------|-------------------------------------------------------------------|
 | event LogProceedsIn(address indexed from, uint value)                                    | Emitted when funds are received by Proceeds contract              |
 | event LogClosedAuction(address indexed from, uint value)                                 | Emitted when Proceeds pushes funds into AutonomousConverter       |
@@ -952,7 +952,7 @@ given _depositAmount which is in MET</td>
 
 ### TokenLocker API
 
-| TokenLocker API |
+| TokenLocker | API |
 |--------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | event Withdrawn(address indexed who, uint amount)                              | Emitted for all withdraws                                                                                                                                                                            |
 | event Deposited(address indexed who, uint amount)                              | Emitted for all deposits                                                                                                                                                                             |
@@ -962,7 +962,7 @@ given _depositAmount which is in MET</td>
 
 ### TokenPorter API
 
-| TokenPorter API |
+| TokenPorter | API |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------|
 | event ExportReceiptLog(bytes8 destinationChain, address destinationMetronomeAddr, address indexed destinationRecipientAddr, uint amountToBurn, uint fee, bytes extraData, uint currentTick, uint indexed burnSequence, bytes32 indexed currentBurnHash, bytes32 prevBurnHash, uint dailyMintable, uint[] supplyOnAllChains, uint genesisTime, uint blockTimestamp, uint dailyAuctionStartTime) | Emitted during export requests                                                                                                               |
 | event ImportReceiptLog(address indexed destinationRecipientAddr, uint amountImported, uint fee, bytes extraData, uint currentTick, uint indexed importSequence, bytes32 indexed currentHash, bytes32 prevHash, uint dailyMintable, uint blockTimestamp, address caller)                                                                                                                                                                                                                          |Emmited during import                                                               |
@@ -974,7 +974,7 @@ given _depositAmount which is in MET</td>
 
 ### Chain Ledger API
 
-| Chain Ledger API |
+| Chain Ledger | API |
 |--|--|
 | event LogRegisterChain(address indexed caller, bytes8 indexed chain, uint supply, bool outcome) | Event emitted during registeing new chain in the system |
 | event LogRegisterExport(address indexed caller, bytes8 indexed originChain, bytes8 indexed destChain, uint amount) | Event emitted during registering export |
@@ -985,7 +985,7 @@ given _depositAmount which is in MET</td>
 
 ### Validator API
 
-| Validator API | 
+| Validator | API |
 |--|--|
 | event LogAttestation(bytes32 indexed hash, address indexed who, bool isValid) | Event emitted during validating hash |
 | function validateHash(bytes32 hash) public | Validator can validate a export hash. |
