@@ -1,6 +1,6 @@
 ![Metronome](img/logo.png)
 
-Version 0.987 (Last Updated 06.12.2018)
+Version 0.988 (Last Updated 06.13.2018)
 
 **Notes:**
 
@@ -664,8 +664,8 @@ The token API used to query and transfer MET tokens is the familiar ERC20 token 
 
 **Standard ERC20**
 
-| const name |  Metronome |
 |--|--|
+| const name |  Metronome |
 | const symbol | MET  |
 | const decimals         |  18  |
 | function totalSupply   |  ERC20-compliant; refer to ERC20 standard.  |
@@ -681,34 +681,44 @@ The token API used to query and transfer MET tokens is the familiar ERC20 token 
 **Custom Token Function**
 
 <table>
-<thead>
-<tr class="header">
+<tbody>
+<tr class="even">
+<td>function approveMore(address _spender, uint256 _value) public returns (bool)</td>
+<td>Increase the approval for _spender by _value, ie _spender can spend more tokens on behalf of approver/caller.</td>
+</tr>
+<tr class="odd">
+<td>function approveLess(address _spender, uint256 _value) public returns (bool)</td>
+<td>Decrease the approval for _spender by _value, ie _spender can spend less tokens on behalf of approver/caller.</td>
+</tr>
+<tr class="even">
 <th>Function multiTransfer(uint[] bits) </th>
 <th>Allows multiple transfers in a single transaction. Each uint in the bits array represents a transfer; the
 leftmost 160 bits are the address, and 96 bits to the right are the amount.</th>
 </tr>
-</thead>
-<tbody>
 <tr class="odd">
 <td>function setTokenPorter(address _tokenPorter) public onlyOwner returns (bool)</td>
-<td>Sets contract for TokenPorter, responsible for export features, this can only be run by owner</td>
+<td>Sets address of TokenPorter contract, this can only be run by owner</td>
 </tr>
 <tr class="even">
 <td>function mint(address _to, uint _value) public returns (bool)</td>
-<td>Mint will only be allowed by minter and tokenporter</td>
+<td>This function will mint _value tokens for _to address. Mint will only be allowed by minter and tokenporter</td>
 </tr>
 <tr class="odd">
 <td>function destroy(address _from, uint _value) public returns (bool)</td>
-<td>Destroy will only be allowed by minter and tokenporter</td>
+<td>This function will destroy _value tokens from _from account. Destroy will only be allowed by minter and tokenporter</td>
 </tr>
 <tr class="even">
 <td>function enableMetTransfers() public returns (bool)</td>
 <td>This function will enable MET transfer and it can be called successfully only after initial auction end.</td>
 </tr>
 <tr class="odd">
-<td>function export(bytes8 _destChain, address _destMetronomeAddr, address _destRecipAddr, uint _amount, bytes _extraData) public returns (bool)</td>
+<td>function importMET(bytes8 _originChain, bytes8 _destinationChain, address[] _addresses, bytes _extraData, bytes32[] _burnHashes, uint[] _supplyOnAllChains, uint[] _importData, bytes _proof) public returns (bool)</td>
+<td>Import MET from any metronome supported chain.</td>
+</tr> 
+<tr class="even">
+<td>function export(bytes8 _destChain, address _destMetronomeAddr, address _destRecipAddr, uint _amount, uint _fee, bytes _extraData) public returns (bool)</td>
 <td>Export MET to another metronome supported chain.</td>
-</tr>
+</tr>   
 </tbody>
 </table>
 
@@ -717,8 +727,8 @@ leftmost 160 bits are the address, and 96 bits to the right are the amount.</th>
 These functions are not intended for manual use, but there is some
 thought that they could be the foundation for interesting UI features.
 
-| Function setRoot(bytes32 root)                                    | Sets the merkle root associated with msg.sender        |
 |-------------------------------------------------------------------|--------------------------------------------------------|
+| Function setRoot(bytes32 root)                                    | Sets the merkle root associated with msg.sender        |
 | Function rootsMatch(address a, address b) constant returns (bool) | Returns true if the two addresses have matching roots. |
 | function getRoot(address addr) public view returns (bytes32)      | Gets the merkle root associated with the address       |
 
@@ -736,7 +746,7 @@ possible or onerous with many popular cryptocurrencies. The Metronome subscripti
 <tbody>
 <tr>
 <td>function subscribe(uint _startTime, uint _payPerWeek, address _recipient) public returns (bool)</td>
-<td>Subscribe to someone, i.e. authorize them to withdraw weekly payment _startTime is when the subscription will start _payPerWeek is the tokens payable per week including decimals _recipient is who gets to withdraw the tokens</td>
+<td>Subscribe to someone, i.e. authorize them to withdraw weekly payment. _startTime is when the subscription will start, _payPerWeek is the tokens payable per week including decimals, _recipient is who gets to withdraw the tokens</td>
 <tr class="odd">
 <td>function cancelSubscription(address _recipient) public returns (bool)</td>
 <td>Cancel the subscription _recipient is who are you unsubscribing from</td>
@@ -773,7 +783,7 @@ _owner is your subscriber</td>
 
 <table>
 <thead>
-<tr class="header">
+<tr class="even">
 <th>Function () payable</th>
 <th>Standard fallback function; send ETH, receive MET tokens immediately</th>
 </tr>
@@ -789,35 +799,42 @@ _owner is your subscriber</td>
 </tr>
 <tr class="odd">
 <td>function currentTick() public view returns(uint)</td>
-<td>Calls whichTick for current block timestamp</td>
+<td>Returns current metronome clock tick since genesis time.</td>
 </tr>
 <tr class="even">
 <td>function currentAuction() public view returns(uint)</td>
-<td>Calls whichAuction(currentTick())</td>
+<td>Returns current metronome auction.</td>
 </tr>
 <tr class="odd">
 <td>function whichTick(uint t) public view returns(uint)</td>
-<td>Returns the auction tick for given timestamp, t, since genesis time</td>
+<td>Returns the metronome clock tick for given timestamp t, since genesis time</td>
 </tr>
 <tr class="even">
 <td>function whichAuction(uint t) public view returns(uint)</td>
-<td>Returns the auction instance for given auction tick, t</td>
+<td>Returns the metronome auction for given metronome clock tick t</td>
 </tr>
 <tr class="odd">
-<td>function heartbeat() public view returns (bytes8 chain,address auctionAddr,address convertAddr,address tokenAddr,uint minting,uint totalMet,uint proceedsBal,uint currTick, uint currAuction,uint nextAuctionGMT,uint genesisGMT,uint currentAuctionPrice,uint dailyMintable,uint _lastPurchasePrice)</td>
+<td>function heartbeat() public view returns (bytes8 _chain,address auctionAddr,address convertAddr,address tokenAddr,uint minting,uint totalMet,uint proceedsBal,uint currTick, uint currAuction,uint nextAuctionGMT,uint genesisGMT,uint currentAuctionPrice,uint dailyMintable,uint _lastPurchasePrice)</td>
 <td>Returns statistics on the current auction</td>
 </tr>
 <tr class="even">
+<td>function createTokenLocker(address _founder, address _token) public onlyOwner</td>
+<td>Creates TokenLocker for founders, it will be called during initial deployment. This is an owner-only function.</td>
+</tr>
+<tr class="odd">
 <td>function mintInitialSupply(uint[] _founders, address _token, address _proceeds, address _autonomousConverter) public onlyOwner returns (bool)</td>
 <td>Called during initial deployment to mint the initial supply for founders. This is an owner-only function.</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>function initAuctions(uint _startTime, uint _minimumPrice, uint _startingPrice, uint _timeScale) public onlyOwner returns (bool)</td>
 <td>Called during initial deployment sets the auction start time parameters. This is an owner-only function.</td>
 </tr>
+<tr class="odd">
+<td>function skipInitBecauseIAmNotOg(address _token, address _proceeds, uint _genesisTime, uint _minimumPrice, uint _startingPrice, uint _timeScale, bytes8 _chain, uint _initialAuctionEndTime) public onlyOwner returns (bool)</td>
+<td>Called during initial deployment of metronome on non OG chain i.e. any chain other than Ethereum chain.</td>
 <tr class="even">
 <td>function stopEverything() public onlyOwner</td>
-<td>Owner only function that pauses the current auction.</td>
+<td>Owner only function that pauses the whole auction eco system, only before genesis time.</td>
 </tr>
 <tr class="odd">
 <td>function isInitialAuctionEnded() public view returns (bool)</td>
@@ -825,15 +842,31 @@ _owner is your subscriber</td>
 </tr>
 <tr class="even">
 <td>function globalMetSupply() public view returns (uint)</td>
-<td>Total available supply as of the current auction</td>
+<td>Total MET supply as of the current auction</td>
 </tr>
 <tr class="odd">
 <td>function globalDailySupply() public view returns (uint)</td>
-<td>Total available MET Token for current daily auction</td>
+<td>Total MET available for daily minting.</td>
 </tr>
 <tr class="even">
 <td>function currentPrice() public constant returns (uint weiPerToken)</td>
-<td>Current price in daily auction</td>
+<td>Current price</td>
+</tr>
+<tr class="odd">
+<td>function dailyMintable() public constant returns (uint)</td>
+<td>Daily mintable MET on this chain.</td>
+</tr>
+<tr class="even">
+<td>function currentMintable() public view returns (uint)</td>
+<td>Current available MET on this chain</td>
+</tr>
+<tr class="odd">
+<td>function tokensOnThisChain() public view returns (uint)</td>
+<td>Total MET on this chain i.e. available and purchased</td>
+</tr>
+<tr class="even">
+<td>function prepareAuctionForNonOGChain() public</td>
+<td>Called during first import on non OG chain.</td>
 </tr>
 <tr class="odd">
 <td>event LogAuctionFundsIn(uint amount)</td>
@@ -842,42 +875,40 @@ _owner is your subscriber</td>
 </tbody>
 </table>
 
-Metronome Proceeds Contract
----------------------------
+### Proceeds API
 
-### Proceeds Contract API
-
-| event LogProceedsIn(address indexed from, uint value)                                    | Emitted when funds are received by Proceeds contract              |
 |------------------------------------------------------------------------------------------|-------------------------------------------------------------------|
+| event LogProceedsIn(address indexed from, uint value)                                    | Emitted when funds are received by Proceeds contract              |
 | event LogClosedAuction(address indexed from, uint value)                                 | Emitted when Proceeds pushes funds into AutonomousConverter       |
 | function () public payable                                                               | Handles incoming funds for Proceeds                               |
 | function initProceeds(address \_autonomousConverter, address \_auction) public onlyOwner | Called during initial deployment. This is an owner-only function. |
 | function closeAuction() public                                                           | Sends funds to AutonomousConverter at the end of the auction      |
 
-Metronome Autonomous Converter Contract
----------------------------------------
-
-### Autonomous Converter Contract API
+### Autonomous Converter API
 
 <table>
 <thead>
-<tr class="header">
+<tr class="even">
 <th>function () public payable</th>
 <th>Handles incoming funds for AutonomousConverter</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>function init(address _reserveToken, address _smartToken, address _proceeds, address _auctions) public payable</td>
+<td>function init(address _reserveToken, address _smartToken, address _auctions) public payable</td>
 <td>Called during initial deployment. This is an owner-only function.</td>
 </tr>
 <tr class="even">
+<th>function handleFund() public payable</th>
+<th>Handles incoming funds for Autonomous Converter</th>
+</tr>
+<tr class="even">
 <td>function getMetBalance() public view returns (uint)</td>
-<td>Shows MET balance in contract</td>
+<td>Shows available MET balance in Autonomous Converter</td>
 </tr>
 <tr class="odd">
 <td>function getEthBalance() public view returns (uint)</td>
-<td>Shows ETH balance in contract</td>
+<td>Shows available ETH balance in Autonomous Converter</td>
 </tr>
 <tr class="even">
 <td>function convertEthToMet(uint _mintReturn) public payable returns (uint returnedMet)</td>
@@ -916,31 +947,45 @@ given _depositAmount which is in MET</td>
 </tbody>
 </table>
 
-TokenLocker
------------
-
 ### TokenLocker API
 
-| event Withdrawn(address indexed who, uint amount)                              | Emitted for all withdraws                                                                                                                                                                            |
 |--------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| event Withdrawn(address indexed who, uint amount)                              | Emitted for all withdraws                                                                                                                                                                            |
 | event Deposited(address indexed who, uint amount)                              | Emitted for all deposits                                                                                                                                                                             |
 | function lockTokenLocker() public onlyAuction                                  | Lock the tokenLocker. Calling this function will results in postLock phase of tokenLocker. No more deposits are allowed. Token withdraw is allowed during this phase. This is Auction only function. |
 | function deposit (address beneficiary, uint amount) public onlyAuction preLock | Deposit the fund in locker. Depositing funds are only allowed during preLock phase.                                                                                                                  |
 | function withdraw() public onlyOwner postLock                                  | Withdraw funds are only allowed during postLock phase. This is owner only function.                                                                                                                  |
 
-TokenPorter
------------
-
 ### TokenPorter API
 
-| event ExportReceiptLog(bytes8 destinationChain, address indexed destinationMetronomeAddr, address indexed destinationRecipientAddr, uint amountToBurn, bytes extraData, uint currentTick, uint indexed burnSequence, bytes32 currentBurnHash, bytes32 prevBurnHash, uint dailyMintable, uint\[\] supplyOnAllChains, uint genesisTime) | Emitted during export requests                                                                                                               |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------|
+| eevent ExportReceiptLog(bytes8 destinationChain, address destinationMetronomeAddr, address indexed destinationRecipientAddr, uint amountToBurn, uint fee, bytes extraData, uint currentTick, uint indexed burnSequence, bytes32 indexed currentBurnHash, bytes32 prevBurnHash, uint dailyMintable, uint[] supplyOnAllChains, uint genesisTime, uint blockTimestamp, uint dailyAuctionStartTime) | Emitted during export requests                                                                                                               |
+| event ImportReceiptLog(address indexed destinationRecipientAddr, uint amountImported, uint fee, bytes extraData, uint currentTick, uint indexed importSequence, bytes32 indexed currentHash, bytes32 prevHash, uint dailyMintable, uint blockTimestamp, address caller)                                                                                                                                                                                                                          |Emmited during import                                                               |
 | function addDestinationChain(bytes8 \_chainName, address \_contractAddress) public onlyOwner returns (bool)                                                                                                                                                                                                                           | Add chain as approved chain for metronome export. This is owner only function.                                                               |
 | function removeDestinationChain(bytes8 \_chainName) public onlyOwner returns (bool)                                                                                                                                                                                                                                                   | Remove chain from approved chain for metronome export. This is owner only function.                                                          |
 | function claimReceivables(address\[\] recipients) public returns (uint)                                                                                                                                                                                                                                                               | This function will be called by destination contract who is performing import of metronome to record metronome mint in destination contract. |
-| function export(bytes8 \_destChain, address \_destMetronomeAddr, address \_destRecipAddr, uint \_amount, bytes \_extraData) public returns (bool)                                                                                                                                                                                     | Exports users account to be imported into another chain                                                                                      |
+| function export(address tokenOwner, bytes8 _destChain, address _destMetronomeAddr, address _destRecipAddr, uint _amount, uint _fee, bytes _extraData) public returns (bool)                                                                                                                                                                                     | Export MET to another metronome supported chain. This can be called from Token only.   |
+| function importMET(bytes8 _originChain, bytes8 _destinationChain, address[] _addresses, bytes _extraData, bytes32[] _burnHashes, uint[] _supplyOnAllChains, uint[] _importData, bytes _proof) public returns (bool)                                                                                                                                                                                                                                                              | Import MET tokens from another chain to this chain. This can be called from Token only. |
 
+### Chain Ledger API
 
+|--|--|
+| event LogRegisterChain(address indexed caller, bytes8 indexed chain, uint supply, bool outcome) | Event emitted during registeing new chain in the system |
+| event LogRegisterExport(address indexed caller, bytes8 indexed originChain, bytes8 indexed destChain, uint amount) | Event emitted during registering export |
+| event LogRegisterImport(address indexed caller, bytes8 indexed originChain, bytes8 indexed destChain, uint amount); | Event emitted during registering import |
+| function registerChain(bytes8 chain, uint supply) public onlyOwner returns (bool) | Owner can register new chain in metronome that support import export functionality for MET token. |
+| function registerExport(bytes8 originChain, bytes8 destChain, uint amount) public | Register export and update chain ledger balance of origin and dest chain. |
+| function registerImport(bytes8 originChain, bytes8 destChain, uint amount) public | Register import and update chain ledger balance of origin and dest chain. |
+
+### Validator API
+
+|--|--|
+| event LogAttestation(bytes32 indexed hash, address indexed who, bool isValid) | Event emitted during validating hash |
+| function validateHash(bytes32 hash) public | Validator can validate a export hash. |
+| function invalidateHash(bytes32 hash) public  | Validator can invalidate a export hash. |
+| unction hashClaimable(bytes32 hash) public view returns(bool) | Check whether given hash is claimable for import |
+| function claimHash(bytes32 hash) public | Update  the hash as claimed during import so that double import never happen |
+| function isReceiptClaimable(bytes8 _originChain, bytes8 _destinationChain, address[] _addresses, bytes _extraData, bytes32[] _burnHashes, uint[] _supplyOnAllChain, uint[] _importData, bytes _proof) public view returns(bool)| Check hash is valid and claimable |
 
 Glossary of Contract Terms
 ==========================
