@@ -32,7 +32,7 @@
     1. [Why did Metronome Authors create Metronome?](#why-did-metronome-authors-create-metronome)
     1. [Why is the token called "Metronome"?](#why-is-the-token-called-metronome)
     1. [ Will there be a lock-up in tokens retained by Metronome Authors?](#will-there-be-a-lock-up-in-tokens-retained-by-metronome-authors)
-    1. [ Will Metronome authors govern MET?](#will-metronome-authors-govern-mtn)
+    1. [ Will Metronome authors govern MET?](#will-metronome-authors-govern-met)
 
 ## About Metronome
 
