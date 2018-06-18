@@ -31,8 +31,8 @@
 1. [Metronome and Its Authors](#metronome-and-its-authors)
     1. [Why did Metronome Authors create Metronome?](#why-did-metronome-authors-create-metronome)
     1. [Why is the token called "Metronome"?](#why-is-the-token-called-metronome)
-    1. [ Will there be a lock-up in tokens retained by Metronome Authors?](#will-there-be-a-lock-up-in-tokens-retained-by-metronome authors)
-    1. [ Will Metronome authors govern MET?](#will-metronome-authors-govern-mtn)
+    1. [ Will there be a lock-up in tokens retained by Metronome Authors?](#will-there-be-a-lock-up-in-tokens-retained-by-metronome-authors)
+    1. [ Will Metronome authors govern MET?](#will-metronome-authors-govern-met)
 
 ## About Metronome
 
@@ -201,8 +201,6 @@ We believe the cryptocurrency is stable, predictable, and constant. Our innovati
 Metronome’s authors will receive 20% of the initial MET supply as a one-time author’s retention. 25% of this will be available upon the closing of the initial supply auction. The remaining 75% is released quarterly over 12 quarters.
 
 100% of ETH proceeds from the auction will remain in the Metronome ecosystem. Metronome authors can buy and sell their own MET at their discretion.  Following the launch of the initial auction, the Metronome ecosystem is entirely in the hands of the smart contracts and the community.
-
-By accepting the author’s retention in MET, Metronome authors have an incentive to remain active with the ecosystem community.
 
 ### Will Metronome authors govern MET?
 
