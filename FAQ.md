@@ -6,33 +6,34 @@
     1. [What can Metronome be used for?](#what-can-metronome-be-used-for)
     1. [Where can I read the full Metronome Owner's Manual?](#where-can-i-read-the-full-metronome-owners-manual)
     1. [How will Metronome be launched?](#how-will-metronome-be-launched)
-    1. [Is there a whitelist for auction participation?](#is-there-a-whitelist-for-auction-participation)
 
 1. [Initial and Daily Supply Auctions](#initial-and-daily-supply-auctions)
     1. [How will the Metronome token sale take place?](#how-will-the-metronome-token-sale-take-place)
     1. [When will the Metronome initial supply auction start?](#when-will-the-metronome-initial-supply-auction-start)
     1. [Is there a pre-sale?](#is-there-a-pre-sale)
-    1. [How do I participate in Metronome's initial auction?](#how-do-i-participate-in-metronomes-initial-auction)
-    1. [Contract Address TBD](#contract-address-tbd)
-    1. [Is there a minimum or maximum number of MET tokens I can buy during the Initial Supply Auction?](#is-there-a-minimum-or-maximum-number-of-mtn-tokens-i-can-buy-during-the-initial-supply-auction)
-    1. [What if I try to buy MET after the auctions have sold out?](#What-if-i-try-to-buy-mtn-after-the-auctions-have-sold-out)
-    1. [Is there a minimum or maximum number of MET tokens I can buy during the Daily Supply Lots?](#is-there-a-minimum-or-maximum-number-of-mtn-tokens-i-can-buy-during-the-daily-supply-lots)
-    1. [ How does new Metronome enter the ecosystem?](#how-does-new-metronome-enter-the-ecosystem)
+    1. [Is there a whitelist for auction participation?](#is-there-a-whitelist-for-auction-participation)
+    1. [What was the last price in the Initial Supply Auction?](#what-was-the-last-price-in-the-initial-supply-auction)
+    1. [How do I participate in Metronome's Initial Auction?](#how-do-i-participate-in-metronomes-initial-supply-auction)
+    1. [How does new Metronome enter the ecosystem?](#how-does-new-metronome-enter-the-ecosystem)
     1. [How soon will the daily auctions begin once the initial supply auction finishes?](#how-soon-will-the-daily-auctions-begin-once-the-initial-supply-auction-finishes)
     1. [Who gets the proceeds of the MET auctions?](#who-gets-the-proceeds-of-the-mtn-auctions)
     1. [What prevents a large hash-power miner (or pool of miners) from dominating purchases?](#what-prevents-a-large-hash-power-miner-or-pool-of-miners-from-dominating-purchases)
 
 1. [How Metronome Works](#how-metronome-works)
-    1. [ What components comprise Metronome?](#what-components-make-up-metronome)
-    1. [What blockchains are MET compatible with?](#what-blockchains-are-mtn-compatible-with)
+    1. [What components comprise Metronome?](#what-components-make-up-metronome)
+    1. [What blockchains are MET compatible with?](#what-blockchains-are-met-compatible-with)
     1. [Has the smart contract that collects ETH been professionally audited for security issues](#has-the-smart-contract-that-collects-eth-been-professionally-audited-for-security-issues)
     1. [What risks are involved with MET?](#what-risks-are-involved-with-mtn)
 
 1. [Metronome and Its Authors](#metronome-and-its-authors)
     1. [Why did Metronome Authors create Metronome?](#why-did-metronome-authors-create-metronome)
     1. [Why is the token called "Metronome"?](#why-is-the-token-called-metronome)
-    1. [ Will there be a lock-up in tokens retained by Bloq?](#will-there-be-a-lock-up-in-tokens-retained-by-bloq)
-    1. [ Will Metronome authors govern MET?](#will-metronome-authors-govern-mtn)
+    1. [Will there be a lock-up in tokens retained by Metronome Authors?](#will-there-be-a-lock-up-in-tokens-retained-by-metronome-authors)
+    1. [Will Metronome authors govern MET?](#will-metronome-authors-govern-met)
+1. [Metronome Wallet FAQ](#metronome-wallet-faq)
+    1. [Can I download the MET wallet on mobile?](#can-i-download-the-met-wallet-on-mobile)
+    1. [What does this returned error mean, “Insufficient funds for gas * price + value?”](#what-does-this-returned-error-mean-insufficient-funds-for-gas-*-price-+-value)
+    1. [Why haven’t the Metronome Wallet balances updated after a transaction?](#why-havent-the-metronome-wallet-balances-updated-after-a-transaction)
 
 ## About Metronome
 
@@ -99,7 +100,10 @@ June 18, 2018, at Midnight UTC.
 
 **No**, there is no whitelist.
 
-### How do I participate in Metronome's initial auction?
+### What was the last price in the Initial Supply Auction?
+The last MET in the Initial Supply Auction was sold for 0.0027815 ETH
+
+### How do I participate in Metronome's Initial Supply Auction?
 
 To participate in Metronome’s Initial Supply Auction (and, every day thereafter, the Daily Supply Lots) you will need access to an ERC20-compatible Ethereum wallet where you hold the private keys and sufficient ETH to purchase MET. Do not use wallets provided by exchanges. Be sure to use enough gas when sending your ETH. If you do not use enough gas, your transaction will be rejected and you will have to send your ETH again.
 
@@ -108,7 +112,7 @@ Ethereum can be purchased from cryptocurrency exchanges. Again, make sure that o
 Once you have sufficient ETH in an ERC20-compatible Ethereum wallet, you may participate in the auction by sending the desired amount to:
 
 
-[Contract Address TBD]
+**0x9d9BcDd249E439AAaB545F59a33812E39A8e3072**
 
 
 You should receive your MET almost immediately following receipt of your ETH by the Metronome smart contracts. Metronome purchased during the Initial Supply Auction will become transferrable following the close of the Initial Supply Auction. Metronome purchased during the Daily Supply Lots will be transferable immediately following receipt.
@@ -202,8 +206,24 @@ Metronome’s authors will receive 20% of the initial MET supply as a one-time a
 
 100% of ETH proceeds from the auction will remain in the Metronome ecosystem. Metronome authors can buy and sell their own MET at their discretion.  Following the launch of the initial auction, the Metronome ecosystem is entirely in the hands of the smart contracts and the community.
 
-By accepting the author’s retention in MET, Metronome authors have an incentive to remain active with the ecosystem community.
-
 ### Will Metronome authors govern MET?
 
 No. Metronome will be governed by its smart contracts and users. Metronome authors plan on remaining active within the community of users and developers by continuing to grow the ecosystem with MET-enabled and compatible products. However, after its launch, authors will have no more control over MET than any other member of the MET community.
+
+## Metronome Wallet FAQ
+
+### Can I download the MET wallet on mobile?
+
+The mobile wallet is not ready yet, the Metronome team will let the community know when it is. Until then, any ERC20 compatible wallet should work with Metronome.
+
+### What does this returned error mean, “Insufficient funds for gas * price + value?”
+
+This error usually happens when a user tries to send more funds than are in the wallet - likely because the balance-to-be-sent did not include enough room for transaction fees. The recommended solution is to try the transaction again by sending a lower balance to provide enough room for transaction fees.
+
+The amount of gas required to successfully transact on the Ethereum network (with either MET or ETH) can vary based on the network’s load relative to its capacity. Tools like https://ethgasstation.info/ can be helpful in determining the amount of gas necessary.
+
+### Why haven’t the Metronome Wallet balances updated after a transaction?
+
+We recommend you refresh/rescan the wallet, and your cryptocurrency balances should be updated. This can be done by entering the wallet, clicking “tools” in the lower left corner and using the “rescan transactions” tool. And as always, have the wallet seed phrase safe and on-hand when rescanning.
+
+Note that it is possible the transaction failed, so please search the transaction hash on Etherscan. In event of a transaction failure/return of ETH or MET, this means the user has only lost gas.
