@@ -13,7 +13,7 @@
     1. [Is there a pre-sale?](#is-there-a-pre-sale)
     1. [Is there a whitelist for auction participation?](#is-there-a-whitelist-for-auction-participation)
     1. [What was the last price in the Initial Supply Auction?](#what-was-the-last-price-in-the-initial-supply-auction)
-    1. [How do I participate in Metronome's Initial Auction?](#how-do-i-participate-in-metronomes-initial-supply-auction)
+    1. [How do I participate in Metronome's Initial Auction and Daily Supply Lots?](#how-do-i-participate-in-metronomes-initial-supply-auction-and-daily-supply-lots)
     1. [How does new Metronome enter the ecosystem?](#how-does-new-metronome-enter-the-ecosystem)
     1. [How soon will the daily auctions begin once the initial supply auction finishes?](#how-soon-will-the-daily-auctions-begin-once-the-initial-supply-auction-finishes)
     1. [Who gets the proceeds of the MET auctions?](#who-gets-the-proceeds-of-the-mtn-auctions)
@@ -103,7 +103,7 @@ June 18, 2018, at Midnight UTC.
 ### What was the last price in the Initial Supply Auction?
 The last MET in the Initial Supply Auction was sold for 0.0027815 ETH
 
-### How do I participate in Metronome's Initial Supply Auction?
+### How do I participate in Metronome's Initial Supply Auction and Daily Supply Lots?
 
 To participate in Metronome’s Initial Supply Auction (and, every day thereafter, the Daily Supply Lots) you will need access to an ERC20-compatible Ethereum wallet where you hold the private keys and sufficient ETH to purchase MET. Do not use wallets provided by exchanges. Be sure to use enough gas when sending your ETH. If you do not use enough gas, your transaction will be rejected and you will have to send your ETH again.
 
@@ -115,7 +115,7 @@ Once you have sufficient ETH in an ERC20-compatible Ethereum wallet, you may par
 **0x9d9BcDd249E439AAaB545F59a33812E39A8e3072**
 
 
-You should receive your MET almost immediately following receipt of your ETH by the Metronome smart contracts. Metronome purchased during the Initial Supply Auction will become transferrable following the close of the Initial Supply Auction. Metronome purchased during the Daily Supply Lots will be transferable immediately following receipt.
+You should receive your MET almost immediately following receipt of your ETH by the Metronome smart contracts, at the price of purchase. Metronome purchased during the Initial Supply Auction will become transferrable following the close of the Initial Supply Auction. Metronome purchased during the Daily Supply Lots will be transferable immediately following receipt.
 
 
 ### How does new Metronome enter the ecosystem?
