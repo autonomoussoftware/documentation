@@ -1,6 +1,6 @@
 ![Metronome](img/logo.png)
 
-Version 0.98 (Last Updated 05.08.2018)
+Version 0.988 (Last Updated 06.13.2018)
 
 **Notes:**
 
@@ -79,7 +79,6 @@ Table of contents
 
 > [Cross-Blockchain Portability](#cross-blockchain-portability)
 >
-> [Distributed, voluntary consensus > governance](#distributed-voluntary-consensus-governance)
 
 **[Cryptocurrency market context to date](#cryptocurrency-market-context-to-date) **
 
@@ -160,10 +159,10 @@ In the development of Metronome, the Metronome authors aspire to take the lesson
 
 -   Taking cryptocurrency to the next level\... literally
 
-**Economically engineering something to last **
+**Economically engineering something to last**
 
-Some cryptocurrencies\' mintage is either static or goes to zero over time -- like Bitcoin[^1]^,^[^2] and Litecoin[^3] -- raising questions with economists about their long term viability.[^4]^,^[^5]^,^ Other cryptocurrencies' token supply is hand-stitched together in pre-ICO deals that award certain parties a vast amount of supply, resulting in those parties controlling the majority of tokens. Some cryptocurrencies sell out to certain parties in a pre-sale or private sale, leaving very little to the general public. Metronome attempts to fix those problems
-with daily auctions that provide an on-going token supply mintage, ad infinitum. An on-going token supply mintage is theorized to provide sustainability versus other cryptocurrencies whose mintage either is or goes to zero.[^6]^,^[^7] The Metronome team expects that this will also encourage MET holders to use the many payment features of Metronome. Utilizing those use cases, actually using it as a currency, may help
+Some cryptocurrencies\' mintage is either static or goes to zero over time -- like Bitcoin[^1],[^2] and Litecoin[^3] -- raising questions with economists about their long term viability.[^4],[^5], Other cryptocurrencies' token supply is hand-stitched together in pre-ICO deals that award certain parties a vast amount of supply, resulting in those parties controlling the majority of tokens. Some cryptocurrencies sell out to certain parties in a pre-sale or private sale, leaving very little to the general public. Metronome attempts to fix those problems
+with daily auctions that provide an on-going token supply mintage, ad infinitum. An on-going token supply mintage is theorized to provide sustainability versus other cryptocurrencies whose mintage either is or goes to zero.[^6],[^7] The Metronome team expects that this will also encourage MET holders to use the many payment features of Metronome. Utilizing those use cases, actually using it as a currency, may help
 solidify its endurance. The Metronome team also believes that an ongoing mintage also dilutes any potential disproportionate amounts purchased at a given time. Through Metronome, the team believes it is engineering something that is built-to-last. Longevity is Metronome's main goal.
 
 **Bootstrapping decentralized financial products**
@@ -306,7 +305,7 @@ Since Bitcoin, other cryptocurrencies---both similar and dissimilar---have been 
 Descending price auctions
 -------------------------
 
-Currently, most new cryptocurrencies offer their initial disbursements with traditional sales. These sales may includ  bonuses, early purchaser pricing, and other incentives to encourage purchasers to buy all of their supply. While these incentives can help, they do not guarantee a sell-out and can tend toward asymmetrical public access. This model does not work for a cryptocurrency with longevity as its main goal. The Metronome team chose to use a different method, aiming to avoid this pattern.
+Currently, most new cryptocurrencies offer their initial disbursements with traditional sales. These sales may include  bonuses, early purchaser pricing, and other incentives to encourage purchasers to buy all of their supply. While these incentives can help, they do not guarantee a sell-out and can tend toward asymmetrical public access. This model does not work for a cryptocurrency with longevity as its main goal. The Metronome team chose to use a different method, aiming to avoid this pattern.
 
 The Metronome team decided to employ a descending price auction as its model for its Initial Supply Auction and Daily Supply Lots, which may provide interesting opportunities and a fairer distribution of MET. With a descending price auction, the price begins at a high initial price. As the auction proceeds, the price is reduced until all units are sold, or a pre-set price floor is reached, or the auction time limit is reached and the auction ends. We believe market price discovery is rapid and fair, as each purchaser pays what it thinks is fair at the time of purchase.[^16] Should a purchaser deem a given price too high or unfair, they can wait for the price to descend to a level they agree with and purchase then -- provided there is supply left.
 
@@ -455,18 +454,6 @@ As the Phase 1 validation model with trusted actors proves itself, the community
 This system is still being specified, but broadly speaking we will use the core concepts from the better Proof of Stake systems combined with some Proof of Work concepts. Metronome plans to have both soft and hard consequences for bad actors. Metronome’s fundamental rule is and will always be that the supply is fixed, that users will know what parts of the Metronome universe are safe, and be able to export their MET to those safe places.
 
 
-Distributed, voluntary consensus governance
--------------------------------------------
-
-The ability to export Metronome from the initial 'genesis' chain launched by its authors, and import to follow-on upgrades released -- by its authors or other parties -- based on the voluntary consensus of the MET holder community provides an opportunity for both immutable contracts, and a fair distributed mechanism to upgrade those contracts as the market matures.
-
-If, for example, the market demand greatly exceeds supply, and the real-world price of the original MET rises beyond what is practical for merchants, some could agree to fork the MET supply with a new MET contract on the same or different chains, by exporting funds they control to the new fork. These dynamics have the potential to remove risk from a- priori design of the token supply curves, as new immutable MET contracts can have upgraded token supply curves for greater commercial use.
-
-Similarly, if market supply starts to exceed demand for a sustained period of time and the price is falling, holders on different MET forks may agree to "merge" from multiple export sources to a single import destination. By reducing the total economically active supply of MET through this voluntary consensus mechanism, the token supply is reduced in the event of reduced demand, maintaining stable prices.
-
-How forks and movement to new chains impact the MET token supply curve and issuance is an open question to the Metronome community. We invite you to participate in defining, implementing, forking, and merging new MET target contracts of your own, import MET to new contracts, and see what happens.
-
-
 Cryptocurrency market context to date
 =====================================
 
@@ -508,7 +495,7 @@ Metronome takes the lessons learned from these digital currencies and the result
 
 
 |  | BTC[^35] | LTC[^36] | ETH[^37] | XRP[^38] | ZEC[^39] | MET |
-|--|--|--|--|--|--|--|--|
+|--|--|--|--|--|--|--|
 | **Reliability** | BTC is famous for its contentious forks and deflationary nature. Token supply and issuance is stable, but finite. | Like BTC, LTC’s issuance and token supply is subject to a hard cap, which may threaten chain stability | ETH’s issuance and token supply model is in flux. It has forked in the past. | XRP has a stable supply. It is fully governed by Ripple Inc. | Similar to BTC, ZEC is subject to a hard cap which may call into question the security of the chain in the future. | **MET issuance and supply will remain predictable ad infinitum as defined by its contracts. There is no uncertainty about supply or issuance.** |
 | **Self- Governance** | BTC is self governed, but has many groups looking to exert undue influence. | LTC is self governed, but customary deference to its icons. | Changes to ETH need community support, but much reliance upon a small team. | XRP is not self governing. Ripple Inc retains sole power of governance over XRP. | The Zcash Foundation is natural locus of voluntary governance. | **MET is entirely self governed through autonomous contracts.** |
 | **Portability** | no | no | no | no | no | **yes** |
@@ -518,6 +505,7 @@ Metronome takes the lessons learned from these digital currencies and the result
 | **Settlement time** | 10 minutes | 2.5 minutes | 15 seconds | 5 seconds | 2.5 minutes | 15 seconds |
 | **Mass Pay feature** | yes | yes | no | no | yes | **yes** |
 | **Subscription feature** | no | no | no | no | no | **yes** |
+
 *Table 1: Comparison of important attributes between today's
 cryptocurrencies*
 
@@ -573,29 +561,7 @@ Building accurate and efficient "elementary functions" is a serious engineering 
 
 By restricting the Autonomous Converter Contract to two cryptocurrencies -- MET and ETH -- at reserve ratio 0.5, the math is simplified and only a square root is needed, which is simple to implement and reasonably efficient to run.
 
-The math is as follows:
-
-*R* = Reserve Token Balance
-
-*S* = Smart Token Supply
-
-*F* = Constant Reserve Ratio
-
-*T* = Smart tokens received in exchange for reserve tokens E
-
-*E* = Reserve tokens received in exchange for smart tokens T
-
-The original formulas are:[^41]
-
-*T* = *S*((1 + $\frac{E}{R}$)${{}^{}}^{F} - 1$)
-
-*E* = *R*(1 - (1 - $\frac{T}{S}$)${}^{\frac{1}{F}}$)
-
-In our case, because F is set to 0.5, the formula can make do with fixed-point multiplication, division, and square root:
-
-*T* = *S*($$) - 1)
-
-*E* = *R*(1 - (1 - $\frac{T}{S}$)${}^{2}$)
+![Bancor Forumla](https://github.com/Dareknotderek/documentation/blob/master/owners_manual/img/bancor_form.jpg)
 
 **A worked example**
 
@@ -603,9 +569,7 @@ Let's say the Autonomous Converter Contract has 1000 ETH and 2000 MET, and there
 
 **Step one**: Trade 100 MET for smart tokens.
 
-T?=?S?(v1+ E/R )-1)
-
-T? = 10000( v1 + 100/2000 ) - 1) = 10000( v1.05 - 1) = 10000(1.0247 - 1) = 10000(0.0247) = 247
+![METMath1](https://github.com/Dareknotderek/documentation/blob/master/owners_manual/img/METMath1.jpg)
 
 The user receives 247 newly-minted smart tokens. The total supply of smart tokens is now 10247. The total supply of MET held in the Autonomous Converter Contract is now 2100.
 
@@ -613,9 +577,7 @@ The user receives 247 newly-minted smart tokens. The total supply of smart token
 
 Assume that 1000 ETH so is the reserve supply for the formula:
 
-*E* = *R*(1 - (1 - $\frac{T}{S}$)${}^{2}$)
-
-*E* = 1000(1 - (1 - $\frac{247}{10247}$)${}^{2}$) = 1000(1 - (1 - 0.0241)${}^{2}$) = 1000(1 - .976${}^{2}$) = 1000(1 - 0.953) = 1000(0.047) = 47
+![METMath2](https://github.com/Dareknotderek/documentation/blob/master/owners_manual/img/METMath2.jpg)
 
 The user receives 47 ETH for their 100 MET.
 
@@ -676,8 +638,9 @@ The token API used to query and transfer MET tokens is the familiar ERC20 token 
 
 **Standard ERC20**
 
-| const name |  Metronome |
+| Token | API |
 |--|--|
+| const name |  Metronome |
 | const symbol | MET  |
 | const decimals         |  18  |
 | function totalSupply   |  ERC20-compliant; refer to ERC20 standard.  |
@@ -693,34 +656,44 @@ The token API used to query and transfer MET tokens is the familiar ERC20 token 
 **Custom Token Function**
 
 <table>
-<thead>
-<tr class="header">
-<th>Function multiTransfer(uint[] bits) Allows multiple</th>
-<th>Transfers in a single transaction. Each uint in the bits array represents a transfer; the
+<tbody>
+<tr class="even">
+<td>function approveMore(address _spender, uint256 _value) public returns (bool)</td>
+<td>Increase the approval for _spender by _value, ie _spender can spend more tokens on behalf of approver/caller.</td>
+</tr>
+<tr class="odd">
+<td>function approveLess(address _spender, uint256 _value) public returns (bool)</td>
+<td>Decrease the approval for _spender by _value, ie _spender can spend less tokens on behalf of approver/caller.</td>
+</tr>
+<tr class="even">
+<th>Function multiTransfer(uint[] bits) </th>
+<th>Allows multiple transfers in a single transaction. Each uint in the bits array represents a transfer; the
 leftmost 160 bits are the address, and 96 bits to the right are the amount.</th>
 </tr>
-</thead>
-<tbody>
 <tr class="odd">
 <td>function setTokenPorter(address _tokenPorter) public onlyOwner returns (bool)</td>
-<td>Sets contract for TokenPorter, responsible for export features, this can only be run by owner</td>
+<td>Sets address of TokenPorter contract, this can only be run by owner</td>
 </tr>
 <tr class="even">
 <td>function mint(address _to, uint _value) public returns (bool)</td>
-<td>Mint will only be allowed by minter and tokenporter</td>
+<td>This function will mint _value tokens for _to address. Mint will only be allowed by minter and tokenporter</td>
 </tr>
 <tr class="odd">
 <td>function destroy(address _from, uint _value) public returns (bool)</td>
-<td>Destroy will only be allowed by minter and tokenporter</td>
+<td>This function will destroy _value tokens from _from account. Destroy will only be allowed by minter and tokenporter</td>
 </tr>
 <tr class="even">
-<td>function enableMETTransfers() public returns (bool)</td>
+<td>function enableMetTransfers() public returns (bool)</td>
 <td>This function will enable MET transfer and it can be called successfully only after initial auction end.</td>
 </tr>
 <tr class="odd">
-<td>function export(bytes8 _destChain, address _destMetronomeAddr, address _destRecipAddr, uint _amount, bytes _extraData) public returns (bool)</td>
+<td>function importMET(bytes8 _originChain, bytes8 _destinationChain, address[] _addresses, bytes _extraData, bytes32[] _burnHashes, uint[] _supplyOnAllChains, uint[] _importData, bytes _proof) public returns (bool)</td>
+<td>Import MET from any metronome supported chain.</td>
+</tr> 
+<tr class="even">
+<td>function export(bytes8 _destChain, address _destMetronomeAddr, address _destRecipAddr, uint _amount, uint _fee, bytes _extraData) public returns (bool)</td>
 <td>Export MET to another metronome supported chain.</td>
-</tr>
+</tr>   
 </tbody>
 </table>
 
@@ -729,8 +702,9 @@ leftmost 160 bits are the address, and 96 bits to the right are the amount.</th>
 These functions are not intended for manual use, but there is some
 thought that they could be the foundation for interesting UI features.
 
-| Function setRoot(bytes32 root)                                    | Sets the merkle root associated with msg.sender        |
+| Merkle | API |
 |-------------------------------------------------------------------|--------------------------------------------------------|
+| Function setRoot(bytes32 root)                                    | Sets the merkle root associated with msg.sender        |
 | Function rootsMatch(address a, address b) constant returns (bool) | Returns true if the two addresses have matching roots. |
 | function getRoot(address addr) public view returns (bytes32)      | Gets the merkle root associated with the address       |
 
@@ -748,7 +722,7 @@ possible or onerous with many popular cryptocurrencies. The Metronome subscripti
 <tbody>
 <tr>
 <td>function subscribe(uint _startTime, uint _payPerWeek, address _recipient) public returns (bool)</td>
-<td>Subscribe to someone, i.e. authorize them to withdraw weekly payment _startTime is when the subscription will start _payPerWeek is the tokens payable per week including decimals _recipient is who gets to withdraw the tokens</td>
+<td>Subscribe to someone, i.e. authorize them to withdraw weekly payment. _startTime is when the subscription will start, _payPerWeek is the tokens payable per week including decimals, _recipient is who gets to withdraw the tokens</td>
 <tr class="odd">
 <td>function cancelSubscription(address _recipient) public returns (bool)</td>
 <td>Cancel the subscription _recipient is who are you unsubscribing from</td>
@@ -785,7 +759,7 @@ _owner is your subscriber</td>
 
 <table>
 <thead>
-<tr class="header">
+<tr class="even">
 <th>Function () payable</th>
 <th>Standard fallback function; send ETH, receive MET tokens immediately</th>
 </tr>
@@ -801,51 +775,74 @@ _owner is your subscriber</td>
 </tr>
 <tr class="odd">
 <td>function currentTick() public view returns(uint)</td>
-<td>Calls whichTick for current block timestamp</td>
+<td>Returns current metronome clock tick since genesis time.</td>
 </tr>
 <tr class="even">
 <td>function currentAuction() public view returns(uint)</td>
-<td>Calls whichAuction(currentTick())</td>
+<td>Returns current metronome auction.</td>
 </tr>
 <tr class="odd">
 <td>function whichTick(uint t) public view returns(uint)</td>
-<td>Returns the auction tick for given timestamp, t, since genesis time</td>
+<td>Returns the metronome clock tick for given timestamp t, since genesis time</td>
 </tr>
 <tr class="even">
 <td>function whichAuction(uint t) public view returns(uint)</td>
-<td>Returns the auction instance for given auction tick, t</td>
+<td>Returns the metronome auction for given metronome clock tick t</td>
 </tr>
 <tr class="odd">
-<td>function heartbeat() public view returns (bytes8 chain,address auctionAddr,address convertAddr,address tokenAddr,uint minting,uint totalMET,uint proceedsBal,uint currTick, uint currAuction,uint nextAuctionGMT,uint genesisGMT,uint currentAuctionPrice,uint dailyMintable,uint _lastPurchasePrice)</td>
+<td>function heartbeat() public view returns (bytes8 _chain,address auctionAddr,address convertAddr,address tokenAddr,uint minting,uint totalMet,uint proceedsBal,uint currTick, uint currAuction,uint nextAuctionGMT,uint genesisGMT,uint currentAuctionPrice,uint dailyMintable,uint _lastPurchasePrice)</td>
 <td>Returns statistics on the current auction</td>
 </tr>
 <tr class="even">
+<td>function createTokenLocker(address _founder, address _token) public onlyOwner</td>
+<td>Creates TokenLocker for founders, it will be called during initial deployment. This is an owner-only function.</td>
+</tr>
+<tr class="odd">
 <td>function mintInitialSupply(uint[] _founders, address _token, address _proceeds, address _autonomousConverter) public onlyOwner returns (bool)</td>
 <td>Called during initial deployment to mint the initial supply for founders. This is an owner-only function.</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>function initAuctions(uint _startTime, uint _minimumPrice, uint _startingPrice, uint _timeScale) public onlyOwner returns (bool)</td>
 <td>Called during initial deployment sets the auction start time parameters. This is an owner-only function.</td>
 </tr>
+<tr class="odd">
+<td>function skipInitBecauseIAmNotOg(address _token, address _proceeds, uint _genesisTime, uint _minimumPrice, uint _startingPrice, uint _timeScale, bytes8 _chain, uint _initialAuctionEndTime) public onlyOwner returns (bool)</td>
+<td>Called during initial deployment of metronome on non OG chain i.e. any chain other than Ethereum chain.</td>
 <tr class="even">
 <td>function stopEverything() public onlyOwner</td>
-<td>Owner only function that pauses the current auction.</td>
+<td>Owner only function that pauses the whole auction eco system, only before genesis time.</td>
 </tr>
 <tr class="odd">
 <td>function isInitialAuctionEnded() public view returns (bool)</td>
 <td>True, if 7 days have passed or all tokens have been sold in initial auction</td>
 </tr>
 <tr class="even">
-<td>function globalMtnSupply() public view returns (uint)</td>
-<td>Total available supply as of the current auction</td>
+<td>function globalMetSupply() public view returns (uint)</td>
+<td>Total MET supply as of the current auction</td>
 </tr>
 <tr class="odd">
 <td>function globalDailySupply() public view returns (uint)</td>
-<td>Total available MET Token for current daily auction</td>
+<td>Total MET available for daily minting.</td>
 </tr>
 <tr class="even">
 <td>function currentPrice() public constant returns (uint weiPerToken)</td>
-<td>Current price in daily auction</td>
+<td>Current price</td>
+</tr>
+<tr class="odd">
+<td>function dailyMintable() public constant returns (uint)</td>
+<td>Daily mintable MET on this chain.</td>
+</tr>
+<tr class="even">
+<td>function currentMintable() public view returns (uint)</td>
+<td>Current available MET on this chain</td>
+</tr>
+<tr class="odd">
+<td>function tokensOnThisChain() public view returns (uint)</td>
+<td>Total MET on this chain i.e. available and purchased</td>
+</tr>
+<tr class="even">
+<td>function prepareAuctionForNonOGChain() public</td>
+<td>Called during first import on non OG chain.</td>
 </tr>
 <tr class="odd">
 <td>event LogAuctionFundsIn(uint amount)</td>
@@ -854,62 +851,61 @@ _owner is your subscriber</td>
 </tbody>
 </table>
 
-Metronome Proceeds Contract
----------------------------
+### Proceeds API
 
-### Proceeds Contract API
-
-| event LogProceedsIn(address indexed from, uint value)                                    | Emitted when funds are received by Proceeds contract              |
+| Proceeds | API |
 |------------------------------------------------------------------------------------------|-------------------------------------------------------------------|
+| event LogProceedsIn(address indexed from, uint value)                                    | Emitted when funds are received by Proceeds contract              |
 | event LogClosedAuction(address indexed from, uint value)                                 | Emitted when Proceeds pushes funds into AutonomousConverter       |
 | function () public payable                                                               | Handles incoming funds for Proceeds                               |
 | function initProceeds(address \_autonomousConverter, address \_auction) public onlyOwner | Called during initial deployment. This is an owner-only function. |
 | function closeAuction() public                                                           | Sends funds to AutonomousConverter at the end of the auction      |
 
-Metronome Autonomous Converter Contract
----------------------------------------
-
-### Autonomous Converter Contract API
+### Autonomous Converter API
 
 <table>
 <thead>
-<tr class="header">
+<tr class="even">
 <th>function () public payable</th>
 <th>Handles incoming funds for AutonomousConverter</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>function init(address _reserveToken, address _smartToken, address _proceeds, address _auctions) public payable</td>
+<td>function init(address _reserveToken, address _smartToken, address _auctions) public payable</td>
 <td>Called during initial deployment. This is an owner-only function.</td>
 </tr>
 <tr class="even">
-<td>function getMtnBalance() public view returns (uint)</td>
-<td>Shows MET balance in contract</td>
+<th>function handleFund() public payable</th>
+<th>Handles incoming funds for Autonomous Converter</th>
+</tr>
+<tr class="even">
+<td>function getMetBalance() public view returns (uint)</td>
+<td>Shows available MET balance in Autonomous Converter</td>
 </tr>
 <tr class="odd">
 <td>function getEthBalance() public view returns (uint)</td>
-<td>Shows ETH balance in contract</td>
+<td>Shows available ETH balance in Autonomous Converter</td>
 </tr>
 <tr class="even">
-<td>function convertEthToMtn(uint _mintReturn) public payable returns (uint returnedMtn)</td>
+<td>function convertEthToMet(uint _mintReturn) public payable returns (uint returnedMet)</td>
 <td>Change ETH to MET. Throw if the returned MET
 would be less than minReturn. Return the amount of
 MET.</td>
 </tr>
 <tr class="odd">
-<td>function convertMtnToEth(uint _amount, uint _mintReturn) public returns (uint returnedEth)</td>
+<td>function convertMetToEth(uint _amount, uint _mintReturn) public returns (uint returnedEth)</td>
 <td>Change MET to ETH. Throw if the returned ETH
 would be less than minReturn. Return the amount of ETH. Caller will first need to Approve AC to make a
 transfer.</td>
 </tr>
 <tr class="even">
-<td>function getMtnForEthResult(uint _depositAmount) public view returns (uint256)</td>
+<td>function getMetForEthResult(uint _depositAmount) public view returns (uint256)</td>
 <td>Return how much MET the user would get for the
 given _depositAmount which is in ETH.</td>
 </tr>
 <tr class="odd">
-<td>function getEthForMtnResult(uint _depositAmount) public view returns (uint256)</td>
+<td>function getEthForMetResult(uint _depositAmount) public view returns (uint256)</td>
 <td>Return how much ETH the user would get for the
 given _depositAmount which is in MET</td>
 </tr>
@@ -918,41 +914,59 @@ given _depositAmount which is in MET</td>
 <td>Emitted when AutonomousConvert receives Funds</td>
 </tr>
 <tr class="odd">
-<td>event ConvertEthToMtn(address indexed from, uint eth, uint met)</td>
+<td>event ConvertEthToMet(address indexed from, uint eth, uint met)</td>
 <td>Emitted when conversion from ETH to MET happens.</td>
 </tr>
 <tr class="even">
-<td>event ConvertMtnToEth(address indexed from, uint eth, uint met)</td>
+<td>event ConvertMetToEth(address indexed from, uint eth, uint met)</td>
 <td>Emitted when conversion from MET to ETH happens.</td>
 </tr>
 </tbody>
 </table>
 
-TokenLocker
------------
-
 ### TokenLocker API
 
-| event Withdrawn(address indexed who, uint amount)                              | Emitted for all withdraws                                                                                                                                                                            |
+| TokenLocker | API |
 |--------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| event Withdrawn(address indexed who, uint amount)                              | Emitted for all withdraws                                                                                                                                                                            |
 | event Deposited(address indexed who, uint amount)                              | Emitted for all deposits                                                                                                                                                                             |
 | function lockTokenLocker() public onlyAuction                                  | Lock the tokenLocker. Calling this function will results in postLock phase of tokenLocker. No more deposits are allowed. Token withdraw is allowed during this phase. This is Auction only function. |
 | function deposit (address beneficiary, uint amount) public onlyAuction preLock | Deposit the fund in locker. Depositing funds are only allowed during preLock phase.                                                                                                                  |
 | function withdraw() public onlyOwner postLock                                  | Withdraw funds are only allowed during postLock phase. This is owner only function.                                                                                                                  |
 
-TokenPorter
------------
-
 ### TokenPorter API
 
-| event ExportReceiptLog(bytes8 destinationChain, address indexed destinationMetronomeAddr, address indexed destinationRecipientAddr, uint amountToBurn, bytes extraData, uint currentTick, uint indexed burnSequence, bytes32 currentBurnHash, bytes32 prevBurnHash, uint dailyMintable, uint\[\] supplyOnAllChains, uint genesisTime) | Emitted during export requests                                                                                                               |
+| TokenPorter | API |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------|
+| event ExportReceiptLog(bytes8 destinationChain, address destinationMetronomeAddr, address indexed destinationRecipientAddr, uint amountToBurn, uint fee, bytes extraData, uint currentTick, uint indexed burnSequence, bytes32 indexed currentBurnHash, bytes32 prevBurnHash, uint dailyMintable, uint[] supplyOnAllChains, uint genesisTime, uint blockTimestamp, uint dailyAuctionStartTime) | Emitted during export requests                                                                                                               |
+| event ImportReceiptLog(address indexed destinationRecipientAddr, uint amountImported, uint fee, bytes extraData, uint currentTick, uint indexed importSequence, bytes32 indexed currentHash, bytes32 prevHash, uint dailyMintable, uint blockTimestamp, address caller)                                                                                                                                                                                                                          |Emmited during import                                                               |
 | function addDestinationChain(bytes8 \_chainName, address \_contractAddress) public onlyOwner returns (bool)                                                                                                                                                                                                                           | Add chain as approved chain for metronome export. This is owner only function.                                                               |
 | function removeDestinationChain(bytes8 \_chainName) public onlyOwner returns (bool)                                                                                                                                                                                                                                                   | Remove chain from approved chain for metronome export. This is owner only function.                                                          |
 | function claimReceivables(address\[\] recipients) public returns (uint)                                                                                                                                                                                                                                                               | This function will be called by destination contract who is performing import of metronome to record metronome mint in destination contract. |
-| function export(bytes8 \_destChain, address \_destMetronomeAddr, address \_destRecipAddr, uint \_amount, bytes \_extraData) public returns (bool)                                                                                                                                                                                     | Exports users account to be imported into another chain                                                                                      |
+| function export(address tokenOwner, bytes8 _destChain, address _destMetronomeAddr, address _destRecipAddr, uint _amount, uint _fee, bytes _extraData) public returns (bool)                                                                                                                                                                                     | Export MET to another metronome supported chain. This can be called from Token only.   |
+| function importMET(bytes8 _originChain, bytes8 _destinationChain, address[] _addresses, bytes _extraData, bytes32[] _burnHashes, uint[] _supplyOnAllChains, uint[] _importData, bytes _proof) public returns (bool)                                                                                                                                                                                                                                                              | Import MET tokens from another chain to this chain. This can be called from Token only. |
 
+### Chain Ledger API
 
+| Chain Ledger | API |
+|--|--|
+| event LogRegisterChain(address indexed caller, bytes8 indexed chain, uint supply, bool outcome) | Event emitted during registeing new chain in the system |
+| event LogRegisterExport(address indexed caller, bytes8 indexed originChain, bytes8 indexed destChain, uint amount) | Event emitted during registering export |
+| event LogRegisterImport(address indexed caller, bytes8 indexed originChain, bytes8 indexed destChain, uint amount); | Event emitted during registering import |
+| function registerChain(bytes8 chain, uint supply) public onlyOwner returns (bool) | Owner can register new chain in metronome that support import export functionality for MET token. |
+| function registerExport(bytes8 originChain, bytes8 destChain, uint amount) public | Register export and update chain ledger balance of origin and dest chain. |
+| function registerImport(bytes8 originChain, bytes8 destChain, uint amount) public | Register import and update chain ledger balance of origin and dest chain. |
+
+### Validator API
+
+| Validator | API |
+|--|--|
+| event LogAttestation(bytes32 indexed hash, address indexed who, bool isValid) | Event emitted during validating hash |
+| function validateHash(bytes32 hash) public | Validator can validate a export hash. |
+| function invalidateHash(bytes32 hash) public  | Validator can invalidate a export hash. |
+| unction hashClaimable(bytes32 hash) public view returns(bool) | Check whether given hash is claimable for import |
+| function claimHash(bytes32 hash) public | Update  the hash as claimed during import so that double import never happen |
+| function isReceiptClaimable(bytes8 _originChain, bytes8 _destinationChain, address[] _addresses, bytes _extraData, bytes32[] _burnHashes, uint[] _supplyOnAllChain, uint[] _importData, bytes _proof) public view returns(bool)| Check hash is valid and claimable |
 
 Glossary of Contract Terms
 ==========================
@@ -1070,7 +1084,7 @@ BY PURCHASING, OWNING, AND/OR USING METRONOME TOKENS YOU EXPRESSLY ACKNOWLEDGE A
         which the acceptance of delivery of MET is prohibited by
         applicable law, decree, regulation, treaty, or administrative
         act, (ii) a citizen or resident of, or located in, a geographic
-        area that is subject to U.S. or other sovereign country
+        area that is subject to United Nations, European Union, U.S. or other sovereign country
         sanctions or embargoes, or (iii) an individual, or an individual
         employed by or associated with an entity, identified on the U.S.
         Department of Commerce's Denied Persons or Entity List, the U.S.
@@ -1231,96 +1245,93 @@ BY PURCHASING, OWNING, AND/OR USING METRONOME TOKENS YOU EXPRESSLY ACKNOWLEDGE A
 
 1.  **[DISCLAIMER]**. EACH MET IS SOLD ON AN "AS IS" AND "AS AVAILABLE" BASIS WITHOUT WARRANTIES OF ANY KIND FROM ANY PARTY,    INCLUDING, WITHOUT LIMITATION, IMPLIED WARRANTIES OF    MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE OR    NON-INFRINGEMENT.
 
-[^1]: https://medium.com/\@jgarzik/bitcoin-is-being-hot-wired-for-settlement-a5beb1df223a
+[^1]: <https://medium.com/\@jgarzik/bitcoin-is-being-hot-wired-for-settlement-a5beb1df223a>
 
-[^2]: [[https://bitcoin.org/bitcoin.pdf]](https://bitcoin.org/bitcoin.pdf)
+[^2]: <https://bitcoin.org/bitcoin.pdf>
 
-[^3]: https://bitcointalk.org/index.php?topic=47417.0
+[^3]: <https://bitcointalk.org/index.php?topic=47417.0>
 
-[^4]: https://www.economist.com/blogs/freeexchange/2014/04/money
+[^4]: <https://www.economist.com/blogs/freeexchange/2014/04/money>
 
-[^5]: https://econjwatch.org/file\_download/139/2007-01-hummel-com.pdf?mimetype=pdf
+[^5]: <https://econjwatch.org/file\_download/139/2007-01-hummel-com.pdf?mimetype=pdf>
 
-[^6]: https://econjwatch.org/file\_download/139/2007-01-hummel-com.pdf?mimetype=pdf
+[^6]: <https://econjwatch.org/file\_download/139/2007-01-hummel-com.pdf?mimetype=pdf>
 
 [^7]: Tsiang, S.C., Journal of Money, Credit and Banking, I(1969), pp.
     266--80 \"A Critical Note on the Optimum Supply of Money\"
 
-[^8]: [[https://medium.com/\@MetronomeToken/on-metronome-author-retention-and-contract-behavior-73dad8f16494]](https://medium.com/@MetronomeToken/on-metronome-author-retention-and-contract-behavior-73dad8f16494)
+[^8]: <https://medium.com/\@MetronomeToken/on-metronome-author-retention-and-contract-behavior-73dad8f16494>
 
-[^9]: [[https://medium.com/\@MetronomeToken/proceeds-for-the-community-not-the-authors-d41874d4d41f]](https://medium.com/@MetronomeToken/proceeds-for-the-community-not-the-authors-d41874d4d41f)
+[^9]: <https://medium.com/\@MetronomeToken/proceeds-for-the-community-not-the-authors-d41874d4d41f>
 
-[^10]: [[http://onlinelibrary.wiley.com/doi/10.3982/TE502/pdf]](http://onlinelibrary.wiley.com/doi/10.3982/TE502/pdf)
+[^10]: <http://onlinelibrary.wiley.com/doi/10.3982/TE502/pdf]](http://onlinelibrary.wiley.com/doi/10.3982/TE502/pdf>
 
-[^11]: [[http://markets.businessinsider.com/news/stocks/Etherparty-Pre-sale-Sells-Out-Receives-Over-25MPublic-ICO-sale-launches-Oct-1-1002374859]](http://markets.businessinsider.com/news/stocks/Etherparty-Pre-sale-Sells-Out-Receives-Over-25MPublic-ICO-sale-launches-Oct-1-1002374859)
+[^11]: <http://markets.businessinsider.com/news/stocks/Etherparty-Pre-sale-Sells-Out-Receives-Over-25MPublic-ICO-sale-launches-Oct-1-1002374859>
 
-[^12]: [[https://medium.com/\@MetronomeToken/what-is-a-descending-price-auction-8c0770bb6a71]](https://medium.com/@MetronomeToken/what-is-a-descending-price-auction-8c0770bb6a71)
+[^12]: <https://medium.com/\@MetronomeToken/what-is-a-descending-price-auction-8c0770bb6a71>
 
 [^13]: <https://medium.com/@MetronomeToken/fairness-as-a-first-order-variable-8012a5c22ed1>
 
-[^14]: [[https://medium.com/\@MetronomeToken/self-governance-as-a-design-goal-fc06afd61dd5]](https://medium.com/@MetronomeToken/self-governance-as-a-design-goal-fc06afd61dd5)
+[^14]: <https://medium.com/\@MetronomeToken/self-governance-as-a-design-goal-fc06afd61dd5>
 
-[^15]: Sources: coinmarketcap, coinbase, blockchain.info, Federal
-    Reserve Bank of St Louis
+[^15]: Sources: coinmarketcap, coinbase, blockchain.info, Federal Reserve Bank of St Louis
 
-[^16]: [[http://onlinelibrary.wiley.com/doi/10.3982/TE502/pdf]](http://onlinelibrary.wiley.com/doi/10.3982/TE502/pdf)
+[^16]: <http://onlinelibrary.wiley.com/doi/10.3982/TE502/pdf>
 
 [^17]: Mishra, Debasis, and David C. Parkes. "Multi-Item Vickrey-Dutch
     Auctions." Games and Economic Behavior, vol. 66, no. 1, 2009, pp.
     326--347., doi:10.1016/j.geb.2008.04.007.
 
-[^18]: [[https://en.bitcoin.it/wiki/Protocol\_documentation\#Merkle\_Trees]](https://en.bitcoin.it/wiki/Protocol_documentation#Merkle_Trees)
+[^18]: <https://en.bitcoin.it/wiki/Protocol\_documentation\#Merkle\_Trees>
 
 [^19]: Sources: coinmarketcap.com, coinbase, blockchain.info
 
-[^20]: [[https://bitcoin.org/bitcoin.pdf]](https://bitcoin.org/bitcoin.pdf)
+[^20]: <https://bitcoin.org/bitcoin.pdf]](https://bitcoin.org/bitcoin.pdf>
 
-[^21]: [[https://bitcointalk.org/index.php?topic=108964.0]](https://bitcointalk.org/index.php?topic=108964.0)
+[^21]: <https://bitcointalk.org/index.php?topic=108964.0>
 
-[^22]: Kroll, Joshua A, et al. "The Economics of Bitcoin Mining or,
-    Bitcoin in the Presence of Adversaries."
-    [[http://www.thebitcoin.fr/wp-content/uploads/2014/01/The-Economics-of-Bitcoin-Mining-or-Bitcoin-in-the-Presence-of-Adversaries.pdf]](http://www.thebitcoin.fr/wp-content/uploads/2014/01/The-Economics-of-Bitcoin-Mining-or-Bitcoin-in-the-Presence-of-Adversaries.pdf)
+[^22]: <http://www.thebitcoin.fr/wp-content/uploads/2014/01/The-Economics-of-Bitcoin-Mining-or-Bitcoin-in-the-Presence-of-Adversaries.pdf>
 
-[^23]: [[https://www.brightscope.com/financial-planning/advice/article/8491/Asked-Answered-Zero-Inflation/]](https://www.brightscope.com/financial-planning/advice/article/8491/Asked-Answered-Zero-Inflation/)
+[^23]: <https://www.brightscope.com/financial-planning/advice/article/8491/Asked-Answered-Zero-Inflation/>
 
 [^24]: Sources: coinmarketcap.com, coinbase, blockchain.info
 
-[^25]: [[https://bitcointalk.org/index.php?topic=47417.0]](https://bitcointalk.org/index.php?topic=47417.0)
+[^25]: <https://bitcointalk.org/index.php?topic=47417.0>
 
-[^26]: [[https://z.cash/blog/founders-reward-transfers.html]](https://z.cash/blog/founders-reward-transfers.html)
+[^26]: <https://z.cash/blog/founders-reward-transfers.html>
 
-[^27]: [[https://z.cash/blog/funding.html]](https://z.cash/blog/funding.html)
+[^27]: <https://z.cash/blog/funding.html>
 
-[^28]: [[https://z.cash/blog/founders-reward-transfers.html]](https://z.cash/blog/founders-reward-transfers.html)
+[^28]: <https://z.cash/blog/founders-reward-transfers.html>
 
-[^29]: [[https://github.com/ethereum/wiki/wiki/White-Paper]](https://github.com/ethereum/wiki/wiki/White-Paper)
+[^29]: <https://github.com/ethereum/wiki/wiki/White-Paper>
 
-[^30]: [[https://blog.ethereum.org/2014/08/08/ether-sale-a-statistical-overview/]](https://blog.ethereum.org/2014/08/08/ether-sale-a-statistical-overview/)
+[^30]: <https://blog.ethereum.org/2014/08/08/ether-sale-a-statistical-overview>
 
-[^31]: [[https://twitter.com/VitalikButerin/status/879675471532654595]](https://twitter.com/VitalikButerin/status/879675471532654595)
+[^31]: <https://twitter.com/VitalikButerin/status/879675471532654595>
 
-[^32]: [[https://github.com/ethereum/wiki/wiki/Proof-of-Stake-FAQ]](https://github.com/ethereum/wiki/wiki/Proof-of-Stake-FAQ)
+[^32]: <https://github.com/ethereum/wiki/wiki/Proof-of-Stake-FAQ>
 
-[^33]: [[https://coinmarketcap.com/currencies/ripple/]](https://coinmarketcap.com/currencies/ripple/)
+[^33]: <https://coinmarketcap.com/currencies/ripple/>
 
-[^34]: [[https://ripple.com/insights/ripple-to-place-55-billion-xrp-in-escrow-to-ensure-certainty-into-total-xrp-supply/]](https://ripple.com/insights/ripple-to-place-55-billion-xrp-in-escrow-to-ensure-certainty-into-total-xrp-supply/)
+[^34]: <https://ripple.com/insights/ripple-to-place-55-billion-xrp-in-escrow-to-ensure-certainty-into-total-xrp-supply/>
 
-[^35]: [[https://bitcoin.org/bitcoin.pdf]](https://bitcoin.org/bitcoin.pdf)
+[^35]: <https://bitcoin.org/bitcoin.pdf>
 
-[^36]: [[https://bitcointalk.org/index.php?topic=47417.0]](https://bitcointalk.org/index.php?topic=47417.0)
+[^36]: <https://bitcointalk.org/index.php?topic=47417.0>
 
-[^37]: [[https://github.com/ethereum/wiki/wiki/White-Paper]](https://github.com/ethereum/wiki/wiki/White-Paper)
+[^37]: <https://github.com/ethereum/wiki/wiki/White-Paper>
 
-[^38]: [[https://ripple.com/insights/ripple-to-place-55-billion-xrp-in-escrow-to-ensure-certainty-into-total-xrp-supply/]](https://ripple.com/insights/ripple-to-place-55-billion-xrp-in-escrow-to-ensure-certainty-into-total-xrp-supply/)
+[^38]: <https://ripple.com/insights/ripple-to-place-55-billion-xrp-in-escrow-to-ensure-certainty-into-total-xrp-supply/>
 
-[^39]: [[http://zerocash-project.org/media/pdf/zerocash-extended-20140518.pdf]](http://zerocash-project.org/media/pdf/zerocash-extended-20140518.pdf)
+[^39]: <http://zerocash-project.org/media/pdf/zerocash-extended-20140518.pdf>
 
-[^40]: [[https://drive.google.com/file/d/0B3HPNP-GDn7aRkVaV3dkVl9NS2M/view]](https://drive.google.com/file/d/0B3HPNP-GDn7aRkVaV3dkVl9NS2M/view)
+[^40]: <https://drive.google.com/file/d/0B3HPNP-GDn7aRkVaV3dkVl9NS2M/view>
 
-[^41]: [[https://www.bancor.network/static/bancor\_protocol\_whitepaper\_en.pdf]](https://www.bancor.network/static/bancor_protocol_whitepaper_en.pdf)
+[^41]: <https://www.bancor.network/static/bancor\_protocol\_whitepaper\_en.pdf>
 
-[^42]: [[http://onlinelibrary.wiley.com/doi/10.3982/TE502/pdf]](http://onlinelibrary.wiley.com/doi/10.3982/TE502/pdf)
+[^42]: <http://onlinelibrary.wiley.com/doi/10.3982/TE502/pdf>
 
-[^43]: [[https://theethereum.wiki/w/index.php/ERC20\_Token\_Standard]](https://github.com/ethereumEIPs/blob/master/EIPS/eip-20-token-standard.md)
+[^43]: <https://theethereum.wiki/w/index.php/ERC20\_Token\_Standard>
 
-[^44]: [[http://ethdocs.org/en/latest/introduction/what-is-ethereum.html]](http://ethdocs.org/en/latest/introduction/what-is-ethereum.html)
+[^44]: <http://ethdocs.org/en/latest/introduction/what-is-ethereum.html>
