@@ -561,29 +561,7 @@ Building accurate and efficient "elementary functions" is a serious engineering 
 
 By restricting the Autonomous Converter Contract to two cryptocurrencies -- MET and ETH -- at reserve ratio 0.5, the math is simplified and only a square root is needed, which is simple to implement and reasonably efficient to run.
 
-The math is as follows:
-
-*R* = Reserve Token Balance
-
-*S* = Smart Token Supply
-
-*F* = Constant Reserve Ratio
-
-*T* = Smart tokens received in exchange for reserve tokens E
-
-*E* = Reserve tokens received in exchange for smart tokens T
-
-The original formulas are:[^41]
-
-*T* = *S*((1 + $\frac{E}{R}$)${{}^{}}^{F} - 1$)
-
-*E* = *R*(1 - (1 - $\frac{T}{S}$)${}^{\frac{1}{F}}$)
-
-In our case, because F is set to 0.5, the formula can make do with fixed-point multiplication, division, and square root:
-
-*T* = *S*($$) - 1)
-
-*E* = *R*(1 - (1 - $\frac{T}{S}$)${}^{2}$)
+![Autonomous Converter Contract 1](img/Autonoms-Converter-Contract-1.jpg)
 
 **A worked example**
 
@@ -591,9 +569,7 @@ Let's say the Autonomous Converter Contract has 1000 ETH and 2000 MET, and there
 
 **Step one**: Trade 100 MET for smart tokens.
 
-T?=?S?(v1+ E/R )-1)
-
-T? = 10000( v1 + 100/2000 ) - 1) = 10000( v1.05 - 1) = 10000(1.0247 - 1) = 10000(0.0247) = 247
+![Autonomous Converter Contract 2](img/Autonoms-Converter-Contract-2.jpg)
 
 The user receives 247 newly-minted smart tokens. The total supply of smart tokens is now 10247. The total supply of MET held in the Autonomous Converter Contract is now 2100.
 
@@ -601,9 +577,7 @@ The user receives 247 newly-minted smart tokens. The total supply of smart token
 
 Assume that 1000 ETH so is the reserve supply for the formula:
 
-*E* = *R*(1 - (1 - $\frac{T}{S}$)${}^{2}$)
-
-*E* = 1000(1 - (1 - $\frac{247}{10247}$)${}^{2}$) = 1000(1 - (1 - 0.0241)${}^{2}$) = 1000(1 - .976${}^{2}$) = 1000(1 - 0.953) = 1000(0.047) = 47
+![Autonomous Converter Contract 3](img/Autonoms-Converter-Contract-3.jpg)
 
 The user receives 47 ETH for their 100 MET.
 
@@ -1361,3 +1335,4 @@ BY PURCHASING, OWNING, AND/OR USING METRONOME TOKENS YOU EXPRESSLY ACKNOWLEDGE A
 [^43]: <https://theethereum.wiki/w/index.php/ERC20\_Token\_Standard>
 
 [^44]: <http://ethdocs.org/en/latest/introduction/what-is-ethereum.html>
+
