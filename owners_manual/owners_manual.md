@@ -80,7 +80,7 @@ Table of contents
 > [Cross-Blockchain Portability](#cross-blockchain-portability)
 >
 
-**[Cryptocurrency market context to date](#cryptocurrency-market-context-to-date) **
+**[Cryptocurrency market context to date](#cryptocurrency-market-context-to-date)**
 
 > [The landscape](#the-landscape)
 
@@ -116,9 +116,9 @@ Table of contents
 >
 > [TokenPorter API](#tokenporter-api)
 
-**[Glossary of Contract Terms](#glossary-of-contract-terms) **
+**[Glossary of Contract Terms](#glossary-of-contract-terms)**
 
-**[APPENDIX A](#appendix-a) **
+**[APPENDIX A](#appendix-a)**
 
 List of Tables and Figures
 ==========================
