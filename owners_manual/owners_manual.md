@@ -549,7 +549,7 @@ While the Autonomous Converter Contract seeks to approach a market-determined pr
 
 In sum, purchasers in an auction would be expected to attempt to purchase tokens at auction at a price very close to the current price in the Autonomous Converter Contract, and each day's later purchasers will be able to profit from its earlier purchasers, essentially getting paid for the risk that they will not be able to buy at all in the auction.
 
-Once a Daily Supply Lotsells out, excess demand could be met by selling to the Autonomous Converter Contract, possibly increasing the token price. We expect that each auction would sell out, because the descending price will eventually decay below market price.
+Once a Daily Supply Lot sells out, excess demand could be met by selling to the Autonomous Converter Contract, possibly increasing the token price. We expect that each auction would sell out, because the descending price will eventually decay below market price.
 
 **The math**
 
