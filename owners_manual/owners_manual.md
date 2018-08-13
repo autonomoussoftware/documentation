@@ -61,8 +61,6 @@ Table of contents
 
 **[Motivations](#motivations)**
 
-> [Taking cryptocurrency to the next level... literally](#taking-cryptocurrency-to-the-next-level-literally)
-
 **[Executive Summary](#executive-summary)**
 
 **[Background](#background)**
@@ -188,8 +186,7 @@ Humans are fallible. Software and math are more predictable decades and further 
 
 Metronome was engineered to be self-adjusting and self-governing. To that end, Metronome's contracts are fully autonomous and we believe will behave predictably, without intervention of the authors.
 
-Taking cryptocurrency to the next level... literally
-----------------------------------------------------
+**Taking cryptocurrency to the next level... literally**
 
 Every other cryptocurrency is tied to one blockchain network. LTC is only recorded on the Litecoin blockchain. BTC is only recorded on the Bitcoin blockchain. There are risks in being tied to just one railroad: management discord, supply uncertainty, etc. The market does not know that cross-blockchain are even possible, much less a need.
 
