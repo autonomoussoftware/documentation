@@ -582,7 +582,7 @@ The contract now contains 953 ETH and 2100 MET, or 0.45 ETH per MET. By selling 
 
 The 247 smart tokens are destroyed when they are traded in, lowering the smart token supply back to 10000.
 
-*Note: the above worked example uses rounded figures for the sake of convenience*
+*Note: the above worked example uses rounded figures*
 
 **Transaction ordering mitigation**
 
