@@ -5,25 +5,26 @@
     1. [What can Metronome do that other cryptocurrencies cannot do?](#what-can-metronome-do-that-other-cryptocurrencies-cannot-do)
     1. [What can Metronome be used for?](#what-can-metronome-be-used-for)
     1. [Where can I read the full Metronome Owner's Manual?](#where-can-i-read-the-full-metronome-owners-manual)
-    1. [How will Metronome be launched?](#how-will-metronome-be-launched)
+    1. [How was Metronome launched?](#how-was-metronome-launched?)
 
 1. [Initial and Daily Supply Auctions](#initial-and-daily-supply-auctions)
     1. [How will the Metronome token sale take place?](#how-will-the-metronome-token-sale-take-place)
-    1. [When will the Metronome initial supply auction start?](#when-will-the-metronome-initial-supply-auction-start)
-    1. [Is there a pre-sale?](#is-there-a-pre-sale)
+    1. [When did the Metronome initial supply auction start?](#when-did-the-metronome-initial-supply-auction-start)
+    1. [Was there a pre-sale?](#was-there-a-pre-sale)
     1. [Is there a whitelist for auction participation?](#is-there-a-whitelist-for-auction-participation)
     1. [What was the last price in the Initial Supply Auction?](#what-was-the-last-price-in-the-initial-supply-auction)
     1. [How do I participate in Metronome's Initial Auction and Daily Supply Lots?](#how-do-i-participate-in-metronomes-initial-supply-auction-and-daily-supply-lots)
     1. [How does new Metronome enter the ecosystem?](#how-does-new-metronome-enter-the-ecosystem)
-    1. [How soon will the daily auctions begin once the initial supply auction finishes?](#how-soon-will-the-daily-auctions-begin-once-the-initial-supply-auction-finishes)
-    1. [Who gets the proceeds of the MET auctions?](#who-gets-the-proceeds-of-the-mtn-auctions)
+    1. [How soon did the daily auctions begin once the initial supply auction finished?](#how-soon-did-the-daily-auctions-begin-once-the-initial-supply-auction-finished)
+    1. [Who gets the proceeds of the MET auctions?](#who-gets-the-proceeds-of-the-met-auctions)
     1. [What prevents a large hash-power miner (or pool of miners) from dominating purchases?](#what-prevents-a-large-hash-power-miner-or-pool-of-miners-from-dominating-purchases)
 
 1. [How Metronome Works](#how-metronome-works)
     1. [What components comprise Metronome?](#what-components-make-up-metronome)
     1. [What blockchains are MET compatible with?](#what-blockchains-are-met-compatible-with)
+    1. [When will the first target chain (ETC) have Metronome contracts deployed?](#when-will-the-first-target-chain-etc-have-metronome-contracts-deployed)
     1. [Has the smart contract that collects ETH been professionally audited for security issues](#has-the-smart-contract-that-collects-eth-been-professionally-audited-for-security-issues)
-    1. [What risks are involved with MET?](#what-risks-are-involved-with-mtn)
+    1. [What risks are involved with MET?](#what-risks-are-involved-with-met)
 
 1. [Metronome and Its Authors](#metronome-and-its-authors)
     1. [Why did Metronome Authors create Metronome?](#why-did-metronome-authors-create-metronome)
@@ -74,9 +75,9 @@ A unique Metronome payments feature is subscription. Users can set up recurring 
 The owner's manual is available [here](https://github.com/autonomoussoftware/documentation/blob/master/owners_manual/owners_manual.md).
 
 
-### How will Metronome be launched?
+### How was Metronome launched?
 
-There will be two phases, both of which will rely on the descending price auction ("DPA”) pricing mechanism:
+There were are phases, both of which employ the descending price auction ("DPA”) pricing mechanism:
 
 *   **The Initial Supply Auction**, serving as the official launch of Metronome, where 10,000,000 MET tokens will be issued and made available
 *   **The Daily Supply Auction**, The Daily Supply Auction, where new tokens are added to the auction ad infinitum, at the rate that is the greater of (i) 2,880 MET per day, or (ii) an annual rate equal to 2.0000% of the then-outstanding supply per year.
@@ -88,13 +89,13 @@ There will be two phases, both of which will rely on the descending price auctio
 
 The Initial Supply Auction serves as the official launch of Metronome. 8,000,000 MET tokens (10 million, less the 20% one-time author retention) will be made available to the public with a descending price auction. The price per MET will begin at a maximum price of 2 ETH per MET and floor price of 0.0000033 ETH. As time progresses and MET remains available, the auction price will decline linearly until the auction ends or all MET are sold. Metronome employs DPAs to establish predictable and transparent pricing for the MET being issued by the contract.
 
-### When will the Metronome initial supply auction start?
+### When did the Metronome initial supply auction start?
 
 June 18, 2018, at Midnight UTC. 
 
-### Is there a pre-sale?
+### Was there a pre-sale?
 
-**No**, the first time that anyone will be able to purchase Metronome will be during the Initial Supply Auction.
+**No**, the first time that anyone was able to purchase Metronome was during the Initial Supply Auction.
 
 ### Is there a whitelist for auction participation?
 
@@ -135,13 +136,15 @@ We expect that the mintage rate for approximately the first 40 years will be 2,8
 | T + 70 Years | 94,382,561   | 2.000%  | 5,070   |
 
 
-### How soon will the daily auctions begin once the initial supply auction finishes?
+### How soon did the daily auctions begin once the initial supply auction finished?
 
-The first DSL will take place the following midnight UTC after the close of the Initial Supply Auction.
+The first DSL took place the following midnight UTC after the close of the Initial Supply Auction.
 
 ### What happens to the proceeds from Metronome Auctions?
 
 100% of the proceeds of the Initial Supply  Auction and 100% of the future Daily Supply Lots’ proceeds go to Metronome’s Autonomous Proceeds Provider (“APP”) contracts – the Proceeds and Autonomous Converter Contracts – to provide long term support for the community and help incubate Metronome in its first years. Metronome authors receive none of the proceeds from any auction.
+
+Please see [either of these](https://medium.com/@MetronomeToken/on-metronome-author-retention-and-contract-behavior-73dad8f16494) [helpful articles](https://medium.com/@MetronomeToken/proceeds-for-the-community-not-the-authors-d41874d4d41f) for more information.
 
 ### What prevents a large hash-power miner (or pool of miners) from dominating purchases?
 
@@ -175,6 +178,10 @@ Metronome is comprised of four fully-autonomous and cooperative smart contracts.
 ### What blockchains are MET compatible with?
 
 Metronome will be initially issued on Ethereum with Ethereum Classic, Rootstock, and Qtum support expected to follow. As the community continues developing MET, it may be compatible with even more blockchains.
+
+### When will the first target chain (ETC) have Metronome contracts deployed?
+
+Q1, 2019 - You can read more in [this recent update](https://medium.com/@MetronomeToken/metronome-meetup-wrap-up-chicago-august-2018-a34e5350a977). 
 
 ### Has the smart contract that collects ETH been professionally audited for security issues?
 
