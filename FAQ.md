@@ -77,7 +77,7 @@ The owner's manual is available [here](https://github.com/autonomoussoftware/doc
 
 ### How was Metronome launched?
 
-There were are phases, both of which employ the descending price auction ("DPA”) pricing mechanism:
+There are phases, both of which employ the descending price auction ("DPA”) pricing mechanism:
 
 *   **The Initial Supply Auction**, serving as the official launch of Metronome, where 10,000,000 MET tokens will be issued and made available
 *   **The Daily Supply Auction**, The Daily Supply Auction, where new tokens are added to the auction ad infinitum, at the rate that is the greater of (i) 2,880 MET per day, or (ii) an annual rate equal to 2.0000% of the then-outstanding supply per year.
