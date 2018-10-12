@@ -522,7 +522,7 @@ Four autonomous smart contracts comprise Metronome. The general flow is:
 Metronome Proceeds and Autonomous Converter Contracts
 =====================================================
 
-All proceeds from all auctions stay in the Metronome ecosystem, with the intent to build an enduring ecosystem for Metronome and its users. By ensuring all proceeds from the auctions stay on-chain in contracts?---?and outside of the control of any group?---?we believe Metronome may enjoy greater and more autonomous longevity.
+All proceeds from all auctions stay in the Metronome ecosystem, with the intent to build an enduring ecosystem for Metronome and its users. By ensuring all proceeds from the auctions stay on-chain in contracts -- and outside of the control of any group -- we believe Metronome may enjoy greater and more autonomous longevity.
 
 This flow starts with the Auctions contract, which is the contract purchasers interact with when purchasing MET from an auction. Then, the Proceeds Contract receives the proceeds from the Auctions contract and exports a portion to the Autonomous Converter Contract, providing the Autonomous Converter Contract with ETH supply for purchase and sale. One MET will be in the Autonomous Converter Contract at the time it is initialized.
 
