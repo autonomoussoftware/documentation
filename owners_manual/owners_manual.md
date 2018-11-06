@@ -499,7 +499,7 @@ Metronome takes the lessons learned from these digital currencies and the result
 | **Immutability** | strong | strong | Mutable; Will change with PoS | weak | strong | **strong** |
 | **Issuance Model** | 50 BTC per 10 minutes. Decreases by 1/2 every 4 years. | 50 LTC per 2.5 minutes. Decreases by 1/2 every 4 years. | 5 ETH per 15 seconds. | Issued once, by Ripple Inc | 12.5 per 2.5 minutes. Decreases by 1/2 every 4 years. | **Daily MET auction sales at greater of (i) 2,880 MET per day, or (ii) an annual rate equal to 2.0000% of the then-outstanding supply per year** |
 | **Supply limit** | 21 million | 84 million | unknown | 100 billion | 21 million | **See Issuance Model above** |
-| **Settlement time** | 10 minutes | 2.5 minutes | 15 seconds | 5 seconds | 2.5 minutes | 15 seconds |
+| **Settlement time** | 10 minutes | 2.5 minutes | 15 seconds | 5 seconds | 2.5 minutes | **15 seconds (based on the settlement time of underlying blockchain)** |
 | **Mass Pay feature** | yes | yes | no | no | yes | **yes** |
 | **Subscription feature** | no | no | no | no | no | **yes** |
 
