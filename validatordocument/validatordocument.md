@@ -43,13 +43,13 @@ We next move up one level, again resulting in half the number of values:
 And finally we produce the root of the Merkle tree:
 - H1..8 = hash(H1..4, H5..8)
 
-![alt text](image 1)
+![Figure 1](img/Figure-1.png)
 
 The true utility of a Merkle tree lies in the computationally efficient way of proving an element is in the tree.
 
 Assume you are given the root of the tree, H1..8, as derived above. You can prove that some element, say B4, is in the tree by also providing what is referred to as the Merkle path. The path is made up of the siblings of the nodes reached while going up the tree to the root.
 
-![alt text](image 2)
+![Figure 2](img/Figure-2.png)
 
 For the H4 element, the corresponding path would be: H3, H1..2, and H5..8.
 
@@ -156,7 +156,7 @@ An outline of how Metronome could support this would first involve canceling a p
 
 Validators can scale as the number of chains grows.
 
-![alt text](image 3)
+![Figure 3](img/Figure-3.png)
 
 Given a set of n chains, there are n*(n-1)/2possible edges where we would want to support a transfer. 
 
@@ -168,7 +168,7 @@ Below we outline a design for a  cross-chain transfer of Metronome tokens. We th
 
 The diagram below illustrates the steps taken that result in a transfer of Metronome tokens from a Source chain to a Destination chian.
 
-![alt text](image 4)
+![Figure 4](img/Figure-4.png)
 
 The user, utilizing a Wallet, initiates the transfer by exporting tokens from the Source chain, which results in those tokens being burned.
 
@@ -214,7 +214,7 @@ For either kind of vote to be accepted, the hash of the burn transaction must be
 
 The acceptance of a positive vote from a validator also requires a successful Merkle proof. The Wallet provides the Destination chain smart contract with a Merkle root. This root is calculated from burn transactions on the Source chain. The general flow is diagrammed below.
 
-![alt text](image 5)
+![Figure 5](img/Figure-5.png)
 
 Either the Source chain smart contract or the Wallet is responsible for calculating the Merkle root . The diagram above shows the smart contract calculating the root. The trade off here is the high gas cost of having the smart contract calculate the root versus the Wallet having to read enough burn transaction from the Source chain to calculate the root, essentially complicating the Wallet.
 
