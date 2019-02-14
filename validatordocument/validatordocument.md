@@ -1,5 +1,5 @@
 # Metronome Cross-chain Token Transfer
-v0.90 (Last updated 02.12.2019)
+v0.90 (Last updated 02.14.2019)
 ## Introduction
 
 One of the key features that helps ensure durability and resilience of Metronome tokens is the ability to move MET from one blockchain to another.  Unlike almost all other digital tokens, Metronome helps owners avoid risk by provably moving the same asset from blockchain A to blockchain B.  The process of moving Metronome tokens across blockchains is known as **import** and **export**, and this document provides engineers and the community with significant additional detail about this key feature.
