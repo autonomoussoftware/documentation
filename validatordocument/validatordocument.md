@@ -22,7 +22,7 @@ Before emitting an Export event, the Source chain creates and stores the **burn 
 
 A **Merkle tree** is built up by recursively hashing adjacent pairs of data from some given sequence. At the top of the tree is the **root hash**, which indirectly depends on every element in the tree. No data can be changed in the tree without affecting the **root hash**. An element can be proven to be in the tree by performing a **Merkle proof**, which consists of providing an element and its **Merkle path** to the root. The Metronome transfer strategy utilizes the creation of a Merkle tree from burn transactions.
 
-A **lily pad** is an informal term for a single interconnected set of deployed Metronome smart contracts. It is a single data domain against which MET token import and export occurs.  Because two lily pads may be deployed on the same blockchain, it is more technically accurate to prefer to Metronome import/export as transferring MET between lily pads.
+A **lily pad** is an informal term for a single interconnected set of deployed Metronome smart contracts. It is a single data domain against which MET token import and export occurs.  Because two lily pads may be deployed on the same blockchain, it is more technically accurate to refer to Metronome import/export as transferring MET between lily pads.
 
 ## Merkle Tree Construction and Path Verification
 
@@ -87,7 +87,7 @@ In order to ensure security and usability of Metronome’s cross-chain features,
 
 In phase 1, a small, federated network of validators operates in a multi-signature, multi-party approach to validate import/export transactions follow the Metronome protocol. MET owners may export at any time. On the import side, a quorum of validators approves a set of import transactions submitted by users. A quorum of validators will add and remove Metronome-available chains and other validators. The goal of Phase 1 quorum is to have 5 validators at the launch of the 2nd Metronome chain (and thus, the launch of the first Metronome import/export).
 
-In the event of a chain fork, the quorum of validators will choose which side of a fork the The Real Metronome.
+In the event of a chain fork, the quorum of validators will choose which side of a fork is The Real Metronome.
 
 **Phase 2** - Chain Attestors and stake weighting
 
@@ -106,7 +106,7 @@ Finally, as a global check on shenanigans via minority chains and attack-style h
 Phase 3 of cross-chain validation provides a fully decentralized end state. The model mirrors that of the original Bitcoin blockchain, a full consensus protocol.   This model includes
 1. A **node**. In MET phase 3, each lily pad may be considered like a single Bitcoin node.
 2. A **blockchain**. In MET phase 3, each lily pad maintains its own independent copy of the history of all MET cross-chain transfers.
-3. A **transaction**. In MET phase 3, each user-generated import may be considered like a single unconfirmed Bitcoin transaction.  An import is considered confirmed after 24 blocks (24 hours).
+3. A **transaction**. In MET phase 3, each user-generated import may be considered like a single unconfirmed Bitcoin transaction. An import is considered confirmed after 24 blocks (24 hours).
 4. A **block**. In MET phase 3, a block may be generated once per hour, on a stake-weighted basis (total stake weight of entire lily pad).  This block is shared by users desiring imports to each lily pad.
 5. **Consensus protocol** is Bitcoin design, with proof-of-stake modification. We call this **APS**, Autonomous Proof of Stake, because it is different from both POS and DPOS. In MET phase 3, each lily pad is a stake-weighted autonomous actor.
 
@@ -128,7 +128,7 @@ In phase 1, the federated validator network will consider the technical, securit
 
 **Phase 2** - Chain Attestors
 
-Phase 2 forked chain election will utilize the the knowledge and community sentiment of their specific chain. For example, suppose that chain A is forking. Chain A’s foundation, or other consortium of developers, merchants, and other community members will choose which side the Real Ethereum or the Real Ethereum Classic etc.  The Metronome system will follow that choice.  New forks do not create new airdrops of MET tokens. 
+Phase 2 forked chain election will utilize the knowledge and community sentiment of their specific chain. For example, suppose that chain A is forking. Chain A’s foundation, or other consortium of developers, merchants, and other community members will choose which side the Real Ethereum or the Real Ethereum Classic etc.  The Metronome system will follow that choice.  New forks do not create new airdrops of MET tokens. 
 
 **Phase 3** - Stake-weighted Blockchain of Blockchains
 
@@ -186,7 +186,7 @@ The MET owner exporting to a new chain has to pay a small export fee.  The expor
 
 ### Event Emission
 
-The validators must not act on an emitted Import event until it has a block height of at least 4000-5000 (meaning that six blocks have been mined beyond the block containing the transaction with the given event). This is to avoid forking and mitigate the effects of 51% attacks.
+The validators must not act on an emitted Import event until it has a block height of at least 4000-5000 (meaning that 4000-5000 blocks have been mined beyond the block containing the transaction with the given event). This is to avoid forking and mitigate the effects of 51% attacks.
 
 ### Maintaining Global MET Supply
 
