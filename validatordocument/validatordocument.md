@@ -1,5 +1,5 @@
 # Metronome Cross-chain Token Transfer
-v0.90 (Last updated 02.14.2019)
+v0.905 (Last updated 02.15.2019)
 ## Introduction
 
 One of the key features that helps ensure durability and resilience of Metronome tokens is the ability to move MET from one blockchain to another.  Unlike almost all other digital tokens, Metronome helps owners avoid risk by provably moving the same asset from blockchain A to blockchain B.  The process of moving Metronome tokens across blockchains is known as **import** and **export**, and this document provides engineers and the community with significant additional detail about this key feature.
@@ -22,7 +22,7 @@ Before emitting an Export event, the Source chain creates and stores the **burn 
 
 A **Merkle tree** is built up by recursively hashing adjacent pairs of data from some given sequence. At the top of the tree is the **root hash**, which indirectly depends on every element in the tree. No data can be changed in the tree without affecting the **root hash**. An element can be proven to be in the tree by performing a **Merkle proof**, which consists of providing an element and its **Merkle path** to the root. The Metronome transfer strategy utilizes the creation of a Merkle tree from burn transactions.
 
-A **lily pad** is an informal term for a single interconnected set of deployed Metronome smart contracts. It is a single data domain against which MET token import and export occurs.  Because two lily pads may be deployed on the same blockchain, it is more technically accurate to refer to Metronome import/export as transferring MET between lily pads.
+A **lily pad** is an informal term for a single interconnected set of deployed Metronome smart contracts. It is a single data domain against which MET token import and export occurs. Because two lily pads may be deployed on the same blockchain, it is more technically accurate to refer to Metronome import/export as transferring MET between lily pads. Each lilypad contains and manages a separate ledger each keeping track of its share of the global MET supply. 
 
 ## Merkle Tree Construction and Path Verification
 
