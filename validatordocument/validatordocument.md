@@ -12,7 +12,7 @@ This document, particularly surrounding phase 2 and 3 of validation, is a living
 
 ## Definitions
 
-A **Validator** is off-chain software running on distributed nodes, maintained by a publicly known entity, which exists in order to propagate an event from one blockchain to another. Validators are responsible for observing a blockchain for events, validating cross chain transactions (as described below), and voting on the validity of that event. Initially, there will be able n validators but eventually we must allow any trusted entity to run a validator in order to encourage a more decentralized MET token transfer process, with the need for validators fading in subsequent phases. 
+A **Validator** is off-chain software running on distributed nodes, maintained by a publicly known entity, which exists in order to propagate an event from one blockchain to another. Validators are responsible for observing a blockchain for events, validating cross chain transactions (as described below), and voting on the validity of that event. Initially, there will be about n validators (with the goal of 5) but eventually we must allow any trusted entity to run a validator in order to encourage a more decentralized MET token transfer process, with the need for validators fading in subsequent phases. 
 
 A **Source chain** is a blockchain running Metronome smart contracts from which a user wishes to transfer MET tokens. The target chain of the transfer is referred to as the **Destination chain**.
 
