@@ -221,7 +221,7 @@ No. Metronome will be governed by its smart contracts and users. Metronome autho
 
 ### Can I download the MET wallet on mobile?
 
-The mobile wallet is not ready yet, the Metronome team will let the community know when it is. Until then, any ERC20 compatible wallet should work with Metronome.
+Yes, you can download the iOS and Android versions of the wallet from metronome.io/apps/
 
 ### What does this returned error mean, “Insufficient funds for gas * price + value?”
 
