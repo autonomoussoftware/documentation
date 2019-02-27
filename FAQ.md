@@ -221,7 +221,7 @@ No. Metronome will be governed by its smart contracts and users. Metronome autho
 
 ### Can I download the MET wallet on mobile?
 
-Yes, you can download the iOS and Android versions of the wallet from metronome.io/apps/
+Yes, you can find download links for the iOS and Android versions of the wallet at https://metronome.io/apps/
 
 ### What does this returned error mean, “Insufficient funds for gas * price + value?”
 
