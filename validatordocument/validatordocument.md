@@ -1,5 +1,5 @@
 # Metronome Cross-chain Token Transfer
-v0.905 (Last updated 02.15.2019)
+v0.91 (Last updated 06.13.2019)
 ## Introduction
 
 One of the key features that helps ensure durability and resilience of Metronome tokens is the ability to move MET from one blockchain to another.  Unlike almost all other digital tokens, Metronome helps owners avoid risk by provably moving the same asset from blockchain A to blockchain B.  The process of moving Metronome tokens across blockchains is known as **import** and **export**, and this document provides engineers and the community with significant additional detail about this key feature.
@@ -134,7 +134,7 @@ Phase 2 forked chain election will utilize the knowledge and community sentiment
 
 Phase 3 of cross-chain validation will use a blockchain of blockchains, described above, to validate headers, but will choose the side of a contentious fork based off the weight of that particular chain(s)’s portion of the global Metronome supply. The side with more of that supply will become the valid chain. 
 
-Once consensus among validators is achieved, only one fork -- and the MET therein -- would be made valid in the Metronome ecosystem via the validation process as described (since this new fork is effectively a new chain, see the “Adding and Removing Chains” section). This blocks any further transfer of MET tokens to or from the new chain, as those tokens on the losing side of the fork are no longer Metronome. 
+Once consensus is achieved, only one fork -- and the MET therein -- would be made valid in the Metronome ecosystem via the validation process as described (since this new fork is effectively a new chain, see the “Adding and Removing Chains” section). This blocks any further transfer of MET tokens to or from the new chain, as those tokens on the losing side of the fork are no longer Metronome. 
 
 If the Metronome community later decides to support this newly forked chain, it would be onboarded just as any new lily pad would be. A new set of Metronome contracts would be deployed, which would not share any history with the previously deployed contracts on that chain.
 
