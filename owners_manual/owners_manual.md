@@ -1,6 +1,6 @@
 ![Metronome](img/logo.png)
 
-Version 0.988 (Last Updated 06.13.2018)
+Version 0.989 (Last Updated 06.14.2019)
 
 **Notes:**
 
@@ -665,9 +665,9 @@ The token API used to query and transfer MET tokens is the familiar ERC20 token 
 <td>Decrease the approval for _spender by _value, ie _spender can spend less tokens on behalf of approver/caller.</td>
 </tr>
 <tr class="even">
-<th>Function multiTransfer(uint[] bits) </th>
-<th>Allows multiple transfers in a single transaction. Each uint in the bits array represents a transfer; the
-leftmost 160 bits are the address, and 96 bits to the right are the amount.</th>
+<td>Function multiTransfer(uint[] bits) </td>
+<td>Allows multiple transfers in a single transaction. Each uint in the bits array represents a transfer; the
+leftmost 160 bits are the address, and 96 bits to the right are the amount.</td>
 </tr>
 <tr class="odd">
 <td>function setTokenPorter(address _tokenPorter) public onlyOwner returns (bool)</td>
@@ -759,8 +759,8 @@ _owner is your subscriber</td>
 <table>
 <thead>
 <tr class="even">
-<th>Function () payable</th>
-<th>Standard fallback function; send ETH, receive MET tokens immediately</th>
+<td>Function () payable</td>
+<td>Standard fallback function; send ETH, receive MET tokens immediately</td>
 </tr>
 </thead>
 <tbody>
@@ -865,8 +865,8 @@ _owner is your subscriber</td>
 <table>
 <thead>
 <tr class="even">
-<th>function () public payable</th>
-<th>Handles incoming funds for AutonomousConverter</th>
+<td>function () public payable</td>
+<td>Handles incoming funds for AutonomousConverter</td>
 </tr>
 </thead>
 <tbody>
@@ -875,8 +875,8 @@ _owner is your subscriber</td>
 <td>Called during initial deployment. This is an owner-only function.</td>
 </tr>
 <tr class="even">
-<th>function handleFund() public payable</th>
-<th>Handles incoming funds for Autonomous Converter</th>
+<td>function handleFund() public payable</td>
+<td>Handles incoming funds for Autonomous Converter</td>
 </tr>
 <tr class="even">
 <td>function getMetBalance() public view returns (uint)</td>
