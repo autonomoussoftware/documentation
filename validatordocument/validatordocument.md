@@ -295,7 +295,7 @@ In order to reward and incentivize validators, and also to establish a system th
 
 The Wallet, and thus the end user, pays the gas cost during the import or claim call on the Destination chain plus some minimum fee in the native currency of that chain. The user has the option of paying more than the minimum to encourage validators to race to process the transfer.
 
-The fee is collected in MET, and is determined as the higher of 0.001 MET or 0.5% of the MET to be transferred. The fees are evenly distributed amongst the validators.
+The fee is collected in MET as 0.5% of the MET to be transferred. The collected fees are evenly distributed amongst the validators.
 
 This fee structure is specific to phase 1, and will be phased out in future phases.
 
