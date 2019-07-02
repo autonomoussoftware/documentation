@@ -234,3 +234,66 @@ The amount of gas required to successfully transact on the Ethereum network (wit
 We recommend you refresh/rescan the wallet, and your cryptocurrency balances should be updated. This can be done by entering the wallet, clicking “tools” in the lower left corner and using the “rescan transactions” tool. And as always, have the wallet seed phrase safe and on-hand when rescanning.
 
 Note that it is possible the transaction failed, so please search the transaction hash on Etherscan. In event of a transaction failure/return of ETH or MET, this means the user has only lost gas.
+
+## Chainhop FAQs
+
+### What is a chainhop and how is it different than other interoperability solutions?
+A Metronome chainhop is a movement of the same 1 MET from one network to another network. Metronome only manages a single currency, sending the same token across multiple chains – and back. Others are a token swap network managing many coins, never sending the same tokens back and forth. 
+
+See [the team’s article](https://medium.com/@MetronomeToken/how-a-chainhop-is-different-than-other-interoperability-solutions-6446cdf6e2c) for more information on how Metronome is different than other interoperability solutions. 
+
+### What is a Validator? What do they do?
+A Validator is off-chain software running on distributed nodes, maintained by a publicly known entity, which exists in order to propagate an event from one blockchain to another. Validators are responsible for observing a blockchain for events, validating cross chain movements (as described below), and voting on the validity of that event. Initially, there are 5 validators but eventually we will allow any trusted entity to run a validator in order to encourage a more decentralized MET token movement process – more may be added in the future. The need for validators fades in subsequent phases.
+
+### Who are the validators?
+The initial phase 1 Metronome validators are: 
+- ETC Labs
+- The QTUM Team
+- Bloq, Inc.
+- Veriblock
+- Spacechain 
+
+### What are the validator phases?
+In order to ensure security and usability of Metronome’s cross-chain features, there will be three phases of cross chain rollout. Each subsequent phase will further decentralize the process for completing cross-chain moves.
+
+**Phase 1 - Federated Network of Validators**
+
+In phase 1 a federated network of validators operates in a multi-signature, multi-party approach to validate that import/export movements follow the Metronome protocol. MET owners may export at any time. 
+
+In the event of a chain fork, the quorum of validators will choose which side of a fork supports Metronome.
+
+**Phase 2 - Chain Attestors and stake weighting**
+
+Phase 2 seeks to decentralize and rely less on validators. For each blockchain, Metronome will look to chain oracles that provide a very specific piece of data: What is the correct chain for a particular currency?
+
+The goal is to automate the choosing of hard fork sides, automatically ingesting and following the community choice for each blockchain.
+
+Finally, as a global check on contentious events via minority chains and attack-style hard forks, the percentage of total Metronome tokens on a particular chain shall have that level of percentage global weight, in the event of a discrepancy in the Metronome consensus protocol between two versions of the MET global supply timeline.
+
+**Phase 3 - Fully autonomous, stake-weighted cross chain transfers**
+
+Phase 3 of cross-chain validation provides a fully decentralized end state. The model mirrors that of the original Bitcoin blockchain, a full consensus protocol. This model includes
+
+- **A node.** In MET Phase 3, each lily pad may be considered like a single Bitcoin node.
+- **A blockchain.** In MET Phase 3, each lily pad maintains its own independent copy of the history of all MET cross-chain transfers.
+- **A movement.** In MET Phase 3, each user-generated import may be considered like a single unconfirmed Bitcoin movement. An import is considered confirmed after 24 blocks (24 hours).
+- **A block.** In MET phase 3, a block may be generated once per hour, on a stake-weighted basis (total stake weight of entire lily pad). This block is shared by users desiring imports to each lily pad.
+- **Consensus protocol** is Bitcoin design, with proof-of-stake modification. We call this APS, Autonomous Proof of Stake, because it is different from both POS and DPOS. In MET phase 3, each lily pad is a stake-weighted autonomous actor.
+
+This is possibly the first cross-blockchain blockchain. Each lily pad -- each set of smart contracts -- uses a Bitcoin-style consensus protocol, with Proof-of-Stake modification to determine the outcome of hard forks. This consensus protocol automatically chooses one side of a hard fork over another.
+
+See the [Validator Document](https://github.com/autonomoussoftware/documentation/blob/master/validatordocument/validatordocument.md) for more information on the Validator phases.
+
+### What do I need to do in order to complete a chainhop?
+MET owners who wish to move their MET across chains will need: 
+- MET
+- The native token of the export chain (think ETH, ETC, so forth) in order to pay gas
+- The native token of the import chain (think ETH, ETC, so forth) in order to pay gas
+- Small amount of MET as a fee (0.5% of total transferred) to go to validators. 
+- The Metronome wallet or knowledge of how to use a wallet via CLI for necessary `TokenPorter` [API calls](https://github.com/autonomoussoftware/documentation/blob/master/owners_manual/owners_manual.md#tokenporter-api). 
+
+### Why is the confirmation time so long, and will it ever get shorter?
+The 24 hour confirmation is to defend against chain reorganization and 51% attacks. The team is designing a solution to auto adjust based on current hashing power of the network – the lower the hashing power, the higher confirmation requirement.  Because a chainhop involves multiple networks, one must consider hashpower of both networks to avoid double spending during a chainhop.Our security auditors suggested this mechanism (especially in light of recent reorganization attacks). For phase 3, there will be certain block confirmation for validations but it may be less than this.
+
+### I had to retry my transaction, why?
+If a chainhop does not confirm in the first 24 hours, a “retry” in the wallet may be required. Sometimes network activity can jar a node out of sync, extending the expected confirmation time of chainhops. This is not expected to be a regular issue, especially as the validator network matures. 
