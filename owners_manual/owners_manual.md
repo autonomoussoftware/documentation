@@ -1,6 +1,6 @@
 ![Metronome](img/logo.png)
 
-Version 0.989 (Last Updated 06.14.2019)
+Version 0.9895 (Last Updated 07.05.2019)
 
 **Notes:**
 
@@ -633,7 +633,7 @@ Metronome Core
 
 ### Token API
 
-The token API used to query and transfer MET tokens is the familiar ERC20 token standard.[^43] Metronome also utilizes custom functionalities to align itself with the latest standards in enhanced decentralized transfer and security. These improvements also makes it easy for the transfer to call any function on the receiving contract., allowing for data to be transferred as well as value, something that the ERC20 token standard cannot do alone. Metronome is proud to use the most cutting-edge technology available.
+The token API used to query and transfer MET tokens is the familiar ERC20 token standard.[^43] Metronome also utilizes custom functionalities to align itself with the latest standards in enhanced decentralized transfer and security. These improvements also makes it easy for the transfer to call any function on the receiving contract., allowing for data to be transferred as well as value, something that the ERC20 token standard cannot do alone. Metronome is proud to use the most cutting-edge technology available. Unless otherwise noted, these APIs are for both Ethereum and Ethereum Classic Metronome contract sets. 
 
 **Standard ERC20**
 
@@ -925,10 +925,13 @@ given _depositAmount which is in MET</td>
 
 ### TokenLocker API
 
+(For Ethereum chain only)
+
 | TokenLocker | API |
 |--------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | event Withdrawn(address indexed who, uint amount)                              | Emitted for all withdraws                                                                                                                                                                            |
 | event Deposited(address indexed who, uint amount)                              | Emitted for all deposits                                                                                                                                                                             |
+| function lockTokenLocker() public onlyAuction                             | Lock the tokenLocker. Calling this function will results in postLock phase of tokenLocker. No more deposits are allowed. Token withdraw is allowed during this phase. This is Auction only function.                                                                                                                                                                             |
 | function lockTokenLocker() public onlyAuction                                  | Lock the tokenLocker. Calling this function will results in postLock phase of tokenLocker. No more deposits are allowed. Token withdraw is allowed during this phase. This is Auction only function. |
 | function deposit (address beneficiary, uint amount) public onlyAuction preLock | Deposit the fund in locker. Depositing funds are only allowed during preLock phase.                                                                                                                  |
 | function withdraw() public onlyOwner postLock                                  | Withdraw funds are only allowed during postLock phase. This is owner only function.                                                                                                                  |
@@ -937,35 +940,44 @@ given _depositAmount which is in MET</td>
 
 | TokenPorter | API |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------|
-| event ExportReceiptLog(bytes8 destinationChain, address destinationMetronomeAddr, address indexed destinationRecipientAddr, uint amountToBurn, uint fee, bytes extraData, uint currentTick, uint indexed burnSequence, bytes32 indexed currentBurnHash, bytes32 prevBurnHash, uint dailyMintable, uint[] supplyOnAllChains, uint genesisTime, uint blockTimestamp, uint dailyAuctionStartTime) | Emitted during export requests                                                                                                               |
-| event ImportReceiptLog(address indexed destinationRecipientAddr, uint amountImported, uint fee, bytes extraData, uint currentTick, uint indexed importSequence, bytes32 indexed currentHash, bytes32 prevHash, uint dailyMintable, uint blockTimestamp, address caller)                                                                                                                                                                                                                          |Emmited during import                                                               |
+| event LogExportReceipt(bytes8 destinationChain, address destinationMetronomeAddr, address indexed destinationRecipientAddr, uint amountToBurn, uint fee, bytes extraData, uint currentTick, uint burnSequence, bytes32 indexed currentBurnHash, bytes32 prevBurnHash, uint dailyMintable, uint[] supplyOnAllChains, uint blockTimestamp, address indexed exporter | Emitted during export requests                                                                                                               |
+| event LogImportRequest(bytes8 originChain, bytes32 indexed currentBurnHash, bytes32 prevHash, address indexed destinationRecipientAddr, uint amountToImport, uint fee, uint exportTimeStamp, uint burnSequence, bytes extraData)                                                                                                                                                                                                                          |Emited during import                                                               |
+| event LogImport(bytes8 originChain, address indexed destinationRecipientAddr, uint amountImported, uint fee, bytes extraData, uint indexed importSequence, bytes32 indexed currentHash)                                                                                                                                                                                                                         |Emitted when validations done and minting happen after import                                                       |
 | function addDestinationChain(bytes8 \_chainName, address \_contractAddress) public onlyOwner returns (bool)                                                                                                                                                                                                                           | Add chain as approved chain for metronome export. This is owner only function.                                                               |
+| Function setMinimumExportFee(uint_minimumExportFee) public onlyOwner returns (bool)                                                                                                                                                                                                                           | set minimum export fee for chain hop. actual fee will be higher of minimum flat fee or % fee. This is owner only function.                                                           |
+| function setExportFeePerTenThousand(uint_exportFee) public onlyOwner returns (bool)                                                                                                                                                                                                                        | set export fee in percentage. The fee amount is per 10,000 met to support % fee in two digit after decimal. This is owner only function.                                                          |
+| function setChainHopStartTime(uint_startTime) public onlyOwner returns (bool)                                                                                                                                                                                                                                                   | Chainhop start time. This is owner only function.                                                          |
 | function removeDestinationChain(bytes8 \_chainName) public onlyOwner returns (bool)                                                                                                                                                                                                                                                   | Remove chain from approved chain for metronome export. This is owner only function.                                                          |
 | function claimReceivables(address\[\] recipients) public returns (uint)                                                                                                                                                                                                                                                               | This function will be called by destination contract who is performing import of metronome to record metronome mint in destination contract. |
 | function export(address tokenOwner, bytes8 _destChain, address _destMetronomeAddr, address _destRecipAddr, uint _amount, uint _fee, bytes _extraData) public returns (bool)                                                                                                                                                                                     | Export MET to another metronome supported chain. This can be called from Token only.   |
 | function importMET(bytes8 _originChain, bytes8 _destinationChain, address[] _addresses, bytes _extraData, bytes32[] _burnHashes, uint[] _supplyOnAllChains, uint[] _importData, bytes _proof) public returns (bool)                                                                                                                                                                                                                                                              | Import MET tokens from another chain to this chain. This can be called from Token only. |
 
-### Chain Ledger API
+### Proposal API
 
-| Chain Ledger | API |
+| Proposal | API |
 |--|--|
-| event LogRegisterChain(address indexed caller, bytes8 indexed chain, uint supply, bool outcome) | Event emitted during registeing new chain in the system |
-| event LogRegisterExport(address indexed caller, bytes8 indexed originChain, bytes8 indexed destChain, uint amount) | Event emitted during registering export |
-| event LogRegisterImport(address indexed caller, bytes8 indexed originChain, bytes8 indexed destChain, uint amount); | Event emitted during registering import |
-| function registerChain(bytes8 chain, uint supply) public onlyOwner returns (bool) | Owner can register new chain in metronome that support import export functionality for MET token. |
-| function registerExport(bytes8 originChain, bytes8 destChain, uint amount) public | Register export and update chain ledger balance of origin and dest chain. |
-| function registerImport(bytes8 originChain, bytes8 destChain, uint amount) public | Register import and update chain ledger balance of origin and dest chain. |
+| function setValidator(address_validator) public onlyOwner returns (bool) | Set validator address .  Owner only function |
+| function updateVotingPeriod(uint_t) public onlyOwner returns (bool) | Update voting period. Owner only function |
+| function proposeNewValidator(address_validator, uint_newThreshold) public onlyValidator returns (uint)  | Validator can start a proposal to add new validator. Other validators can vote in favor or against the proposal. Validator only function |
+| function proposeRemoveValidator(address_validator, uint_newThreshold) public onlyValidator returns (uint) | Validator can start a proposal to remove a validator. Other validators can vote in favor or against the proposal. Validator only function |
+| function proposeNewThreshold(uint_newThreshold) public onlyValidator returns (uint) | Validator can start a proposal to update threshold.  Threshold is the minimum number of approval required for chain hop . Other validators can vote in favor or against the proposal. Validator only function |
+| function voteForProposal(uint_proposalId, bool_support) public onlyValidator | Validator can vote for proposal. Validator only function |
+| function closeProposal(uint_proposalId) public | Close open proposal and execute proposal successfully if majority of validator has voted in favor.  This is public function.Anyone can call and close proposal if it is expired or majority voted in support. |
 
 ### Validator API
 
 | Validator | API |
 |--|--|
-| event LogAttestation(bytes32 indexed hash, address indexed who, bool isValid) | Event emitted during validating hash |
-| function validateHash(bytes32 hash) public | Validator can validate a export hash. |
-| function invalidateHash(bytes32 hash) public  | Validator can invalidate a export hash. |
-| unction hashClaimable(bytes32 hash) public view returns(bool) | Check whether given hash is claimable for import |
-| function claimHash(bytes32 hash) public | Update  the hash as claimed during import so that double import never happen |
-| function isReceiptClaimable(bytes8 _originChain, bytes8 _destinationChain, address[] _addresses, bytes _extraData, bytes32[] _burnHashes, uint[] _supplyOnAllChain, uint[] _importData, bytes _proof) public view returns(bool)| Check hash is valid and claimable |
+| function addValidator(address_validator) public onlyAuthorized | Add new validator. Only owner or proposal contract can add validator |
+| function removeValidator(address_validator) public onlyAuthorized | Remove validator. Only owner or proposal contract can remove validator |
+| function getValidatorsCount() public view returns (uint) | Get validator count |
+| function updateThreshold(uint_threshold) public onlyAuthorized returns (bool) | Update threshold. Only owner or proposal contract can remove validator |
+| function isNewThresholdValid(uint_valCount, uint_threshold) public pure returns (bool) | Verify whether given threshold value is valid for given validator count.  Threshold is valid if it is >= validator/2 |
+| function setProposalContract(address_proposals) public onlyOwner returns (bool) | Set address of proposal contract. Owner only function |
+| function setTokenPorter(address_tokenPorter) public onlyOwner returns (bool) | Set address of tokenPorter contract. Owner only function |
+| function initValidator(address_tokenAddr, address_auctionsAddr, address_tokenPorterAddr) public onlyOwner | Set various contract address. Owner only function |
+| function attestHash(bytes32_burnHash, bytes8_originChain, address_recipientAddr, uint_amount, uint_fee, bytes32[]_proof_, bytes_extraData, uint_globalSupplyInOtherChains) public | Validator validate  burn  hash on source chain and vote in support if transaction and burn hash is valid. |
+| function refuteHash(bytes32_burnHash, address_recipientAddr) public | Validator validate  burn  hash on source chain and vote against it. Refute this burn hash if transaction and burn hash is not valid. |
 
 Glossary of Contract Terms
 ==========================
