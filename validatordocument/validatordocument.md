@@ -1,5 +1,5 @@
 # Metronome Cross-chain Token Transfer
-v0.91 (Last updated 06.13.2019)
+v0.915 (Last updated 06.24.2019)
 ## Introduction
 
 One of the key features that helps ensure durability and resilience of Metronome tokens is the ability to move MET from one blockchain to another.  Unlike almost all other digital tokens, Metronome helps owners avoid risk by provably moving the same asset from blockchain A to blockchain B.  The process of moving Metronome tokens across blockchains is known as **import** and **export**, and this document provides engineers and the community with significant additional detail about this key feature.
@@ -186,7 +186,7 @@ The MET owner exporting to a new chain has to pay a small export fee.  The expor
 
 ### Event Emission
 
-The validators must not act on an emitted Import event until it has a block height of at least 4000-5000 (meaning that 4000-5000 blocks have been mined beyond the block containing the transaction with the given event). This is to avoid forking and mitigate the effects of 51% attacks.
+The validators must not act on an emitted Import event until it has a block height of at least 4000-5000 (meaning that 4000-5000 blocks have been mined beyond the block containing the transaction with the given event) - about 24 hours. This is to avoid forking and mitigate the effects of 51% attacks.
 
 ### Maintaining Global MET Supply
 
@@ -295,7 +295,7 @@ In order to reward and incentivize validators, and also to establish a system th
 
 The Wallet, and thus the end user, pays the gas cost during the import or claim call on the Destination chain plus some minimum fee in the native currency of that chain. The user has the option of paying more than the minimum to encourage validators to race to process the transfer.
 
-The fee is collected in MET, and is determined as the higher of 0.001 MET or 0.5% of the MET to be transferred. The fees are evenly distributed amongst the validators.
+The fee is collected in MET, as 0.5% of the MET to be transferred. The collected fees are evenly distributed amongst the validators.
 
 This fee structure is specific to phase 1, and will be phased out in future phases.
 
