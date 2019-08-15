@@ -1,6 +1,6 @@
 ![Metronome](img/logo.png)
 
-Version 0.9895 (Last Updated 07.05.2019)
+Version 0.99 (Last Updated 08.15.2019)
 
 **Notes:**
 
@@ -10,7 +10,7 @@ Version 0.9895 (Last Updated 07.05.2019)
 
 **Owner's Manual License**
 
-© 2018 Autonomous Software. All rights not expressly granted by Licensor
+© 2018-2019 Autonomous Software. All rights not expressly granted by Licensor
 are hereby reserved.
 
 AUTONOMOUS SOFTWARE ("LICENSOR") OWNS AND RETAINS EXCLUSIVE OWNERSHIP OF, AND ALL RIGHT, TITLE AND INTEREST IN AND TO, ALL COPYRIGHTS AND OTHER INTELLECTUAL PROPERTY RIGHTS IN AND TO THIS METRONOME OWNER'S MANUAL (THE "OWNER'S MANUAL") AND THE GENERICIZED VERSION (DEFINED BELOW). THE OWNER'S MANUAL AND GENERICIZED VERSION ARE COLLECTIVELY REFERRED TO HEREIN AS THE "WORK."
@@ -550,7 +550,7 @@ Once a Daily Supply Lot sells out, excess demand could be met by selling to the 
 
 **The math**
 
-When the user transacts with the Autonomous Converter Contract, there is always price slippage, since users are throwing off the ratio between token supplies. Formulas determine all the prices, such that whether the user makes lots of tiny purchases or one big purchase, everything comes out the same.[^40]
+When the user transacts with the Autonomous Converter Contract, there is always price slippage, since users are throwing off the ratio between token supplies. Formulas determine all the prices, such that whether the user makes lots of tiny purchases or one big purchase, everything comes out about the same.[^40]
 
 There are two formulas: one calculates how many smart tokens a user gets for MET or ETH, the other determines how much MET or ETH a user gets for smart tokens. Smart tokens are never exposed to the user.
 
