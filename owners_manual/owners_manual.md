@@ -566,21 +566,21 @@ Let's say the Autonomous Converter Contract has 1000 ETH and 2000 MET, and there
 
 **Step one**: Trade 100 MET for smart tokens.
 
-![Autonomous Converter Contract 2](img/Autonoms-Converter-Contract-2.jpg)
+![Autonomous Converter Contract 2](img/Autonoms-Converter-Contract-4.jpg)
 
-The user receives 247 newly-minted smart tokens. The total supply of smart tokens is now 10247. The total supply of MET held in the Autonomous Converter Contract is now 2100.
+The user receives 235 newly-minted smart tokens. The total supply of smart tokens is now 10235. The total supply of MET held in the Autonomous Converter Contract is now 2100.
 
-**Step two**: Convert 247 smart tokens for ETH, this is fulfilled automatically by the contract, the user is never exposed to the smart tokens.
+**Step two**: Convert 235 smart tokens for ETH, this is fulfilled automatically by the contract, the user is never exposed to the smart tokens.
 
 Assume that 1000 ETH so is the reserve supply for the formula:
 
-![Autonomous Converter Contract 3](img/Autonoms-Converter-Contract-3.jpg)
+![Autonomous Converter Contract 3](img/Autonoms-Converter-Contract-5.jpg)
 
-The user receives 47 ETH for their 100 MET.
+The user receives 45 ETH for their 100 MET.
 
-The contract now contains 953 ETH and 2100 MET, or 0.45 ETH per MET. By selling some MET, the user has lowered the price of MET in the Autonomous Converter Contract compared to ETH. He or she receives ETH approximately midway between the initial price and final price.
+The contract now contains 955 ETH and 2100 MET, or 0.45 ETH per MET. By selling some MET, the user has lowered the price of MET in the Autonomous Converter Contract compared to ETH. He or she receives ETH approximately midway between the initial price and final price.
 
-The 247 smart tokens are destroyed when they are traded in, lowering the smart token supply back to 10000.
+The 235 smart tokens are destroyed when they are traded in, lowering the smart token supply back to 10000.
 
 *Note: the above worked example uses rounded figures*
 
